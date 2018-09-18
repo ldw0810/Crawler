@@ -1,0 +1,65 @@
+http://127.0.0.1:5000/addJobTemplate
+{"name":"京东详情页","createTime":"2017-04-14 00:00:00","createUserId":"test1","rootPath":"","url":"https:{detail_url}"}
+http://127.0.0.1:5000/addJobTemplateField
+{"dataType":"varchar","dataLength":255,"jobTemplateId":"f125688f-20f0-11e7-9acb-da017ca21966","fieldNameEn":"name","fieldNameCn":"名称","createTime":"2017-04-14 00:00:00","createUserId":"test1","fieldValue":"text()"}
+{"dataType":"varchar","dataLength":255,"jobTemplateId":"f125688f-20f0-11e7-9acb-da017ca21966","fieldNameEn":"categories","fieldNameCn":"栏目ids","createTime":"2017-04-14 00:00:00","createUserId":"test1","fieldValue":"","regExp":"","split":","}
+http://127.0.0.1:5000/startCralwer
+{"id":"18e7a7f0-20f9-11e7-8bcb-da017ca21966"}
+http://localhost:5000/exportTemplate?taskJobId=8e549140-2367-11e7-9df5-e09467f6dff0
+http://127.0.0.1:5000/addJobTemplateParam
+{"paramNameEn":"pageNo","paramNameCn":"页数","paramValue":"{pageNo}+1","paramCondition":"","nextParamValue":"","createTime":"","type":"0","createUserId":"test1","jobTemplateId":"85f33911-2368-11e7-a7d7-e09467f6dff0"}
+http://127.0.0.1:5000/taskJobReField
+{"taskJobId":"1","jobTemplateId":"85f33911-2368-11e7-a7d7-e09467f6dff0","fieldIds":"-1"}
+{"dataType":"varchar","dataLength":255,"jobTemplateId":"e2e082f0-24e3-11e7-810e-e09467f6dff0","fieldNameEn":"next_url","fieldNameCn":"下一次地址","createTime":"2017-04-14 00:00:00","createUserId":"test1","func":"self.url"}
+
+
+startCrawler类目
+{"taskJobId":"18e7a7f0-20f9-11e7-8bcb-da017ca21966"}
+
+CREATE TABLE DB_SOURCE (
+  `ID` VARCHAR(50) NOT NULL PRIMARY KEY,
+	`DEL_FLAG` TINYINT(1) DEFAULT 0,
+	`HOST` VARCHAR (200),
+	`USERNAME` VARCHAR (200),
+	`PASSWORD` VARCHAR (200),
+	`DBNAME` VARCHAR (200),
+	`TYPE` VARCHAR (200),
+	`CHARSET` VARCHAR (200),
+	`PATH` VARCHAR (200),
+	`CREATE_TIME` DATETIME DEFAULT NOW()
+);
+
+INSERT INTO `crawler_db`.`job_template_field` (
+	`ID`,
+	`DEL_FLAG`,
+	`FIELD_NAME_EN`,
+	`FIELD_NAME_CN`,
+	`DATA_TYPE`,
+	`DATA_LENGTH`,
+	`CREATE_USER_ID`,
+	`JOB_TEMPLATE_ID`,
+	`REG_EXP`,
+	`SPLIT`,
+	`FIELD_VALUE`,
+	`FUNC`,
+	`FIELD_CONDITION`
+)
+VALUES
+	(
+		'aaaa',
+		'0',
+		'isbn',
+		'isbn',
+		'varchar',
+		'255',
+		'test1',
+		'f541c6f0-24c7-11e7-b066-e09467f6dff0',
+		'ISBN：([\\s]*[^\\s]*)',
+		NULL,
+		'//ul[@id=\'parameter2\']//text()',
+		NULL,
+		NULL
+	)
+
+INSERT INTO `crawler_db`.`task_job_re_field` (`ID`, `DEL_FLAG`, `TASK_JOB_ID`, `JOB_TEMPALTE_FIELD_ID`, `JOB_TEMPLATE_ID`, `CREATE_TIME`) VALUES ('bbbb', '1', '8e2bfa4f-24ca-11e7-8b9a-e09467f6dff0', 'aaaa', 'f541c6f0-24c7-11e7-b066-e09467f6dff0', '2017-04-19 15:05:37');
+

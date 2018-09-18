@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>版权云检测平台</title>
+</head>
+<link rel="stylesheet" href="/static/css/indexBig.css">
+<img src ='/static/images/2.png' style="display: none"/>
+<img src ='/static/images/bg_tip.png' style="display: none"/>
+<script src="/static/js/utils/echarts.js"></script>
+<script src="/static/js/utils/jquery-3.1.1.min.js"></script>
+<script src="/static/js/utils/sea-2.0.0.min.js"></script>
+<body>
+<!--背景-->
+<div id="bg"></div>
+<!--总体数据-->
+<div id="allData">
+    <div id="allData_info">正版数据汇总</div>
+    <div id="allData_time"></div>
+    <ul>
+        <li>
+            <div id="allData_0" class="allData_number_0"></div>
+            <div id="allData_0_info" class="allData_title">正版作品总量</div>
+        </li>
+        <li>
+            <div id="allData_1" class="allData_number_1"></div>
+            <div id="allData_1_info" class="allData_title">视频总量</div>
+        </li>
+        <li>
+            <div id="allData_2" class="allData_number_1"></div>
+            <div id="allData_2_info" class="allData_title">音频总量</div>
+        </li>
+        <li>
+            <div id="allData_3" class="allData_number_1"></div>
+            <div id="allData_3_info" class="allData_title">文字总量</div>
+        </li>
+        <li>
+            <div id="allData_4" class="allData_number_1"></div>
+            <div id="allData_4_info" class="allData_title">图片总量</div>
+        </li>
+{#        <li>
+            <div id="allData_5" class="allData_number_1"></div>
+            <div id="allData_5_info" class="allData_title">扫黄打非总量</div>
+        </li>#}
+    </ul>
+</div>
+<!--总体数量趋势图表-->
+<div id="trend"></div>
+<!--热门内容-->
+<div id="hotContent">
+    <div id="hotContent_info">热门内容</div>
+    <div id="hotContent_time"></div>
+    <div id="hotContent_typeList">
+        <div id="hotContent_type_0" class="hotContent_type">视频</div>
+        <div id="hotContent_type_1" class="hotContent_type">音频</div>
+        <div id="hotContent_type_2" class="hotContent_type">文字</div>
+        <!--<div id="hotContent_type_3" class="hotContent_type">图片</div>-->
+    </div>
+    <div id="hotContent_titleList">
+        <div id="hotContent_title_0" class="hotContent_title">排名</div>
+        <div id="hotContent_title_1" class="hotContent_title">关键词</div>
+        <div id="hotContent_title_2" class="hotContent_title">指数</div>
+        <div id="hotContent_title_3" class="hotContent_title">趋势</div>
+    </div>
+    <!--排名列表-->
+    <ul id="hotContent_list"></ul>
+</div>
+<!--侵权内容图表-->
+<div id="tort"></div>
+<!--GIS地图-->
+<div id="gis"></div>
+<div id="gis_back">返回</div>
+<div id="gis_oversea"></div>
+<!--任务状态-->
+<div id="hotview"></div>
+<div id="taskStatus">
+    <div class="task_status_text" id="task_key">当前任务执行状态：</div>
+    <div id="pos_png" class="positionImg"><img src="/static/images/position.png"/></div>
+    <div id="taskText" class="positionText">正在爬取数据...</div>
+    <div id="taskProcess" class="positionPer">0%</div>
+</div>
+
+<div id="saveresult">
+    <span>任务执行成功详细信息：</span><br/>
+    <span id="keyWordname" style="margin-left: 245px;margin-top: 8px">关键词：人民的名义</span><br/>
+    <span id="checkCount" style="margin-left: 245px;margin-top: 24px">共检索出618条记录</span><br/>
+    <span id="fixCount" style="margin-left: 245px;margin-top: 43px">识别盗版2条记录</span>
+</div>
+<!--存证司法统计图表-->
+<div class="statistics_con">
+    <h2 class="statistics_title">侵权内容存证统计</h2>
+    <div>
+        <p class="num_1" id="num_1"></p>
+        <p class="num_t1">存证中</p>
+    </div>
+    <div>
+        <p class="num_2" id="num_2"></p>
+        <p class="num_t2">累计存证数</p>
+    </div>
+    <div id="statistics">
+        <ul class="ul_1">
+            <li class="y_each1">
+                <div class="y_name">转化成司法证据的盗版数据总量</div>
+                <div class="y_con"></div>
+                <div class="y_num"></div>
+            </li>
+            <li class="y_each2">
+                <div class="y_name">司法和解的数据量</div>
+                <div class="y_con"></div>
+                <div class="y_num"></div>
+            </li>
+            <li class="y_each3">
+                <div class="y_name">司法起诉中的数据量</div>
+                <div class="y_con"></div>
+                <div class="y_num"></div>
+            </li>
+            <li class="y_each4">
+                <div class="y_name">已经宣判的数据量</div>
+                <div class="y_con"></div>
+                <div class="y_num"></div>
+            </li>
+        </ul>
+        <ul class="ul_2">
+            <li>0</li>
+            <li>100</li>
+            <li>200</li>
+            <li>300</li>
+            <li>400</li>
+            <li>500</li>
+        </ul>
+
+    </div>
+</div>
+
+<!--扫黄打非图表-->
+<div class="vice_con">
+    <h2 class="vice_title">涉黄内容统计</h2>
+    <span class="vice_total">涉黄数据：</span><span class="vice_num" id="vice_num"></span>
+    <div class="circlePng"></div>
+    <div id="vice"></div>
+</div>
+
+<!--存证扫黄数据统计-->
+<div class="allTotal">
+    <ul>
+        <li>
+            <div class="totalNum_1" id="totalNum_1"></div>
+            <div class="totalNum_t1">涉黄存证数据量</div>
+        </li>
+        <li>
+            <div class="totalNum_2" id="totalNum_2"></div>
+            <div class="totalNum_t2">可移交扫黄办数据</div>
+        </li>
+        <li>
+            <div class="totalNum_3" id="totalNum_3"></div>
+            <div class="totalNum_t3">可移交网监数据</div>
+        </li>
+    </ul>
+</div>
+<!--信息详情弹出框-->
+<div id="tip">
+    <div id="tip_name"></div>
+    <div id="tip_allData_info" class="tip_title"></div>
+    <div id="tip_piratedResources">
+        <div id ='tip_title'></div>
+        <div id="tip_chart"></div>
+        <div id="tip_search_info"></div>
+    </div>
+    <div id="tip_div"></div>
+</div>
+</body>
+<script type="text/javascript">
+    seajs.config({
+        base: './',
+        alias: {
+            map: 'js/map'
+        },
+        paths: {},
+        charset: 'utf-8'
+    });
+    seajs.use("/static/js/indexBig");
+</script>
+</html>

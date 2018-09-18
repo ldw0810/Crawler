@@ -1,0 +1,34 @@
+{% extends "index.html" %}
+{% block collection %}
+        <div class="dislpayArrow hidden-xs">
+            <a class="pngfix" href="javascript:void(0);" onClick="displaynavbar(this)"></a>
+        </div>
+        <section class="Hui-article-box" style="overflow:scroll;">
+             <nav class="breadcrumb"><i class="Hui-iconfont">&#xe67f;</i>
+                 <a style="text-decoration: none" href="list.html?username=dGVzdA==&password=MTIzNDU2&0">首页</a>
+                    <span class="c-gray en">&gt;</span>
+                    采集监控
+                 <a class="btn btn-success radius r" style="line-height:1.6em;margin-top:3px"
+                   href="javascript:location.replace(location.href);" title="刷新"><i class="Hui-iconfont">&#xe68f;</i>
+                 </a>
+            </nav>
+            <div class="collectionContainer pageContainer">
+                <div id="" class="topContainer">
+                    <div class="pie">
+                        <div class="Title"><h4><strong>采集指数合计</strong></h4></div>
+                        <div class="pieContent"></div>
+                    </div>
+                    <div class="bar">
+                        <div class="Title"><h4><strong>采集网站合计</strong></h4></div>
+                        <div class="barContent"></div>
+                    </div>
+                </div>
+                <div id="" class="subContainer">
+                     <div class="Title"><h4><strong>数据采集趋势</strong></h4></div>
+                      <div class="subContent" id="subContent"></div>
+                </div>
+            </div>
+        </section>
+<script type="text/javascript" src="/static/js/collection.js"></script>
+<!--请在下方写此页面业务相关的脚本-->
+{% endblock %}

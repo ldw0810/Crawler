@@ -1,0 +1,73 @@
+﻿{% extends "index.html" %}
+{% block developer_template %}
+    <div class="dislpayArrow hidden-xs">
+        <a class="pngfix" href="javascript:void(0);" onClick="displaynavbar(this)"></a>
+    </div>
+    <section class="Hui-article-box">
+        <nav class="breadcrumb"><i class="Hui-iconfont">&#xe67f;</i>
+            <a style="text-decoration: none" href="/use/list.html?username=dGVzdA==&password=MTIzNDU2&0">首页</a>
+            <span class="c-gray en">&gt;</span>
+            <a style="text-decoration: none" href="/developer/template/list.html?1">模板管理</a>
+            <!--<span class="c-gray en">&gt;</span>-->
+            <!--地址列表-->
+            <a class="btn btn-success radius r" style="line-height:1.6em;margin-top:3px"
+               href="javascript:location.replace(location.href);" title="刷新"><i class="Hui-iconfont">&#xe68f;</i></a>
+        </nav>
+        <div class="Hui-article">
+            <article class="cl pd-20">
+                <div class="cl pd-5 bg-1 bk-gray mt-20">
+				<span class="l">
+				<a href="javascript:;" onclick="datadel()" class="btn btn-danger radius"><i class="Hui-iconfont">&#xe6e2;</i> 批量删除</a>
+                <a href="/developer/template/add.html" class="btn btn-primary radius"><i class="Hui-iconfont">&#xe600;</i> 添加模板</a>
+                <a href="/developer/field/add.html" class="btn btn-primary radius"><i class="Hui-iconfont">&#xe600;</i> 添加字段</a>
+                <a href="/developer/param/add.html" class="btn btn-primary radius"><i class="Hui-iconfont">&#xe600;</i> 添加参数</a>
+				</span>
+                </div>
+                <table class="table table-border table-bordered table-bg table-hover">
+                    <thead>
+                    <tr>
+                        <th scope="col" colspan="12">地址列表</th>
+                    </tr>
+                    <tr class="text-c">
+                        <th width="25"><input type="checkbox" id="wholeCheckBox_title" value="wholeCheckBox"></th>
+                        <th width="150">名称</th>
+                        <th width="450">地址</th>
+                        <th width="100">描述</th>
+                        <th width="180">创建时间<a class="PX" type="Z" onclick="tableSort()"><i class="Hui-iconfont">
+                            &#xe6d6;</i></a></th>
+                        <th width="200">根节点</th>
+                        <th width="100">模板类型</th>
+                        <th width="100">编码类型</th>
+                        <th width="100">请求类型</th>
+                        <th width="100">操作</th>
+                    </tr>
+                    </thead>
+                    <tbody id="tbodyl">
+
+                    </tbody>
+                </table>
+            </article>
+            <div class="text-c pagebutton" style="margin-top: 15px">
+                <div id="Pagination" class="pagination"></div>
+            </div>
+        </div>
+    </section>
+
+    <!--请在下方写此页面业务相关的脚本-->
+    <script type="text/javascript">
+    </script>
+    <script type="text/javascript" src="/static/lib/jquery/1.9.1/jquery.min.js"></script>
+    <script>
+        jQuery.noConflict();
+    </script>
+    <script type="text/javascript" src="/static/h-ui/js/H-ui.js"></script>
+    <script type="text/javascript" src="/static/lib/jquery.validation/1.14.0/jquery.validate.js"></script>
+    <script type="text/javascript" src="/static/lib/jquery.validation/1.14.0/validate-methods.js"></script>
+    <script type="text/javascript" src="/static/lib/jquery.validation/1.14.0/messages_zh.js"></script>
+    <script type="text/javascript" src="/static/lib/layer/2.4/layer.js"></script>
+    <script type="text/javascript" src="/static/h-ui/js/H-ui.js"></script>
+    <script type="text/javascript" src="/static/h-ui.admin/js/H-ui.admin.page.js"></script>
+    <script type="text/javascript" src="../../static/lib/pagination/jquery.pagination.js"></script>
+    <script type="text/javascript" src="/static/js/developer.js"></script>
+    <script type="text/javascript" src="/static/js/ajaxFunction.js"></script>
+{% endblock %}

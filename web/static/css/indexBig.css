@@ -1,0 +1,1001 @@
+@font-face {
+    font-family: ZHSRXT;
+    src: url('../font/BigruixianLightGB4.0.ttf') format('opentype');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: AgencyFB;
+    src: url('../font/AgencyFB.ttf') format('opentype');
+}
+
+@font-face {
+    font-family: AGENCYR;
+    src: url('../font/AGENCYR.TTF') format('opentype');
+}
+
+body {
+    width: 1920px;
+    height: 1080px;
+    border: 0px;
+    margin: 0px;
+    left: 0px;
+    top: 0px;
+    overflow: hidden;
+}
+
+div, ul, span, a, h2, p {
+    position: absolute;
+    font-size: 18px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    font-family: "微软雅黑";
+}
+
+li {
+    list-style-type: none;
+}
+
+/*背景*/
+#bg {
+    left: 0;
+    width: 1920px;
+    top: 0;
+    height: 1080px;
+    background: url("../images/bg.png") no-repeat;
+}
+
+/*左上角总体数据*/
+#allData {
+    left: 79px;
+    width: 620px;
+    top: 48px;
+    height: 160px;
+}
+
+#allData #allData_info {
+    left: 0px;
+    width: 200px;
+    top: 15px;
+    height: 21px;
+    font-family: ZHSRXT;
+}
+
+#allData #allData_time {
+    left: 279px;
+    width: 156px;
+    top: 15px;
+    height: 17px;
+    font-size: 14px;
+    font-family: ZHSRXT;
+}
+
+#allData ul li #allData_0 {
+    left: 0px;
+    top: 32px;
+    width: 440px;
+    height: 35px;
+    text-align: center;
+}
+
+#allData ul li #allData_1 {
+    left: 0px;
+    top: 96px;
+    width: 160px;
+    height: 35px;
+}
+
+#allData ul li #allData_2 {
+    left: 120px;
+    top: 96px;
+    width: 160px;
+    height: 35px;
+}
+
+#allData ul li #allData_3 {
+    left: 240px;
+    top: 96px;
+    width: 160px;
+    height: 35px;
+}
+
+#allData ul li #allData_4 {
+    left: 360px;
+    top: 96px;
+    width: 160px;
+    height: 35px;
+}
+
+#allData ul li #allData_5 {
+    left: 480px;
+    top: 96px;
+    width: 160px;
+    height: 35px;
+}
+
+#allData ul li #allData_0_info {
+    left: 0px;
+    top: 12px;
+    width: 440px;
+    height: 35px;
+    text-align: center;
+}
+
+#allData ul li #allData_1_info {
+    left: 0px;
+    top: 72px;
+    width: 160px;
+    height: 35px;
+}
+
+#allData ul li #allData_2_info {
+    left: 120px;
+    top: 72px;
+    width: 160px;
+    height: 35px;
+}
+
+#allData ul li #allData_3_info {
+    left: 240px;
+    top: 72px;
+    width: 160px;
+    height: 35px;
+}
+
+#allData ul li #allData_4_info {
+    left: 360px;
+    top: 72px;
+    width: 160px;
+    height: 35px;
+}
+
+#allData ul li #allData_5_info {
+    left: 320px;
+    top: 76px;
+    width: 160px;
+    height: 35px;
+}
+
+#allData ul li .allData_number_0 {
+    font-family: AgencyFB;
+    font-size: 33px;
+}
+
+#allData ul li .allData_number_1 {
+    font-family: AgencyFB;
+    font-size: 33px;
+    color: #FFD02E;
+}
+
+#allData ul li .allData_title {
+    top: 81px;
+    width: 110px;
+    height: 24px;
+    color: #0AA9FF;
+    font-size: 18px;
+}
+
+/*监测趋势*/
+#trend {
+    left: 44px;
+    width: 420px;
+    top: 198px;
+    height: 300px;
+}
+
+/*热门内容*/
+#hotContent {
+    left: 51px;
+    width: 419px;
+    top: 471px;
+    height: 270px;
+}
+
+#hotContent #hotContent_info {
+    left: 29px;
+    width: 72px;
+    top: 16px;
+    height: 21px;
+    font-family: ZHSRXT;
+}
+
+#hotContent #hotContent_time {
+    left: 233px;
+    width: 156px;
+    top: 20px;
+    height: 17px;
+    font-size: 14px;
+    font-family: ZHSRXT;
+}
+
+#hotContent #hotContent_typeList .hotContent_type {
+    top: 57px;
+    width: 100px;
+    height: 19px;
+    text-align: center;
+    font-size: 12px;
+    background: rgba(121, 186, 254, 0.20);
+    cursor: pointer;
+}
+
+#hotContent #hotContent_typeList .hotContent_type_focus {
+    outline: 1px solid #49AFEF;
+}
+
+#hotContent #hotContent_typeList #hotContent_type_0 {
+    left: 40px;
+}
+
+#hotContent #hotContent_typeList #hotContent_type_1 {
+    left: 161px;
+}
+
+#hotContent #hotContent_typeList #hotContent_type_2 {
+    left: 282px;
+}
+
+/*#hotContent #hotContent_typeList #hotContent_type_3 {*/
+/*left: 343px;*/
+/*}*/
+
+#hotContent #hotContent_titleList .hotContent_title {
+    top: 85px;
+    height: 19px;
+    font-size: 14px;
+    color: #27A8FF;
+}
+
+#hotContent #hotContent_titleList #hotContent_title_0 {
+    left: 29px;
+    width: 50px;
+}
+
+#hotContent #hotContent_titleList #hotContent_title_1 {
+    left: 79px;
+    width: 195px;
+}
+
+#hotContent #hotContent_titleList #hotContent_title_2 {
+    left: 274px;
+    width: 69px;
+}
+
+#hotContent #hotContent_titleList #hotContent_title_3 {
+    left: 343px;
+    width: 50px;
+}
+
+#hotContent #hotContent_list .hotContent_rank {
+    left: 14px;
+    width: 50px;
+    font-size: 16px;
+    line-height: 31px;
+}
+
+#hotContent #hotContent_list .hotContent_keyWord {
+    left: 64px;
+    width: 195px;
+    font-size: 16px;
+    line-height: 31px;
+}
+
+#hotContent #hotContent_list .hotContent_exp {
+    left: 259px;
+    width: 69px;
+    font-size: 16px;
+    line-height: 31px;
+    color: #FFD02E;
+}
+
+#hotContent #hotContent_list .hotContent_trend {
+    top: 3px;
+    left: 338px;
+    width: 50px;
+    font-size: 16px;
+    line-height: 31px;
+}
+#hotContent #hotContent_list .hotContent_trend .trend_hold{
+    width: 50px;
+    font-size: 25px;
+    line-height: 25px;
+}
+
+#hotContent #hotContent_list .hotContent_div {
+    left: 15px;
+    width: 390px;
+    height: 31px;
+    border-left: 1px solid #224162;
+    border-right: 1px solid #224162;
+    border-top: 1px solid #224162;
+}
+
+#hotContent #hotContent_list .hotContent_div_1 {
+    border-bottom: 1px solid #224162;
+}
+
+/*侵权图表*/
+#tort {
+    left: 53px;
+    width: 453px;
+    top: 758px;
+    height: 268px;
+}
+#hotview {
+    left: 526px;
+    top: 880px;
+    width: 919px;
+    height: 336px;
+}
+/*GIS地图*/
+#gis {
+    left: 400px;
+    width: 1200px;
+    top: 60px;
+    height: 800px;
+}
+#gis #gis_toolTip{
+      left: -197px;
+    top: -250px;
+    width: 395px;
+    height: 272px;
+
+    z-index: 1000;
+}
+#gis .gis_toolTip1 {
+
+    background-image: url("../images/bg_toolTip.png");
+    background-repeat: no-repeat;
+    background-size: 395px 272px;
+
+}
+
+
+#gis #gis_toolTip .gis_toolTip_city {
+    left: 49px;
+    top: 39px;
+    height: 40px;
+    font-size: 24px;
+}
+
+#gis #gis_toolTip .gis_toolTip_info {
+    left: 49px;
+    width: 100px;
+    height: 30px;
+    text-align: left;
+}
+
+#gis #gis_toolTip .gis_toolTip_content1 {
+    left: 115px;
+    width: 202px;
+    height: 30px;
+    color: #fffe40;
+    text-align: left;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+#gis #gis_toolTip .gis_toolTip_content2 {
+    left: 115px;
+    width: 202px;
+    height: 30px;
+    color: #fff;
+    text-align: left;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+#gis #gis_toolTip .gis_toolTip_content_num span{
+     color: #fffe40;
+    display: inline-block;
+    line-height: 22px;;
+}
+#gis #gis_toolTip .gis_toolTip_content_num1{
+    left: 115px;
+    width: 202px;
+    height: 30px;
+    color: #fffe40;
+    text-align: left;
+    font-family: AGENCYR;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+#gis #gis_toolTip .gis_toolTip_content_num2{
+    left: 115px;
+    width: 202px;
+    height: 30px;
+    color: #fff;
+    text-align: left;
+    font-family: AGENCYR;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+#gis_back {
+    left: 1400px;
+    width: 50px;
+    top: 100px;
+    height: 30px;
+    background: red;
+    z-index: 10;
+    display: none;
+}
+
+#gis_oversea {
+    left: 521px;
+    width: 172px;
+    top: 675px;
+    height: 173px;
+    z-index: 10;
+    overflow: hidden;
+    background-image: url("../images/sea.png");
+}
+
+#gis_oversea .gis_oversea_country {
+    left: 25px;
+    width: 80px;
+    height: 20px;
+    font-size: 12px;
+    font-family: ZHSRXT;
+    color: #72C1FF;
+    letter-spacing: 0;
+    text-shadow: 0 0 8px rgba(75, 161, 255, 0.50);
+}
+
+#gis_oversea .gis_oversea_count {
+    left: 90px;
+    width: 80px;
+    height: 20px;
+    font-family: ZHSRXT;
+    font-size: 12px;
+    color: #BFE3FF;
+    letter-spacing: 0;
+    text-shadow: 0 0 8px rgba(75, 161, 255, 0.50);
+}
+#gis .gis_toolTip2 {
+
+    background-image: url("../images/2.png");
+    background-repeat: no-repeat;
+    background-size: 395px 272px;
+    color: #fff;
+
+}
+
+#taskStatus {
+    left: 616px;
+    width: 719px;
+    top: 900px;
+    height: 136px;
+}
+
+#savingInfo{
+    display: none;
+    left: 616px;
+    width: 719px;
+    top: 900px;
+    height: 136px;
+}
+.savingInfo_text{
+    color: #FFFFFF;
+    top:10px;
+    font-family: MicrosoftYaHei;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+.savingInfo_process{
+    font-size: 24px;
+    color: #FFFFFF;
+
+}
+.positionImg{
+    top:30px;
+    left:245px
+}
+.positionText{
+    top:34px;
+    left:285px;
+    font-size:18px;
+    color:#FFF
+}
+.positionPer{
+    top:27px;
+    left:425px;
+    color: #2187e7;
+    font-size: 26.5px
+
+}
+/*进度条*/
+@-webkit-keyframes fill {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.taskStatusBar {
+    top: 75px;
+    width: 15px;
+    height: 28px;
+    background-image: -webkit-linear-gradient(45deg, #224162 25%, #224162);
+
+}
+
+.taskStatusBar_0 {
+    background-image: -webkit-linear-gradient(45deg, #2187e7 25%, #a0eaff);
+}
+.taskStatusBar_1 {
+    background-image: -webkit-linear-gradient(45deg, #02f78e 25%, #224162);
+}
+.taskStatusBar_2 {
+    background-image: -webkit-linear-gradient(45deg, #000000 25%, #a0eaff);
+}
+
+/*存证司法统计图表*/
+.statistics_con {
+    top: 32px;
+    left: 1415px;
+    height: 400px;
+    width: 474px;
+}
+
+.statistics_title {
+    left: 20px;
+    top: 27px;
+    width: 453px;
+    height: 40px;
+    font-family: ZHSRXT;
+    font-size: 18px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+}
+
+.num_1 {
+    left: 40px;
+    top: 32px;
+    width: 89px;
+    height: 65px;
+    font-family: AgencyFB;
+    font-size: 46px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+}
+
+.num_t1 {
+    left: 40px;
+    top: 115px;
+    width: 168px;
+    height: 24px;
+    opacity: 0.7;
+    font-family: MicrosoftYaHei;
+    font-size: 18px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+}
+
+.num_2 {
+    left: 266px;
+    top: 32px;
+    width: 58px;
+    height: 54px;
+    font-family: AgencyFB;
+    font-size: 46px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+}
+
+.num_t2 {
+    width: 200px;
+    left: 266px;
+    top: 115px;
+    opacity: 0.7;
+    font-family: MicrosoftYaHei;
+    font-size: 18px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+}
+
+#statistics {
+    left: 0px;
+    width: 453px;
+    top: 169px;
+    height: 216px;
+    background: rgba(0, 0, 0, 0.05);
+}
+#saveresult{
+    display: none;
+    left: 616px;
+    width: 719px;
+    top: 900px;
+    height: 136px;
+    font-family: ZHSRXT;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+.ul_1 {
+    top: -18px;
+}
+
+.y_each1, .y_each2, .y_each3, .y_each4 {
+    position: absolute;
+    width: 419px;
+    height: 45px;
+    left: 17px;
+    border-bottom: 1px solid #224162;
+}
+
+.y_each1 {
+    top: 0px;
+}
+
+.y_each2 {
+    top: 45px;
+}
+
+.y_each3 {
+    top: 90px;
+}
+
+.y_each4 {
+    top: 135px;
+}
+
+.y_name {
+    top: 10px;
+    left: 0px;
+    height: 17px;
+    opacity: 0.7;
+    /*font-family: AgencyFB;*/
+    font-size: 12px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+}
+
+.y_con {
+    left: 0px;
+    top: 31px;
+    width: 0%;
+    height: 8px;
+    opacity: 0.8;
+    background: #FFC600;
+}
+
+.y_num {
+    top: 20px;
+    left: 55%;
+    height: 25px;
+    font-family: AgencyFB;
+    font-size: 18px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+}
+
+.ul_2 {
+    top: 167px;
+    left: 17px;
+}
+
+.ul_2 li {
+    position: absolute;
+    height: 14px;
+    opacity: 0.7;
+    font-family: AgencyFB;
+    font-size: 12px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+}
+
+.ul_2 li:nth-child(1) {
+    left: 0px;
+}
+
+.ul_2 li:nth-child(2) {
+    left: 80px;
+}
+
+.ul_2 li:nth-child(3) {
+    left: 160px;
+}
+
+.ul_2 li:nth-child(4) {
+    left: 240px;
+}
+
+.ul_2 li:nth-child(5) {
+    left: 320px;
+}
+
+.ul_2 li:nth-child(6) {
+    left: 400px;
+}
+
+/*扫黄打非*/
+.vice_con {
+    left: 1405px;
+    top: 447px;
+}
+
+.vice_title {
+    left: 31px;
+    top: 14px;
+    width: 200px;
+    height: 21px;
+    font-family: ZHSRXT;
+    font-size: 18px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+}
+
+.vice_total {
+    left: 30px;
+    top: 79px;
+    width: 132px;
+    height: 24px;
+    opacity: 0.7;
+    font-family: MicrosoftYaHei;
+    font-size: 18px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+}
+
+.vice_num {
+    left: 163px;
+    top: 60px;
+    width: 300px;
+    height: 65px;
+    font-family: AgencyFB;
+    font-size: 46px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+}
+
+.circlePng {
+     left: 222px;
+    top: 242px;
+    width: 53px;
+    height: 53px;
+    background-image: url("../images/Group21.png");
+    background-repeat: no-repeat;
+    background-size: 32px 32px;
+}
+
+#vice {
+    left: 10px;
+    top: 117px;
+    width: 453px;
+    height: 280px;
+    background: rgba(0, 0, 0, 0.05);
+}
+
+.allTotal {
+    left: 1421px;
+    top: 878px;
+}
+/*.allTotal ul{*/
+    /*left: -40px;*/
+/*}*/
+.totalNum_1 {
+    left: 0px;
+    top: 2px;
+    width: 89px;
+    height: 65px;
+    font-family: AgencyFB;
+    font-size: 46px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+}
+
+.totalNum_t1 {
+    left: 0px;
+    top: 66px;
+    width: 150px;
+    height: 24px;
+    opacity: 0.7;
+    font-family: MicrosoftYaHei;
+    font-size: 18px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+}
+
+.totalNum_2 {
+    left: 151px;
+    top: 2px;
+    width: 58px;
+    height: 54px;
+    font-family: AgencyFB;
+    font-size: 46px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+}
+
+.totalNum_t2 {
+    left: 151px;
+    top: 66px;
+    width: 150px;
+    height: 24px;
+    opacity: 0.7;
+    font-family: MicrosoftYaHei;
+    font-size: 18px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+}
+
+.totalNum_3 {
+    left: 319px;
+    top: 2px;
+    width: 80px;
+    height: 65px;
+    font-family: AgencyFB;
+    font-size: 46px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+}
+
+.totalNum_t3 {
+    left: 319px;
+    top: 66px;
+    width: 150px;
+    height: 24px;
+    opacity: 0.7;
+    font-family: MicrosoftYaHei;
+    font-size: 18px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+}
+
+/*弹出框*/
+#tip {
+    left: 659px;
+    top: 177px;
+    width: 604px;
+    height: 727px;
+    /*background: url("../images/bg_tip.png") no-repeat;*/
+    display: none;
+    z-index: 99999999;
+    background-size: 100% 100%;
+}
+.htip{
+    background: url("../images/2.png") no-repeat;
+}
+.fhtip{
+     background: url("../images/bg_tip.png") no-repeat;
+}
+
+#tip #tip_name {
+    left: 30px;
+    width: 562px;
+    top: 40px;
+    height: 33px;
+    text-align: center;
+    font-size: 24px;
+    font-family: PingFangSC-Regular;
+    text-shadow: 0 0 6px rgba(150, 237, 255, 0.50);
+}
+
+#tip #tip_allData_info {
+    left: 70px;
+    width: 471px;
+    top: 100px;
+}
+
+#tip .tip_info {
+    height: 32px;
+    line-height: 32px;
+    font-family: PingFangSC-Regular;
+    font-size: 12px;
+    color: #8DCFFF;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.50);
+}
+
+#tip .tip_number {
+    margin-top: -6px;
+    height: 32px;
+    line-height: 32px;
+    font-size: 32px;
+    font-family: AgencyFB;
+}
+
+#tip #tip_piratedResources {
+    left: 70px;
+    width: 471px;
+    top: 145px;
+    height: 200px;
+    outline: 1px solid #224162;
+}
+
+#tip #tip_piratedResources #tip_chart {
+    left: 20px;
+    width: 255px;
+    top: 20px;
+    height: 185px;
+}
+
+#tip #tip_piratedResources #tip_search_info {
+    left: 255px;
+    width: 215px;
+    top: 20px;
+    height: 185px;
+}
+
+#tip #tip_div {
+    left: 70px;
+    width: 471px;
+    top: 350px;
+    height: 340px;
+}
+
+#tip .tip_genuine {
+    left: 0px;
+    width: 471px;
+    top: 25px;
+    height: 108px;
+    outline: 1px solid #224162;
+}
+
+#tip .tip_genuine div{
+    width: 461px;
+    height: 20px;
+    position: relative;
+}
+
+#tip .tip_pirate {
+    left: 0px;
+    width: 471px;
+    top: 220px;
+    height: 100px;
+    color: #FFD02E;
+    outline: 1px solid #224162;
+}
+
+#tip .tip_pirate div{
+    width: 221px;
+    height: 20px;
+    position: absolute;
+}
+
+#tip .tip_title {
+    font-size: 12px;
+    color: #8DCFFF;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.50);
+}
+
+#tip .tip_content {
+    height: 24px;
+    width: 60px;
+    font-size: 20px;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.50);
+    font-family: AgencyFB;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+#tip #tip_linkList {
+    left: 80px;
+    top: -15px;
+    height: 32px;
+    width: 500px;
+}
+
+#tip .tip_link {
+    float: left;
+    margin-top: -6px;
+    height: 24px;
+    font-size: 20px;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.50);
+    font-family: AgencyFB;
+    outline: 1px solid #224162;
+    text-align: center;
+    margin-right: 10px;
+}
+.task_status_text{
+    font-family: AgencyFB;
+    font-size: 18px;
+    color: #FFF;
+}
+#tip_title{
+    left: 20px;
+    top: 5px;
+    line-height: 32px;
+    font-family: PingFangSC-Regular;
+    font-size: 12px;
+    color: #8DCFFF;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.50);
+}

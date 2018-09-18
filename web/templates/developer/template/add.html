@@ -1,0 +1,355 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="renderer" content="webkit|ie-comp|ie-stand">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport"
+          content="width=device-width,initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"/>
+    <meta http-equiv="Cache-Control" content="no-siteapp"/>
+    <link rel="Bookmark" href="../../favicon.ico">
+    <link rel="Shortcut Icon" href="../../favicon.ico"/>
+    <!--[if lt IE 9]>
+<script type="text/javascript" src="../../static/lib/html5.js"></script>
+<script type="text/javascript" src="../../static/lib/respond.min.js"></script>
+<![endif]-->
+    <link rel="stylesheet" type="text/css" href="../../static/h-ui/css/H-ui.min.css"/>
+    <link rel="stylesheet" type="text/css" href="../../static/h-ui.admin/css/H-ui.admin.css"/>
+    <link rel="stylesheet" type="text/css" href="../../static/lib/Hui-iconfont/1.0.8/iconfont.css"/>
+    <link rel="stylesheet" type="text/css" href="../../static/h-ui.admin/skin/default/skin.css" id="skin"/>
+    <link rel="stylesheet" type="text/css" href="../../static/h-ui.admin/css/style.css"/>
+    <link rel="stylesheet" type="text/css" href="/static/css/index.css">
+    <!--[if IE 6]>
+<script type="text/javascript" src="http://lib.h-ui.net/DD_belatedPNG_0.0.8a-min.js" ></script>
+<script>DD_belatedPNG.fix('*');</script><![endif]-->
+    <!--/meta 作为公共模版分离出去-->
+
+    <title>添加地址 - 地址管理 </title>
+    <meta name="keywords" content="H-ui.admin v3.0,H-ui网站后台模版,后台模版下载,后台管理系统模版,HTML后台模版下载">
+    <meta name="description" content="H-ui.admin v3.0，是一款由国人开发的轻量级扁平化网站后台模板，完全免费开源的网站后台管理系统模版，适合中小型CMS后台系统。">
+</head>
+<body>
+<header class="navbar-wrapper">
+    <div class="navbar navbar-fixed-top">
+        <div class="container-fluid cl"><a id="sefonicon" class="logo navbar-logo f-l mr-10 hidden-xs"
+        >sefon</a>
+            <a class="logo navbar-logo-m f-l mr-10 visible-xs">H-ui</a>
+            <a aria-hidden="false" class="nav-toggle Hui-iconfont visible-xs" href="javascript:;">&#xe667;</a>
+            <nav id="Hui-userbar" class="nav navbar-nav navbar-userbar hidden-xs">
+                <ul class="cl" style="display: none">
+                    <li id="admin" style="display: none"><img style="width: 18px;height: 18px;margin-right:6px;"
+                                                              src="/static/images/admin.png"></li>
+                    <li id="rent" style="display: none"><img
+                            style="width: 18px;height: 18px;margin-right:6px;margin-top:-2px"
+                            src="/static/images/rent.png"></li>
+                    <li id="user" style="display: none"><img
+                            style="width: 18px;height: 18px;margin-right:6px;margin-top:-2px"
+                            src="/static/images/user.png"></li>
+                    <li id="developer" style="display: none"><img
+                            style="width: 18px;height: 18px;margin-right:6px;margin-top:-2px"
+                            src="/static/images/developer.png"></li>
+                    <li id="power">用户</li>
+                    <li class="dropDown dropDown_hover"><a href="#" class="dropDown_A" id="userPower">user <i
+                            class="Hui-iconfont">&#xe6d5;</i></a>
+                        <ul class="dropDown-menu menu radius box-shadow">
+                            <li><a href="#">个人信息</a></li>
+                        </ul>
+                    </li>
+                    <li id="Hui-msg"><a id="identity" onclick="identity()" href="/messages/developer" title="消息"><span
+                            class="badge badge-danger">1</span><i
+                            class="Hui-iconfont" style="font-size:18px">&#xe68a;</i></a></li>
+                    <li id="Hui-skin" class="dropDown right dropDown_hover"><a href="javascript:;" class="dropDown_A"
+                                                                               title="换肤"><i class="Hui-iconfont"
+                                                                                             style="font-size:18px">
+                        &#xe62a;</i></a>
+                        <ul class="dropDown-menu menu radius box-shadow">
+                            <!--<li><a href="javascript:;" data-val="default" title="默认（黑色）">默认（黑色）</a></li>-->
+                            <li><a href="javascript:;" data-val="blue" title="蓝色">蓝色</a></li>
+                            <li><a href="javascript:;" data-val="green" title="绿色">绿色</a></li>
+                            <li><a href="javascript:;" data-val="red" title="红色">红色</a></li>
+                            <li><a href="javascript:;" data-val="yellow" title="黄色">黄色</a></li>
+                            <li><a href="javascript:;" data-val="orange" title="绿色">橙色</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</header>
+<aside class="Hui-aside_use Hui-aside">
+    <input runat="server" id="divScrollValue" type="hidden" value=""/>
+    <div id="use">
+        <ul class="work">
+            <li id="menu-user5" class="checked">
+                <a style="text-decoration: none" onclick="window.history.go(-1);" title="返回" name="">
+                    <i class="Hui-iconfont">&#xe6d4;</i>
+                    <span>返回</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+</aside>
+<article class="cl pd-20">
+    <form action="" method="post" class="form form-horizontal" id="form-url-add" style="margin-left: 200px;>
+        <div class=" row cl
+    ">
+    <div class="col-xs-12 col-sm-6">
+        <div class="row cl">
+            <label class="form-label col-xs-2 col-sm-3"><span class="c-red">*</span>模板名称：</label>
+            <div class="formControls col-xs-5 col-sm-4">
+                <input type="text" name="name" class="input-text noLogin" placeholder="请输入任务名"
+                       aria-required="true"  onKeypress="javascript:if(event.keyCode == 32)event.returnValue = false;">
+            </div>
+        </div>
+        <div class="row cl">
+            <label class="form-label col-xs-2 col-sm-3"><span class="c-red"></span>模板类型：</label>
+            <div class="formControls col-xs-5 col-sm-4">
+               <span>
+                    <select name="jobTemplateType" id="typeList" class="select" style="width: 200px;padding: 4px 5px;">
+
+                    </select>
+                </span>
+            </div>
+        </div>
+        <div class="row cl">
+            <label class="form-label col-xs-2 col-sm-3">描述：</label>
+            <div class="formControls col-xs-5 col-sm-4">
+                <input type="text" name="desc" class="input-text noLogin" placeholder="请输入描述" aria-required="true" onKeypress="javascript:if(event.keyCode == 32)event.returnValue = false;">
+            </div>
+        </div>
+        <div class="row cl">
+            <label class="form-label col-xs-2 col-sm-3"><span class="c-red">*</span>睡眠时间：</label>
+            <div class="formControls col-xs-5 col-sm-4">
+                <input type="text" name="sleepTime" class="input-text noLogin" digits="true" placeholder="请输入睡眠时间" aria-required="true"
+                       onKeypress="javascript:if(event.keyCode == 32)event.returnValue = false;" onkeyup="this.value=this.value.replace(/\D/g,'')">
+            </div>
+        </div>
+        <div class="row cl">
+            <label class="form-label col-xs-2 col-sm-3"><span class="c-red">*</span>地址URL：</label>
+            <div class="formControls col-xs-5 col-sm-4">
+                <input type="text" name="url"  class="input-text noLogin" placeholder="请输入地址URL"
+                       aria-required="true" onKeypress="javascript:if(event.keyCode == 32)event.returnValue = false;">
+            </div>
+        </div>
+        <div class="row cl">
+            <label class="form-label col-xs-2 col-sm-3"><span class="c-red">*</span>数据库表名：</label>
+            <div class="formControls col-xs-5 col-sm-4">
+                <input type="text" name="tableName"  class="input-text noLogin" placeholder="请输入数据库表名"
+                       aria-required="true" onKeypress="javascript:if(event.keyCode == 32)event.returnValue = false;">
+            </div>
+        </div>
+        <div class="row cl">
+            <label class="form-label col-xs-2 col-sm-3"><span class="c-red"></span>数据源：</label>
+            <div class="formControls col-xs-5 col-sm-4">
+               <span>
+                    <select name="databaseId" id="typelist" class="select" style="width: 200px;padding: 4px 5px;">
+                        <option value='-1'>当前数据源</option>
+                    </select>
+                </span>
+            </div>
+        </div>
+        <div class="row cl">
+            <label class="form-label col-xs-2 col-sm-3">根节点：</label>
+            <div class="formControls col-xs-5 col-sm-4">
+                <input type="text" name="rootPath" class="input-text noLogin" placeholder="请输入根节点"
+                       aria-required="true" onKeypress="javascript:if(event.keyCode == 32)event.returnValue = false;">
+            </div>
+        </div>
+        <div class="row cl">
+            <label class="form-label col-xs-2 col-sm-3">选择父模板：</label>
+            <div class="formControls col-xs-5 col-sm-4">
+                <input type="text" class="input-text noLogin" aria-required="true" name="parentId" id="parent"
+                       style="width:80%;" placeholder="请选择父模板" onKeypress="javascript:if(event.keyCode == 32)event.returnValue = false;">
+                <a style="text-decoration:none" id="childsList" title="选择父模板" data-toggle="tooltip"
+                   data-placement="top">
+                    <i class="Hui-iconfont list_eidit">&#xe72a;</i>
+                </a>
+            </div>
+        </div>
+        <div class="row cl">
+            <label class="form-label col-xs-2 col-sm-3"><span class="c-red"></span>请求类型：</label>
+            <div class="mt-20 skin-minimal">
+                <div class="radio-box">
+                    <input type="radio" id="radio-z1" name="requestType" class="input-text noLogin" value="0"  >
+                    <label for="radio-z1">POST</label>
+                </div>
+                <div class="radio-box">
+                    <input type="radio" id="radio-z2" name="requestType" class="input-text noLogin" value="1" checked>
+                    <label for="radio-z2">GET</label>
+                </div>
+            </div>
+        </div>
+        <div class="row cl">
+            <label class="form-label col-xs-2 col-sm-3"><span class="c-red"></span>编码类型：</label>
+            <div class="mt-20 skin-minimal">
+                <div class="radio-box">
+                    <input type="radio" id="radio-r1" name="encodeType" class="input-text noLogin" value="0">
+                    <label for="radio-z1">AUTO</label>
+                </div>
+                <div class="radio-box">
+                    <input type="radio" id="radio-r2" name="encodeType" class="input-text noLogin" value="1" checked>
+                    <label for="radio-z2">UTF-8</label>
+                </div>
+                <div class="radio-box">
+                    <input type="radio" id="radio-r3" name="encodeType" class="input-text noLogin" value="2">
+                    <label for="radio-z3">GB2312</label>
+                </div>
+                <div class="radio-box">
+                    <input type="radio" id="radio-r4" name="encodeType"  class="input-text noLogin" value="3">
+                    <label for="radio-z4">ISO8859-1</label>
+                </div>
+                <div class="radio-box">
+                    <input type="radio" id="radio-r5" name="encodeType" class="input-text noLogin"  value="4" >
+                    <label for="radio-z5">GBK</label>
+                </div>
+            </div>
+        </div>
+        <div class="row cl" style="margin-top: 60px;margin-left: -120px;">
+            <span class="col-xs-1 col-sm-1 col-xs-offset-3 col-sm-offset-3">
+                <input class="btn btn-primary radius" type="button" id="saveBtn" value="&nbsp;&nbsp;提交&nbsp;&nbsp;">
+            </span>
+            <span class="col-xs-1 col-sm-1" style="margin-left: 20px">
+                <input class="btn  radius" id="cancel" type="button" value="&nbsp;&nbsp;取消&nbsp;&nbsp;">
+            </span>
+        </div>
+    </div>
+    <div class="col-xs-12 col-sm-6">
+        <div class="row cl">
+            <label class="form-label col-xs-2 col-sm-3"><span class="c-red"></span>启用cookie：</label>
+            <div class="mt-20 skin-minimal">
+                <div class="radio-box" id="useCookie">
+                    <input type="radio" id="radio-p1" name="cookie_flag" class="input-text noLogin" value="1" >
+                    <label for="radio-z1">是</label>
+                </div>
+                <div class="radio-box" id="NotUseCookie">
+                    <input type="radio" id="radio-p2" name="cookie_flag" class="input-text noLogin"value="0" checked>
+                    <label for="radio-z2">否</label>
+                </div>
+            </div>
+        </div>
+        <div class="row cl cookie" style="display: none">
+            <label class="form-label col-xs-2 col-sm-3"><span class="c-red">*</span>地址：</label>
+            <div class="formControls col-xs-5 col-sm-4">
+                <input type="text" name="cookie_obtain_url" class="input-text noLogin" placeholder="请输入地址" aria-required="true"
+                       onKeypress="javascript:if(event.keyCode == 32)event.returnValue = false;">
+            </div>
+        </div>
+        <div class="row cl cookie" style="display: none">
+            <label class="form-label col-xs-2 col-sm-3">周期：</label>
+            <div class="formControls col-xs-5 col-sm-4">
+                <input type="text" name="cookie_refresh_cycle" digits="true" maxlength="8" class="input-text noLogin" placeholder="请输入周期"
+                       aria-required="true" onKeypress="javascript:if(event.keyCode == 32)event.returnValue = false;" onkeyup="this.value=this.value.replace(/\D/g,'')">
+            </div>
+        </div>
+        <div class="row cl">
+            <label class="form-label col-xs-2 col-sm-3"><span class="c-red"></span>解析类型：</label>
+            <div class="mt-20 skin-minimal">
+                <div class="radio-box">
+                    <input type="radio" id="radio-w1" name="parseType" value="1" class="input-text noLogin" checked>
+                    <label for="radio-z1">XPATH</label>
+                </div>
+                <div class="radio-box">
+                    <input type="radio" id="radio-w2" name="parseType" class="input-text noLogin" value="0" >
+                    <label for="radio-z2">JSON</label>
+                </div>
+            </div>
+        </div>
+        <div class="row cl">
+            <label class="form-label col-xs-2 col-sm-3"><span class="c-red"></span>模拟用户行为：</label>
+            <div class="mt-20 skin-minimal">
+                <div class="radio-box">
+                    <input type="radio" id="radio-q1" name="phantomjsFlag" value="1" class="input-text noLogin">
+                    <label for="radio-z1">是</label>
+                </div>
+                <div class="radio-box">
+                    <input type="radio" id="radio-q2" name="phantomjsFlag" class="input-text noLogin" value="0" checked>
+                    <label for="radio-z2">否</label>
+                </div>
+            </div>
+        </div>
+        <div class="row cl">
+            <label class="form-label col-xs-2 col-sm-3"><span class="c-red"></span>用户自动登录：</label>
+            <div class="mt-20 skin-minimal">
+                <div class="radio-box" id="userAuto">
+                    <input type="radio" id="radio-m1" class="input-text noLogin" name="autoLogin" value="1">
+                    <label for="radio-z1">是</label>
+                </div>
+                <div class="radio-box" id="userNoauto">
+                    <input type="radio" id="radio-m2" class="input-text noLogin" name="autoLogin" value="0" checked>
+                    <label for="radio-z2">否</label>
+                </div>
+            </div>
+        </div>
+        <div class="row cl user" style="display: none">
+            <label class="form-label col-xs-2 col-sm-3"><span class="c-red">*</span>用户名：</label>
+            <div class="formControls col-xs-5 col-sm-4">
+                <input type="text" name="userId" class="input-text Login" placeholder="请输入用户名" aria-required="true"
+                onKeypress="javascript:if(event.keyCode == 32)event.returnValue = false;">
+            </div>
+        </div>
+        <div class="row cl user" style="display: none">
+            <label class="form-label col-xs-2 col-sm-3"><span class="c-red">*</span>密码：</label>
+            <div class="formControls col-xs-5 col-sm-4">
+                <input type="text" name="passWord" class="input-text Login" placeholder="请输入密码"
+                       aria-required="true" onKeypress="javascript:if(event.keyCode == 32)event.returnValue = false;">
+            </div>
+        </div>
+        <div class="row cl user" style="display: none">
+            <label class="form-label col-xs-2 col-sm-3"><span class="c-red">*</span>账户XPATH：</label>
+            <div class="formControls col-xs-5 col-sm-4">
+                <input type="text" name="userLabel" class="input-text Login" placeholder="请输入账户XPATH"
+                       aria-required="true" onKeypress="javascript:if(event.keyCode == 32)event.returnValue = false;">
+            </div>
+        </div>
+        <div class="row cl user" style="display: none">
+            <label class="form-label col-xs-2 col-sm-3"><span class="c-red">*</span>密码XPATH：</label>
+            <div class="formControls col-xs-5 col-sm-4">
+                <input type="text" name="passWordLabel" class="input-text Login" placeholder="请输入密码XPATH"
+                       aria-required="true" onKeypress="javascript:if(event.keyCode == 32)event.returnValue = false;">
+            </div>
+        </div>
+        <div class="row cl user" style="display: none">
+            <label class="form-label col-xs-2 col-sm-3">验证码输入框XPATH：</label>
+            <div class="formControls col-xs-5 col-sm-4">
+                <input type="text" name="vertInputLabel" class="input-text Login" placeholder="请输入验证码输入框XPATH"
+                       aria-required="true" onKeypress="javascript:if(event.keyCode == 32)event.returnValue = false;">
+            </div>
+        </div>
+        <div class="row cl user" style="display: none">
+            <label class="form-label col-xs-2 col-sm-3">验证码图文XPATH：</label>
+            <div class="formControls col-xs-5 col-sm-4">
+                <input type="text" name="vertImageLabel" class="input-text Login" placeholder="请输入验证码图文XPATH"
+                       aria-required="true" onKeypress="javascript:if(event.keyCode == 32)event.returnValue = false;">
+            </div>
+        </div>
+        <div class="row cl user" style="display: none">
+            <label class="form-label col-xs-2 col-sm-3"><span class="c-red">*</span>登录按钮XPATH：</label>
+            <div class="formControls col-xs-5 col-sm-4">
+                <input type="text" name="loginLabel" class="input-text Login" placeholder="请输入登录按钮XPATH"
+                       aria-required="true" onKeypress="javascript:if(event.keyCode == 32)event.returnValue = false;">
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+    </form>
+</article>
+<script type="text/javascript" src="../../static/lib/jquery/1.9.1/jquery.min.js"></script>
+<script>
+    jQuery.noConflict();
+</script>
+<script type="text/javascript" src="../../static/h-ui/js/H-ui.js"></script>
+<!--请在下方写此页面业务相关的脚本-->
+<script type="text/javascript" src="../../static/lib/jquery.validation/1.14.0/jquery.validate.js"></script>
+<script type="text/javascript" src="../../static/lib/jquery.validation/1.14.0/validate-methods.js"></script>
+<script type="text/javascript" src="../../static/lib/jquery.validation/1.14.0/messages_zh.js"></script>
+<script type="text/javascript" src="../../static/lib/layer/2.4/layer.js"></script>
+<script type="text/javascript" src="../../static/h-ui/js/H-ui.js"></script>
+<script type="text/javascript" src="/static/js/ajaxFunction.js"></script>
+<script type="text/javascript" src="/static/js/developer_add.js"></script>
+<script type="text/javascript" src="../../static/h-ui.admin/js/H-ui.admin.page.js"></script>
+<script type="text/javascript">
+</script>
+<!--/请在上方写此页面业务相关的脚本-->
+</body>
+</html>

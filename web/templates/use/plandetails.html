@@ -1,0 +1,110 @@
+{% extends "index.html" %}
+{% block plandetails %}
+
+<div class="dislpayArrow hidden-xs">
+	<a class="pngfix" href="javascript:void(0);" onClick="displaynavbar(this)"></a>
+</div>
+<section class="Hui-article-box">
+	<nav class="breadcrumb"><i class="Hui-iconfont">&#xe67f;</i>
+		<a style="text-decoration: none" onclick="window.history.go(-1);">首页</a>
+		<span class="c-gray en">&gt;</span>
+		<a style="text-decoration: none" onclick="window.location.reload()">任务管理</a>
+		<span class="c-gray en">&gt;</span>
+		<a style="text-decoration: none" href="#">普通任务</a>
+	</nav>
+	<div class="Hui-article">
+		<article class="cl pd-20" >
+			<table id = "tbodyl" class="table table-border table-bordered table-bg table-hover">
+				<thead>
+					<tr>
+						<th scope="col" colspan="5">任务详情</th>
+					</tr>
+				</thead>
+				<tbody>
+				<tr>
+					<th>ID</th>
+					<td  id="detail_id"></td>
+				</tr>
+				<tr>
+					<th>执行时间</th>
+					<td id="detail_lastExecuteTime"></td>
+				</tr>
+				<tr>
+					<th>创建时间</th>
+					<td id="detail_createTime"></td>
+				</tr>
+				<tr>
+					<th>URL</th>
+					<td id="detail_url" style="cursor: pointer;color: deepskyblue">查看URL</td>
+				</tr>
+				<tr>
+					<th>类型</th>
+					<td id="detail_type"></td>
+				</tr>
+				<tr>
+					<th>状态</th>
+					<td id="detail_statues" class="td-status"></td>
+				</tr>
+                <tr>
+					<th>内容类型</th>
+					<td id="detail_content_type"><a onclick = "showContentType(this)"></a></td>
+				</tr>
+				<tr>
+					<th>模板信息</th>
+					<td id="detail_jobTemplateId"><a onclick = "showTemplateDetail(this)"></a></td>
+				</tr>
+				<tr>
+					<th>入库类型</th>
+					<td id="detail_databaseSource"></td>
+				</tr>
+				<tr>
+					<th>数据库名称</th>
+					<td id="detail_databaseId"></td>
+				</tr>
+				<tr>
+					<th>表名称</th>
+					<td id="detail_tableName"></td>
+				</tr>
+{#				<tr id="detail_parent">#}
+{#					<th>父子任务关系</th>#}
+{#					<td id="detail_parentId"><a onclick = "showParent(this) "></a></td>#}
+{#				</tr>#}
+				</tbody>
+			</table>
+			<div class="panel">
+				<table id = "tbodyl_parent" class="table table-border table-bordered"></table>
+                <table id = "tbodyl_brother" class="table table-border table-bordered" style="display: none"></table>
+				<table id = "tbodyl_child" class="table table-border table-bordered"></table>
+			</div>
+			<table id = "tbodyl_down" class="table table-border table-bordered table-bg table-hover  hui-fadein">
+				<tbody>
+					<tr>
+						<th>采集页数</th>
+						<td id="detail_pageLimit"></td>
+					</tr>
+					<tr id="detail_proxy">
+						<th>代理类型</th>
+						<td id="detail_proxyType">
+                            <a class="parent" onclick = "showAgent(this)"></a>
+                            <input type="hidden"  id="detail_proxyID" value="">
+                        </td>
+					</tr>
+                    <tr>
+						<th>执行记录</th>
+                        <td id="detail_log"><a href=""></a></td>
+
+					</tr>
+				</tbody>
+			</table>
+		</article>
+		<div  class="text-c pagebutton" style="margin-top: 15px">
+			<div id="Pagination" class="pagination"></div>
+		</div>
+	</div>
+</section>
+<script type="text/javascript" src="/static/lib/layer/2.4/layer.js"></script>
+<script src="/static/lib/jquery/1.9.1/jquery.min.js"></script>
+<script type="text/javascript" src="/static/js/plandetails.js"></script>
+<!--请在下方写此页面业务相关的脚本-->
+<script type="text/javascript"></script>
+{% endblock %}

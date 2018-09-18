@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="/static/h-ui/css/H-ui.min.css"/>
+    <link rel="stylesheet" type="text/css" href="/static/h-ui.admin/css/H-ui.admin.css"/>
+    <link rel="stylesheet" type="text/css" href="/static/lib/Hui-iconfont/1.0.8/iconfont.css"/>
+    <link rel="stylesheet" type="text/css" href="/static/h-ui.admin/skin/blue/skin.css" id="skin"/>
+    <link rel="stylesheet" type="text/css" href="/static/h-ui.admin/css/style.css"/>
+    <link rel="stylesheet" type="text/css" href="/static/css/index.css">
+    <link rel="stylesheet" type="text/css" href="/static/lib/pagination/pagination.css"/>
+    <script type="text/javascript" src="../../static/lib/jquery/1.9.1/jquery.min.js"></script>
+    <script type="text/javascript" src="/static/lib/layer/2.4/layer.js"></script>
+    <script type="text/javascript" src="/static/h-ui/js/H-ui.js"></script>
+    <script type="text/javascript" src="/static/h-ui.admin/js/H-ui.admin.page.js"></script>
+    <script type="text/javascript" src="/static/lib/pagination/jquery.pagination.js"></script>
+    <script type="text/javascript" src="/static/js/ajaxFunction.js"></script>
+    <link rel="stylesheet" type="text/css" href="/static/css/index.css">
+    <title>Title</title>
+    <style>
+        #chooseAll{
+            width: 15px;
+            height: 15px;
+            background-image:url('/static/images/g2.jpg');
+            background-size: 15px 15px;
+        }
+    </style>
+</head>
+<body>
+<header class="navbar-wrapper">
+    <div class="navbar navbar-fixed-top">
+        <div class="container-fluid cl"><a id="sefonicon" class="logo navbar-logo f-l mr-10 hidden-xs"
+                                           onclick="sefonicon()" href="/list/template/developer">sefon</a>
+            <a class="logo navbar-logo-m f-l mr-10 visible-xs">H-ui</a> <span
+                    class="logo navbar-slogan f-l mr-10 hidden-xs">Demo</span> <a aria-hidden="false"
+                                                                                  class="nav-toggle Hui-iconfont visible-xs"
+                                                                                  href="javascript:;">&#xe667;</a>
+            <nav id="Hui-userbar" class="nav navbar-nav navbar-userbar hidden-xs">
+                <ul class="cl">
+                    <li id="admin" style="display: none"><img style="width: 18px;height: 18px;margin-right:6px;"
+                                                              src="/static/images/admin.png"></li>
+                    <li id="rent" style="display: none"><img
+                            style="width: 18px;height: 18px;margin-right:6px;margin-top:-2px"
+                            src="/static/images/rent.png"></li>
+                    <li id="user" style="display: none"><img
+                            style="width: 18px;height: 18px;margin-right:6px;margin-top:-2px"
+                            src="/static/images/user.png"></li>
+                    <li id="developer" style="display: none"><img
+                            style="width: 18px;height: 18px;margin-right:6px;margin-top:-2px"
+                            src="/static/images/developer.png"></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</header>
+<aside class="Hui-aside_use Hui-aside">
+    <input runat="server" id="divScrollValue" type="hidden" value=""/>
+    <div id="use">
+        <ul class="work">
+            <li id="menu-user5" class="checked">
+                <a style="text-decoration: none" href="#" onclick="cancle()" title="返回" name="">
+                    <i class="Hui-iconfont">&#xe6d4;</i>
+                    <span>返回</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+</aside>
+<section class="Hui-article-box" style="top: 50px;left: 97px;margin-left: 100px;">
+    <nav class="breadcrumb">精准定位</nav>
+    <div class="mt-20 skin-minimal" style="margin-left: 20px;margin-top: 10px;">
+        <a href="#" id="chooseT1"  class="btn btn-primary radius">导入模板</a>&nbsp;&nbsp;
+         <a href="#" id="chooseT2"  class="btn radius">选择模板</a>
+        <span id="seachArea" style="display: none;">
+            <input type="text" id="input-text" class="input-text" style="width:300px;" placeholder="输入关键词" name="">
+            <button type="submit" class="btn btn-primary radius" name="" onclick="search()"><i class="Hui-iconfont">&#xe665;</i> 搜索</button>
+            <div  id="wordShow" style="margin-left: -436px;display: none;color: red">没有相匹配的关键词！</div>
+        </span>
+    </div>
+    <div class="template_one">
+    <span>
+        <div style="z-index: 1;position: relative;">
+          <iframe src="/upload.html" style="width: 550px;opacity: 1;frameborder:no;border:0"></iframe>
+        </div>
+        <div style="z-index: 9999;margin-top: -150px">
+            <span style="display:inline-block">
+     <span class="btn-upload" id="uploadID" style="margin-top: 10px;margin-left: 10px;">
+                    <a href="javascript:" class="btn btn-primary radius"><i class="Hui-iconfont">&#xe645;</i> 导入模板</a>
+    </span>
+    <span class="btn-upload" id="uploadID" style="margin-top: 10px;margin-left: 170px;">
+                    <a href="javascript:" class="btn btn-primary radius"><i class="Hui-iconfont">&#xe642;</i> 上传文件</a>
+    </span>
+                </span>
+        </div>
+        </span>
+        <div class="row cl" style="margin-top: 20px;">
+            <div class="col-xs-12 col-sm-7" style="border: solid 1px #ddd;min-height: 500px;padding-right: 0px;">
+                <div id="chooseTemplate">
+                    <table class="table table-border table-bordered table-bg table-hover table-striped" id="agent"
+                           style="width: 100%;position: relative; z-index: 9999;">
+                        <thead>
+					<tr class="text-c" id="showOrNot" style="display: none">
+						<th width="30"><input  type="checkbox" name="wholeCheckBox" id="wholeCheckBox_title" value="wholeCheckBox"></th>
+						<th width="100">字段名称</th>
+						<th width="100">字段值</th>
+					</tr>
+				</thead>
+                        <tbody class='text-c'>
+                        <tr>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-5"
+                 style="border: solid 1px #ddd;  background-color: #f7f7f9;min-height: 500px;width: 40%;"></div>
+        </div>
+    </div>
+
+    {#    获取模板列表#}
+    <div class="row cl template_two" style="margin-top: 20px;display: none">
+        <div class="col-xs-12 col-sm-7"
+             style="border: solid 1px #ddd;height: 500px;padding-right: 0px;">
+            <div id="templateList" style="overflow: scroll; height: 450px">
+                <table class="table table-border table-bordered table-bg table-hover table-striped" id="tlistBody"
+                       style="width: 100%;position: relative; z-index: 10000;">
+                     <thead>
+                    <tr class="text-c">
+                        <th width="10"><div id="chooseAll" onclick="chooseAllBox()"></div></th>
+                        <th width="200">ID</th>
+                        <th width="150">名称</th>
+                        <th width="100">创建者</th>
+                        <th>URL</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="text-c pagebutton" style="margin-top: 15px">
+                <div id="Pagination" class="pagination"></div>
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-5"
+             style="border: solid 1px #ddd;  background-color: #f7f7f9;min-height: 500px;width: 40%;"></div>
+    </div>
+
+
+    <div class="row cl" style="margin-top: 20px;">
+            <span class="col-xs-1 col-sm-1 col-xs-offset-1 col-sm-offset-1">
+                <input class="btn disabled radius" type="button" onclick='savemould()' id="saveBtn"
+                       value="&nbsp;&nbsp;保存&nbsp;&nbsp;">
+            </span>
+        <span class="">
+                <input class="btn  radius" type="button" onclick='cancle()' id="cancelBtn"
+                       value="&nbsp;&nbsp;取消&nbsp;&nbsp;">
+            </span>
+        <span style="margin-left: 520px;">
+                <input class="btn  radius" type="button" id="debug" value="&nbsp;&nbsp;debug&nbsp;&nbsp;">
+            </span>
+    </div>
+
+</section>
+<script type="text/javascript" src="/static/js/use_mould1.js"></script>
+</body>
+</html>

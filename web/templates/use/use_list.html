@@ -1,0 +1,104 @@
+{% extends "index.html" %}
+{% block use_list %}
+    <style>
+    @-webkit-keyframes twinkling{
+  0% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+  }
+}
+    .picture{
+         -webkit-animation: twinkling 1s infinite ease-in-out;
+    }
+    </style>
+    <script type="text/javascript" src="../static/lib/pagination/jquery.pagination.js"></script>
+<script type="text/javascript" src="/static/js/use_list.js"></script>
+<script type="text/javascript" src="../static/h-ui/js/H-ui.js"></script>
+<script type="text/javascript" src="../static/js/config.js"></script>
+<section class="Hui-article-box">
+	<div class="Hui-article">
+		<article>
+			<div class="text-c">
+				<input type="text" id="input-text" class="input-text" style="width:500px" placeholder="输入关键词" name="">
+				<button type="submit" class="btn btn-success radius" name="" onclick="search()"><i class="Hui-iconfont">&#xe665;</i> 搜索</button>
+			    <div  id="wordShow" style="margin-left: -436px;display: none;color: red">没有相匹配的关键词！</div>
+            </div>
+			<div class="cl pd-5 bg-1 bk-gray mt-20">
+				<span class="l">
+				<a class="btn btn-primary radius" href='/use/use_add.html'><i class="Hui-iconfont" >&#xe600;</i> 添加任务</a>
+				<a href="javascript:;" onclick="evidence()" class="btn btn-primary radius"><i class="Hui-iconfont">&#xe632;</i> 查看存证</a>
+<!--{#				<a href="javascript:;" onclick="admin_delete()" class="btn btn-danger radius"><i class="Hui-iconfont">&#xe632;</i> 批量删除</a>#}-->
+<!--{#				<a href="../indexBig.html" onclick="" class="btn btn-primary radius"><i class="Hui-iconfont">&#xe632;</i> 跳大屏</a>#}-->
+				</span>
+			</div>
+			<table class="table table-border table-bordered table-bg table-hover table-striped" id="taskList">
+				<thead>
+					<tr>
+						<th scope="col" colspan="12">任务列表</th>
+					</tr>
+					<tr class="text-c">
+						<th width="30"><input type="checkbox" name="" value=""></th>
+						<th width="200">任务名称</th>
+						<th width="200">关键词</th>
+						<th width="100">类型</th>
+						<th width="130" >当前状态</th>
+						<th width="150">是否存证</th>
+						<th width="150">创建时间<a class="PX" type="Z" onclick="tableSort(this)"><i class="Hui-iconfont">&#xe6d5;</i></a></th>
+						<th width="300">操作</th>
+					</tr>
+				</thead>
+				<tbody id="tbodyl">
+					<tr class="text-c">
+							<td><input type="checkbox" onclick="check_input(this)" name="">
+								<input type="hidden" value="$data.id" name="id">
+							</td>
+							<td class="name"></td>
+							<td></td>
+							<td class="" ></td>
+							<td class="td-status"></td>
+							<td class=""></td>
+							<td class=""></td>
+							<td class="td-manage">
+							</td>
+						</tr>
+				</tbody>
+			</table>
+		</article>
+		<div  class="text-c pagebutton" style="margin-top: 15px">
+			<div id="Pagination" class="pagination"></div>
+		</div>
+	</div>
+</section>
+<script>
+
+    function admin_add1(title, url, w, h) {
+        data_window = layer_show(title, url, w, h)
+    }
+
+
+
+function admin_start(obj,id){
+    ajaxFunction("/publisher/search", "POST", "JSON", "application/json,charset=utf8", param, success, error);
+    layer.confirm('确认要启用吗？',function(index){
+    layer.msg('已开启!', {icon: 6,time:1000});
+ });
+}
+function admin_stop(obj,id){
+        layer.confirm('确认要停用吗？',function(index){
+        layer.msg('已停用!',{icon: 5,time:1000});
+        jQuery(obj).parents("tr").find(".td-manage").prepend('<a onClick="admin_start(this,id)" href="javascript:;" title="开始" style="text-decoration:none" data-toggle="tooltip" data-placement="top"><i class="Hui-iconfont list_result">&#xe631;</i></a>');
+        });
+}
+function evidence(){
+    window.location.href='/use/evidence.html'
+}
+
+</script>
+<script type="text/javascript" src="../static/lib/pagination/jquery.pagination.js"></script>
+<script type="text/javascript" src="/static/js/uselist.js"></script>
+<script type="text/javascript" src="/static/js/ajaxFunction.js"></script>
+
+<!--请在下方写此页面业务相关的脚本-->
+{% endblock %}

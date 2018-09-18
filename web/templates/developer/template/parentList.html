@@ -1,0 +1,86 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="renderer" content="webkit|ie-comp|ie-stand">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport"
+          content="width=device-width,initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"/>
+    <meta http-equiv="Cache-Control" content="no-siteapp"/>
+    <link rel="stylesheet" href="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="Bookmark" href="../favicon.ico">
+    <link rel="Shortcut Icon" href="../favicon.ico"/>
+    <!--[if lt IE 9]>
+    <script type="text/javascript" src="../static/lib/html5.js"></script>
+    <script type="text/javascript" src="../static/lib/respond.min.js"></script>
+    <![endif]-->
+    <link rel="stylesheet" type="text/css" href="../../static/h-ui/css/H-ui.min.css"/>
+    <link rel="stylesheet" type="text/css" href="../../static/h-ui.admin/css/H-ui.admin.css"/>
+    <link rel="stylesheet" type="text/css" href="../../static/lib/Hui-iconfont/1.0.8/iconfont.css"/>
+    <link rel="stylesheet" type="text/css" href="../../static/h-ui.admin/skin/default/skin.css" id="skin"/>
+    <link rel="stylesheet" type="text/css" href="../../static/h-ui.admin/css/style.css"/>
+    <link rel="stylesheet" type="text/css" href="/static/css/index.css">
+    <link rel="stylesheet" type="text/css" href="/static/lib/pagination/pagination.css"/>
+
+    <!--[if IE 6]>
+    <script type="text/javascript" src="http://lib.h-ui.net/DD_belatedPNG_0.0.8a-min.js"></script>
+    <script>DD_belatedPNG.fix('*');</script><![endif]-->
+    <style>
+        .backcolor {
+            background-color: #ccc;
+        }
+
+        .bgcolor {
+            background-color: #fff;
+        }
+    </style>
+</head>
+<body>
+<div class="row cl" style="margin-top: 20px;">
+    <div id="chooseTemplate">
+        <table class="table table-border table-bordered table-bg table-hover table-striped" id="agent"
+               style="width: 800px;position: relative; z-index: 9999;">
+            <thead>
+            <tr class="text-c" id="showOrNot" style="display: none">
+                <th width="30"><input type="checkbox" name="wholeCheckBox" id="wholeCheckBox_title"
+                                      value="wholeCheckBox" style="display: none"></th>
+                <th width="100">名称</th>
+                <th width="100">地址</th>
+            </tr>
+            </thead>
+            <tbody class='text-c' id="tbodyl">
+            <tr>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="text-c pagebutton" style="margin-top: 15px">
+        <div id="Pagination" class="pagination"></div>
+    </div>
+    <div class="row cl" style="margin-top: 20px;">
+            <span class="col-xs-1 col-sm-1 col-xs-offset-1 col-sm-offset-1">
+                <input class="btn btn-primary radius" type="button" onclick='savebtn()' id="saveBtn"
+                       value="&nbsp;&nbsp;保存&nbsp;&nbsp;">
+            </span>
+        <span class="">
+                <input class="btn  radius" type="button" id="cancel" style="margin-left: 100px;"
+                       value="&nbsp;&nbsp;取消&nbsp;&nbsp;">
+        </span>
+    </div>
+</div>
+<script src="/static/lib/jquery/1.9.1/jquery.min.js"></script>
+<script type="text/javascript" src="../../static/h-ui/js/H-ui.js"></script>
+<script type="text/javascript" src="../../static/lib/jquery/1.9.1/jquery.min.js"></script>
+<script type="text/javascript" src="../../static/h-ui/js/H-ui.js"></script>
+<script type="text/javascript" src="../../static/lib/jquery.validation/1.14.0/jquery.validate.js"></script>
+<script type="text/javascript" src="../../static/lib/jquery.validation/1.14.0/validate-methods.js"></script>
+<script type="text/javascript" src="../../static/lib/jquery.validation/1.14.0/messages_zh.js"></script>
+<script type="text/javascript" src="../../static/lib/layer/2.4/layer.js"></script>
+<script type="text/javascript" src="../../static/h-ui/js/H-ui.js"></script>
+<script type="text/javascript" src="../../static/lib/pagination/jquery.pagination.js"></script>
+<script type="text/javascript" src="../../static/h-ui.admin/js/H-ui.admin.page.js"></script>
+<script type="text/javascript" src="/static/js/ajaxFunction.js"></script>
+
+<script type="text/javascript" src="/static/js/developer_parent.js"></script>
+</body>
+</html>

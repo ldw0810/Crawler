@@ -1,0 +1,91 @@
+.collectionContainer{
+    background: #f0f0f0;
+}
+.pageContainer{
+    padding: 10px;
+}
+.topContainer{
+    background: #fff;
+    padding-top: 10px;
+    padding-left: 5px;
+    height: 400px;
+}
+.topContainer .pie{
+    width:50%;
+    height:400px;
+    float:left;
+    /*background: pink;*/
+}
+.topContainer .bar{
+    width:50%;
+    height:400px;
+    display: inline-block;
+    height: 400px;
+    float: right;
+}
+.topContainer .barContent{
+    margin-top: 20px;
+    width:100%;
+}
+.topContainer .pieContent{
+    margin-top: 20px;
+    height:300px;
+}
+/*.subContent .barContent{*/
+    /*margin-top: 20px;*/
+/*}*/
+.topContainer .barContent .barItem{
+    height:40px;
+    line-height: 40px;
+    margin-top:10px;
+    white-space: nowrap;
+    overflow:hidden;
+    width:100%;
+    /*border: 1px solid hotpink;*/
+}
+ .topContainer .progressName{
+     display: inline-block;
+     width:25%;
+     line-height: 40px;
+     font-size: 12px;
+     /*font-weight: bold;*/
+     /*float: left;*/
+ }
+.topContainer .progressBar{
+    display: inline-block;
+    width:40%;
+    line-height: 40px;
+    border: 1px solid #0064B4;
+    height: 12px;
+    border-radius: 8px;
+    z-index: 10;
+    /*float: left;*/
+ }
+progress::-webkit-progress-bar { background: #ffffff;border-radius: 8px; }
+progress::-webkit-progress-value  { background:#4c99d6;border-radius: 8px; }
+.topContainer .progressPercent{
+    display: inline-block;
+    width:10%;
+    line-height: 40px;
+    font-size: 12px;
+    color: #4c99d6;
+    /*float: left;*/
+ }
+.topContainer .progressNum{
+    display: inline-block;
+    width:10%;
+    line-height: 40px;
+    font-size: 12px;
+    color: #4c99d6;
+    /*float: left;*/
+ }
+.subContainer{
+    background: #fff;
+    margin-top: 16px;
+    padding-top: 10px;
+    padding-left: 5px;
+    height: 400px;
+}
+.subContainer .subContent{
+    height: 350px;
+}

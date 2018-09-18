@@ -1,0 +1,10 @@
+.ui-see-hover{
+    border:3px solid red;
+    position: absolute;
+    z-index: 1000;
+}
+#info-content{
+    width:400px;
+    overflow: hidden;
+    white-space: normal;
+}

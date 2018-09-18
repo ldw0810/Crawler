@@ -1,0 +1,159 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="renderer" content="webkit|ie-comp|ie-stand">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport"
+          content="width=device-width,initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"/>
+    <meta http-equiv="Cache-Control" content="no-siteapp"/>
+    <link rel="stylesheet" href="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="Bookmark" href="../favicon.ico">
+    <link rel="Shortcut Icon" href="../favicon.ico"/>
+    <!--[if lt IE 9]>
+    <script type="text/javascript" src="../static/lib/html5.js"></script>
+    <script type="text/javascript" src="../static/lib/respond.min.js"></script>
+    <![endif]-->
+    <link rel="stylesheet" type="text/css" href="../static/h-ui/css/H-ui.min.css"/>
+    <link rel="stylesheet" type="text/css" href="../static/h-ui.admin/css/H-ui.admin.css"/>
+    <link rel="stylesheet" type="text/css" href="../static/lib/Hui-iconfont/1.0.8/iconfont.css"/>
+    <link rel="stylesheet" type="text/css" href="../static/h-ui.admin/skin/default/skin.css" id="skin"/>
+    <link rel="stylesheet" type="text/css" href="../static/h-ui.admin/css/style.css"/>
+    <link rel="stylesheet" type="text/css" href="/static/css/index.css">
+    <!--[if IE 6]>
+    <script type="text/javascript" src="http://lib.h-ui.net/DD_belatedPNG_0.0.8a-min.js"></script>
+    <script>DD_belatedPNG.fix('*');</script><![endif]-->
+    <!--/meta 作为公共模版分离出去-->
+
+    <title>添加地址 - 地址管理 </title>
+    <meta name="keywords" content="H-ui.admin v3.0,H-ui网站后台模版,后台模版下载,后台管理系统模版,HTML后台模版下载">
+    <meta name="description" content="H-ui.admin v3.0，是一款由国人开发的轻量级扁平化网站后台模板，完全免费开源的网站后台管理系统模版，适合中小型CMS后台系统。">
+    <style>
+        .backcolor {
+            background-color: #ccc;
+        }
+
+        .bgcolor {
+            background-color: #fff;
+        }
+    </style>
+</head>
+<body>
+<div id="content" style="padding-left: 25px;">
+    <div class="row cl ">
+        <span class="form-label col-xs-2 col-sm-4 col-md-offset-2" style="text-align: left;">名称</span>
+        <span class="form-label col-xs-2 col-sm-8" style="text-align: left;">地址</span>
+    </div>
+
+
+</div>
+<script src="http://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="../static/lib/jquery/1.9.1/jquery.min.js"></script>
+<script type="text/javascript" src="/static/js/ajaxFunction.js"></script>
+<script type="text/javascript" src="../static/h-ui/js/H-ui.js"></script>
+<script type="text/javascript" src="../static/lib/jquery.validation/1.14.0/jquery.validate.js"></script>
+<script type="text/javascript" src="../static/lib/jquery.validation/1.14.0/validate-methods.js"></script>
+<script type="text/javascript" src="../static/lib/jquery.validation/1.14.0/messages_zh.js"></script>
+<script type="text/javascript" src="../static/js/jsAddress.js"></script>
+<script type="text/javascript" src="../../static/lib/layer/2.4/layer.js"></script>
+<script type="text/javascript" src="../../static/h-ui/js/H-ui.js"></script>
+<script type="text/javascript" src="../../static/h-ui.admin/js/H-ui.admin.page.js"></script>
+<script type="text/javascript">
+    var parId = "";
+    ajaxFunction("/getTaskList", "POST", "JSON", "application/json,charset=utf8", null, success, error);
+    function success(res) {
+        data = res['taskList'];
+        for (var i = 0; i < data.length; i++) {
+            var url = "";
+            if (data[i].url) {
+                url = data[i].url;
+            }
+            if (data[i].childrenNum > 0) {
+                $("#content").append("<div class='row cl'id='" + data[i].id + "'  onclick='showChild(this ,\"" + data[i].id + "\")'>" +
+                    "<span class='form-label col-xs-2 col-sm-4' style='text-align: left;'><i class='Hui-iconfont list_result'>&#xe600;</i>" + data[i].name + "</span>" +
+                    "<span class='form-label col-xs-2 col-sm-8' style='text-align: left;height:32px'>" + url + "</span>" +
+                    "</div><hr />"
+                );
+            } else {
+                $("#content").append("<div class='row cl'id='" + data[i].id + "'  onclick='showChild(this ,\"" + data[i].id + "\")'>" +
+                    "<span class='form-label col-xs-2 col-sm-4' style='text-align: left;'>" + data[i].name + "</span>" +
+                    "<span class='form-label col-xs-2 col-sm-8' style='text-align: left;height:32px'>" + url + "</span>" +
+                    "</div><hr />"
+                );
+            }
+        }
+
+        $("#content").append("<button class='btn btn-primary radius' id='saveBtn' style='margin-top:20px;'>" + "保存" + "</button>"+
+            "<button class='btn radius' id='cancelBtn' style='margin-top:20px;  margin-left: 20px;'>" + "取消" + "</button>"
+        );
+    }
+
+    function showChild(obj, id) {
+{#        window.parent.parentShowId(id);#}
+        parId = id;
+        if ($(".backcolor")) {
+            $(".backcolor").removeClass("backcolor");
+        }
+        $(obj).removeClass("bgcolor").addClass("backcolor");
+        $(obj).siblings("div").removeClass("backcolor").addClass("bgcolor");
+        if ($(obj).has("div").length == 0) {
+            $(obj).find("i").html("&#xe6a1;");
+            ajaxFunction("/getTaskList", "POST", "JSON", "application/json,charset=utf8", {"parentId": id}, childList, error);
+        } else {
+            $(obj).find("i").html("&#xe600;");
+            $(obj).find("div").remove();
+
+        }
+    }
+    function childList(res) {
+        data = res['taskList'];
+        if (data.length == 0) {
+            return;
+        }
+        var id = "";
+        for (var i = 0; i < data.length; i++) {
+            var url = "";
+            if (data[i].url) {
+                url = data[i].url;
+            }
+            id = data[i].parentId;
+            $("#" + id).append("<div class='row cl' style='padding-left:35px;float: left;width: 100%;' id='" + data[i].id + "' onclick='showChildStop(this ,\"" + data[i].id + "\")'>" +
+                "<span class='form-label col-xs-2 col-sm-4' style='text-align: left;'>" + data[i].name + "</span>" +
+                "<span class='form-label col-xs-2 col-sm-8' style='text-align: left;height:32px'>" + url + "</span>" +
+                "</div><hr />")
+        }
+    }
+
+    function showChildStop(obj, id) {
+        event.stopPropagation();
+{#        window.parent.parentShowId(id);#}
+        parId = id;
+        if ($(".backcolor")) {
+            $(".backcolor").removeClass("backcolor");
+        }
+        $(obj).removeClass("bgcolor").addClass("backcolor");
+        $(obj).siblings("div").removeClass("backcolor").addClass("bgcolor");
+        if ($(obj).has("div").length == 0) {
+            ajaxFunction("/getTaskList", "POST", "JSON", "application/json,charset=utf8", {"parentId": id}, childList, error);
+        } else {
+            $(obj).find("div").remove();
+        }
+    }
+
+    function error() {
+
+    }
+
+    $("#saveBtn").click(function () {
+        window.parent.parentShowId(parId);
+        layer_close();
+    });
+    $("#cancelBtn").click(function () {
+        layer_close();
+    });
+
+
+</script>
+</body>
+</html>

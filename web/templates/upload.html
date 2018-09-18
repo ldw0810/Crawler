@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>asdasd</title>
+    <script src=""></script>
+</head>
+<body>
+<form action="/upload" method="post" onsubmit="return checkSubmit()" enctype="multipart/form-data">
+    <input type="file" name="file" id="file" style="opacity: 0" onchange="handleFile()"/>
+    <input type="text" disabled="disable" value="未上传文件" id="fileName" style="border: solid 1px #5a98de;
+    margin-left: -141px;margin-top: 8px;background: white;height: 27px;border-radius: 5px; width: 172px;
+    white-space:nowrap; overflow:hidden; text-overflow:ellipsis;">
+    <input id="mouldText" type="text" value="1" name="type" style="opacity: 0">
+    <input type="submit" style="margin-left: -182px;opacity: 0;width: 100px;" value="上传文件"/>
+</form>
+<script>
+    var file = document.getElementById("file");
+    var fileName = document.getElementById("fileName");
+    function handleFile() {
+        fileName.value = file.value;
+    }
+    function  checkSubmit() {
+        if (parent && parent.checkSubmit){
+            return parent.checkSubmit(document.getElementById("file"))
+        }
+        return true
+    }
+</script>
+</body>
+</html>

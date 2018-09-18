@@ -1,0 +1,213 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="renderer" content="webkit|ie-comp|ie-stand">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport"
+          content="width=device-width,initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"/>
+    <meta http-equiv="Cache-Control" content="no-siteapp"/>
+    <link rel="Bookmark" href="../favicon.ico">
+    <link rel="Shortcut Icon" href="../favicon.ico"/>
+    <!--[if lt IE 9]>
+    <script type="text/javascript" src="../static/lib/html5.js"></script>
+    <script type="text/javascript" src="../static/lib/respond.min.js"></script>
+
+    <![endif]-->
+
+    <script type="text/javascript" src="../static/lib/My97DatePicker/4.8/WdatePicker.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="../static/h-ui/css/H-ui.min.css"/>
+    <link rel="stylesheet" type="text/css" href="../static/h-ui.admin/css/H-ui.admin.css"/>
+    <link rel="stylesheet" type="text/css" href="../static/lib/Hui-iconfont/1.0.8/iconfont.css"/>
+    <link rel="stylesheet" type="text/css" href="../static/h-ui.admin/skin/default/skin.css" id="skin"/>
+    <link rel="stylesheet" type="text/css" href="../static/h-ui.admin/css/style.css"/>
+    <link rel="stylesheet" type="text/css" href="/static/css/multiple-select.css">
+    <link rel="stylesheet" type="text/css" href="/static/css/editPL.css">
+    <!--[if IE 6]>
+    <script type="text/javascript" src="http://lib.h-ui.net/DD_belatedPNG_0.0.8a-min.js"></script>
+    <script>DD_belatedPNG.fix('*');</script><![endif]-->
+    <!--/meta 作为公共模版分离出去-->
+
+    <title>添加地址 - 地址管理 </title>
+    <meta name="keywords" content="H-ui.admin v3.0,H-ui网站后台模版,后台模版下载,后台管理系统模版,HTML后台模版下载">
+    <meta name="description" content="H-ui.admin v3.0，是一款由国人开发的轻量级扁平化网站后台模板，完全免费开源的网站后台管理系统模版，适合中小型CMS后台系统。">
+</head>
+<body>
+<article class="cl pd-20">
+    <form action="" method="post" class="form form-horizontal" id="use_editPL" style="">
+        <table id="editePLPage" class="table table-border table-bordered" style="text-align: left">
+            <tbody>
+            <tr class="text-c">
+                <td class="first_colum">
+                    <label class="form-label"><span class="c-red">*</span>开始时间：</label>
+                </td>
+                <td class="middle_colum">
+                     <span class="radio-box">
+                        <input type="radio" id="radio-1" name="startTime" value="" checked>
+                        <label for="radio-1">配置结束立即开始</label>
+                </span>
+                </td>
+                <td class="middle_colum" colspan="2">
+                    <span class="radio-box">
+                        <input type="radio" id="radio-2" name="startTime" value="">
+                    <label for="radio-2">设定开始时间</label>
+                    </span>
+                    <input type="text" onfocus="WdatePicker()" id="datemin" class="input-text Wdate"
+                           style="width:120px;">
+                </td>
+            </tr>
+            <tr class="text-c">
+                <td class="first_colum">
+                    <label class="form-label"><span class="c-red">*</span>执行频率：</label>
+                </td>
+                <td class="middle_colum">
+                    <span class="radio-box">
+                        <input type="radio" id="radio-p1" name="repeatTime" value="0">
+                        <label for="radio-1">只执行一次</label>
+                    </span>
+                </td>
+                <td colspan="2" class="middle_colum">
+                    <span class="radio-box">
+                        <input type="radio" id="radio-p2" name="repeatTime" value="1" checked>
+                        <label for="radio-2">简单重复执行</label>
+                    </span>
+                </td>
+            </tr>
+            <tr class="text-c">
+                <td class="first_colum">
+                    <label class="form-label"><span class="c-red">*</span>明细频率设置：</label>
+                </td>
+                <td class="middle_colum" id="clo-3">
+                    <div style="height:30px;"><label id="ex_time">执行时间:</label></div>
+                    <div><input type="text" id="hour" class="input-text" name="hour"><label>时</label><input type="text"
+                                                                                                            class="input-text"
+                                                                                                            id="minute"
+                                                                                                            name="minute"><label>分</label>
+                    <div id="infoMation">不能为空</div>
+                    </div>
+                </td>
+                <td class="middle_colum" colspan="2">
+                    <div style="height:30px;padding-left: 5px;"><label>执行周期:</label></div>
+                    <span class="check-box" class="clo">
+                        <input type="checkbox" id="day" value="0" checked>
+                        <label for="day">每日</label>
+                    </span>
+                    <span class="check-box" class="clo">
+                        <input type="checkbox" id="week_Day" name="weekDay">
+                        <label for="week_Day">每周</label>
+                        <select multiple="multiple" id="multiple-2" style="width:100px;">
+                            <option value="7">星期日</option>
+                            <option value="1">星期一</option>
+                            <option value="2">星期二</option>
+                            <option value="3">星期三</option>
+                            <option value="4">星期四</option>
+                            <option value="5">星期五</option>
+                            <option value="6">星期六</option>
+                        </select>
+                    </span>
+                    <span class="check-box" class="clo">
+                        <input type="checkbox" id="month_Day" name="monthDay">
+                        <label for="month_Day">每月</label>
+                        <select multiple="multiple" id="multiple-1" style="width:100px;">
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                            <option>6</option>
+                            <option>7</option>
+                            <option>8</option>
+                            <option>9</option>
+                            <option>10</option>
+                            <option>11</option>
+                            <option>12</option>
+                            <option>13</option>
+                            <option>14</option>
+                            <option>15</option>
+                            <option>16</option>
+                            <option>17</option>
+                            <option>18</option>
+                            <option>19</option>
+                            <option>20</option>
+                            <option>21</option>
+                            <option>22</option>
+                            <option>23</option>
+                            <option>24</option>
+                             <option>25</option>
+                            <option>26</option>
+                            <option>27</option>
+                            <option>28</option>
+                            <option>29</option>
+                             <option>30</option>
+                             <option>31</option>
+                        </select>
+                    </span>
+                    <span class="check-box" class="clo">
+                        <input type="checkbox" id="year_Month" name="yearMonth">
+                        <label for="year_Month">每年:</label>
+                         <select multiple="multiple" id="multiple">
+                            <option value="1">1月</option>
+                            <option value="2">2月</option>
+                            <option value="3">3月</option>
+                            <option value="4">4月</option>
+                            <option value="5">5月</option>
+                            <option value="6">6月</option>
+                            <option value="7">7月</option>
+                            <option value="8">8月</option>
+                            <option value="9">9月</option>
+                            <option value="10">10月</option>
+                            <option value="11">11月</option>
+                            <option value="12">12月</option>
+                        </select>
+                    </span>
+
+                </td>
+            </tr>
+            <tr class="text-c">
+                <td class="first_colum">
+                    <label class="form-label">
+                        <span class="c-red">*</span>结束时间：</label>
+                </td>
+                <td class="middle_colum">
+                     <span class="radio-box">
+                        <input type="radio" id="radio-e1" name="endTime" value="" checked>
+                        <label for="radio-1">无限期</label>
+                    </span>
+                </td>
+                <td class="middle_colum" colspan="2">
+                    <span class="radio-box">
+                        <input type="radio" id="radio-e2" name="endTime" value="">
+                        <label for="radio-2">设定结束时间</label>
+                    </span>
+                    <input type="text" onfocus="WdatePicker()" id="endT" class="input-text Wdate" style="width:120px;">
+                </td>
+            </tr>
+            <tr class="text-c">
+                <td colspan="5">
+                    <input id="saveBtn" class="btn btn-primary radius" type="button" value="&nbsp;&nbsp;提交&nbsp;&nbsp;">
+                    <input class="btn  radius" id="cancelBtn" type="button" value="&nbsp;&nbsp;取消&nbsp;&nbsp;">
+                </td>
+            </tr>
+            </tbody>
+        </table>
+    </form>
+</article>
+<script type="text/javascript" src="../static/lib/jquery/1.9.1/jquery.min.js"></script>
+<script>
+    jQuery.noConflict();
+</script>
+<script type="text/javascript" src="../static/h-ui/js/H-ui.js"></script>
+<script type="text/javascript" src="../../static/lib/layer/2.4/layer.js"></script>
+<script type="text/javascript" src="../../static/h-ui.admin/js/H-ui.admin.page.js"></script>
+<!--请在下方写此页面业务相关的脚本-->
+<script type="text/javascript" src="../static/lib/jquery.validation/1.14.0/jquery.validate.js"></script>
+<script type="text/javascript" src="../static/lib/jquery.validation/1.14.0/validate-methods.js"></script>
+<script type="text/javascript" src="../static/lib/jquery.validation/1.14.0/messages_zh.js"></script>
+<script type="text/javascript" src="../static/js/jsAddress.js"></script>
+<script type="text/javascript" src="../static/js/multiple-select.js"></script>
+<script type="text/javascript" src="/static/js/ajaxFunction.js"></script>
+<script type="text/javascript" src="/static/js/editPL.js"></script>
+<!--/请在上方写此页面业务相关的脚本-->
+</body>
+</html>

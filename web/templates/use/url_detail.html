@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="/static/h-ui/css/H-ui.min.css"/>
+    <link rel="stylesheet" type="text/css" href="/static/h-ui.admin/css/H-ui.admin.css"/>
+    <link rel="stylesheet" type="text/css" href="/static/lib/Hui-iconfont/1.0.8/iconfont.css"/>
+    <link rel="stylesheet" type="text/css" href="/static/h-ui.admin/skin/blue/skin.css" id="skin"/>
+    <link rel="stylesheet" type="text/css" href="/static/h-ui.admin/css/style.css"/>
+    <link rel="stylesheet" type="text/css" href="/static/css/index.css">
+    <link rel="stylesheet" type="text/css" href="/static/lib/pagination/pagination.css"/>
+    <script type="text/javascript" src="../../static/lib/jquery/1.9.1/jquery.min.js"></script>
+    <script type="text/javascript" src="/static/lib/layer/2.4/layer.js"></script>
+    <script type="text/javascript" src="/static/h-ui/js/H-ui.js"></script>
+    <script type="text/javascript" src="/static/h-ui.admin/js/H-ui.admin.page.js"></script>
+    <script type="text/javascript" src="/static/lib/pagination/jquery.pagination.js"></script>
+    <script type="text/javascript" src="/static/js/ajaxFunction.js"></script>
+    <link rel="stylesheet" type="text/css" href="/static/css/index.css">
+</head>
+<body>
+<header class="navbar-wrapper">
+    <div class="navbar navbar-fixed-top">
+        <div class="container-fluid cl"><a id="sefonicon" class="logo navbar-logo f-l mr-10 hidden-xs"
+                                           onclick="sefonicon()" href="/list/template/developer">sefon</a>
+            <a class="logo navbar-logo-m f-l mr-10 visible-xs">H-ui</a>
+            {#<span
+                    class="logo navbar-slogan f-l mr-10 hidden-xs">Demo</span> #}
+            <a aria-hidden="false"
+                                                                                  class="nav-toggle Hui-iconfont visible-xs"
+                                                                                  href="javascript:;">&#xe667;</a>
+            <nav id="Hui-userbar" class="nav navbar-nav navbar-userbar hidden-xs">
+                <ul class="cl">
+                    <li id="admin" style="display: none"><img style="width: 18px;height: 18px;margin-right:6px;"
+                                                              src="/static/images/admin.png"></li>
+                    <li id="rent" style="display: none"><img
+                            style="width: 18px;height: 18px;margin-right:6px;margin-top:-2px"
+                            src="/static/images/rent.png"></li>
+                    <li id="user" style="display: none"><img
+                            style="width: 18px;height: 18px;margin-right:6px;margin-top:-2px"
+                            src="/static/images/user.png"></li>
+                    <li id="developer" style="display: none"><img
+                            style="width: 18px;height: 18px;margin-right:6px;margin-top:-2px"
+                            src="/static/images/developer.png"></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</header>
+<aside class="Hui-aside_use Hui-aside">
+    <input runat="server" id="divScrollValue" type="hidden" value=""/>
+    <div id="use">
+        <ul class="work">
+            <li id="menu-user5" class="checked">
+                <a style="text-decoration: none" href="#" onclick="window.history.go(-1);" title="返回" name="">
+                    <i class="Hui-iconfont">&#xe6d4;</i>
+                    <span>返回</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+</aside>
+<article class="cl pd-20"style="margin-left: 200px;">
+    <table class="table table-border table-bordered table-bg table-hover table-striped" id="taskList"
+           style="margin-top: 20px;">
+        <thead>
+        <tr class="text-c">
+            <th width="200">名称</th>
+            <th width="200">url</th>
+        </tr>
+        </thead>
+        <tbody id="tbodyl">
+        </tbody>
+    </table>
+</article>
+<div class="text-c pagebutton" style="margin-top: 15px">
+    <div id="Pagination" class="pagination"></div>
+</div>
+<script type="text/javascript" src="/static/h-ui/js/H-ui.js"></script>
+<script type="text/javascript" src="/static/lib/jquery.validation/1.14.0/jquery.validate.js"></script>
+<script type="text/javascript" src="/static/lib/jquery.validation/1.14.0/validate-methods.js"></script>
+<script type="text/javascript" src="/static/lib/jquery.validation/1.14.0/messages_zh.js"></script>
+<script type="text/javascript" src="/static/lib/layer/2.4/layer.js"></script>
+<script type="text/javascript" src="/static/h-ui/js/H-ui.js"></script>
+<script type="text/javascript" src="/static/h-ui.admin/js/H-ui.admin.page.js"></script>
+<script type="text/javascript" src="../../static/lib/pagination/jquery.pagination.js"></script>
+<script type="text/javascript" src="/static/js/ajaxFunction.js"></script>
+<script type="text/javascript" src="/static/js/url_detail.js"></script>
+<script>
+</script>
+</body>
+</html>

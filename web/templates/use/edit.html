@@ -1,0 +1,340 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="renderer" content="webkit|ie-comp|ie-stand">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport"
+          content="width=device-width,initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"/>
+    <meta http-equiv="Cache-Control" content="no-siteapp"/>
+    <link rel="Bookmark" href="../favicon.ico">
+    <link rel="Shortcut Icon" href="../favicon.ico"/>
+    <!--[if lt IE 9]>
+    <script type="text/javascript" src="../static/lib/html5.js"></script>
+    <script type="text/javascript" src="../static/lib/respond.min.js"></script>
+
+    <![endif]-->
+
+    <script type="text/javascript" src="../static/lib/My97DatePicker/4.8/WdatePicker.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="../static/h-ui/css/H-ui.min.css"/>
+    <link rel="stylesheet" type="text/css" href="../static/h-ui.admin/css/H-ui.admin.css"/>
+    <link rel="stylesheet" type="text/css" href="../static/lib/Hui-iconfont/1.0.8/iconfont.css"/>
+    <link rel="stylesheet" type="text/css" href="../static/h-ui.admin/skin/default/skin.css" id="skin"/>
+    <link rel="stylesheet" type="text/css" href="../static/h-ui.admin/css/style.css"/>
+    <link rel="stylesheet" type="text/css" href="/static/css/multiple-select.css">
+     <link rel="stylesheet" type="text/css" href="/static/css/index.css">
+    <link rel="stylesheet" type="text/css" href="/static/css/edit.css">
+    <!--[if IE 6]>
+    <script type="text/javascript" src="http://lib.h-ui.net/DD_belatedPNG_0.0.8a-min.js"></script>
+    <script>DD_belatedPNG.fix('*');</script><![endif]-->
+    <!--/meta 作为公共模版分离出去-->
+
+    <title>添加地址 - 地址管理 </title>
+    <meta name="keywords" content="H-ui.admin v3.0,H-ui网站后台模版,后台模版下载,后台管理系统模版,HTML后台模版下载">
+    <meta name="description" content="H-ui.admin v3.0，是一款由国人开发的轻量级扁平化网站后台模板，完全免费开源的网站后台管理系统模版，适合中小型CMS后台系统。">
+</head>
+<body>
+<header class="navbar-wrapper">
+    <div class="navbar navbar-fixed-top">
+        <div class="container-fluid cl"><a id="sefonicon" class="logo navbar-logo f-l mr-10 hidden-xs" onclick="sefonicon()" href="/list/template/developer">sefon</a>
+            <a class="logo navbar-logo-m f-l mr-10 visible-xs">H-ui</a> <span
+                    class="logo navbar-slogan f-l mr-10 hidden-xs">Demo</span> <a aria-hidden="false" class="nav-toggle Hui-iconfont visible-xs" href="javascript:;">&#xe667;</a>
+            <nav id="Hui-userbar" class="nav navbar-nav navbar-userbar hidden-xs">
+                <ul class="cl">
+                    <li id="admin" style="display: none"><img style="width: 18px;height: 18px;margin-right:6px;" src="/static/images/admin.png"></li>
+                    <li id="rent" style="display: none"><img style="width: 18px;height: 18px;margin-right:6px;margin-top:-2px" src="/static/images/rent.png"></li>
+                    <li id="user" style="display: none"><img style="width: 18px;height: 18px;margin-right:6px;margin-top:-2px" src="/static/images/user.png"></li>
+                    <li id="developer" style="display: none"><img style="width: 18px;height: 18px;margin-right:6px;margin-top:-2px" src="/static/images/developer.png"></li>
+                    <li id="power">用户</li>
+                    <li class="dropDown dropDown_hover"><a href="#" class="dropDown_A" id="userPower">user <i
+                            class="Hui-iconfont">&#xe6d5;</i></a>
+                        <ul class="dropDown-menu menu radius box-shadow">
+                            <li><a href="#">个人信息</a></li>
+                        </ul>
+                    </li>
+                    <li id="Hui-msg"><a id="identity" onclick="identity()" href="/messages/developer" title="消息"><span class="badge badge-danger">1</span><i
+                            class="Hui-iconfont" style="font-size:18px">&#xe68a;</i></a></li>
+                    <li id="Hui-skin" class="dropDown right dropDown_hover"><a href="javascript:;" class="dropDown_A" title="换肤"><i class="Hui-iconfont" style="font-size:18px">&#xe62a;</i></a>
+                        <ul class="dropDown-menu menu radius box-shadow">
+                            <!--<li><a href="javascript:;" data-val="default" title="默认（黑色）">默认（黑色）</a></li>-->
+                            <li><a href="javascript:;" data-val="blue" title="蓝色">蓝色</a></li>
+                            <li><a href="javascript:;" data-val="green" title="绿色">绿色</a></li>
+                            <li><a href="javascript:;" data-val="red" title="红色">红色</a></li>
+                            <li><a href="javascript:;" data-val="yellow" title="黄色">黄色</a></li>
+                            <li><a href="javascript:;" data-val="orange" title="绿色">橙色</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</header>
+<aside class="Hui-aside_use Hui-aside">
+    <input runat="server" id="divScrollValue" type="hidden" value=""/>
+      <div  id="use">
+            <ul class="work">
+                <li id="menu-user5" class="checked" >
+                    <a style="text-decoration: none"  href="#" onclick="window.history.go(-1);"  title="返回" name="">
+                        <i class="Hui-iconfont">&#xe6d4;</i>
+                         <span>返回</span>
+                    </a>
+                </li>
+            </ul>
+      </div>
+</aside>
+<article class="cl">
+    <form action="" method="post" class="form form-horizontal" id="form-url-add">
+        <table id="editePage" class="table table-border table-bordered table-bg" >
+            <thead>
+                <tr>
+                    <th scope="col" colspan="3">添加任务</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="text-c">
+                    <td class="first_colum">
+                        <label class="form-label"><span class="c-red">*</span>任务名称：</label>
+                    </td>
+                    <td class="middle_colum" colspan="2">
+                         <span class="radio-box">
+                            <input style="width: 200px" type="text" class="input-text" name="name" id="radio-edit_0" name="radio-edit_0" placeholder="请填写任务名称">
+                    </span>
+                    </td>
+                </tr>
+                <tr class="text-c">
+                    <td class="first_colum">
+                        <label class="form-label"><span class="c-red">*</span>开始时间：</label>
+                    </td>
+                    <td class="middle_colum">
+                         <span class="radio-box">
+                            <input type="radio" id="radio-edit_1" name="startTime" value="0">
+                            <label for="radio-edit_1">配置结束立即开始</label>
+                    </span>
+                    </td>
+                    <td class="middle_colum" colspan="2">
+                        <span class="radio-box">
+                            <input type="radio" id="radio-edit_2" name="startTime" value="1" checked>
+                        <label for="radio-edit_2">设定开始时间</label>
+                        </span>
+                        <input type="text" onfocus="WdatePicker()" id="datemin_1" class="input-text Wdate" style="width:120px;">
+                    </td>
+                </tr>
+                 <tr class="text-c">
+                    <td class="first_colum">
+                        <label class="form-label"><span class="c-red">*</span>执行频率：</label>
+                    </td>
+                    <td class="middle_colum">
+                         <span class="radio-box">
+                            <input type="radio" id="radio-edit_3" name="rateTime" value="0">
+                            <label for="radio-edit_3">只执行一次</label>
+                    </span>
+                    </td>
+                    <td class="middle_colum" colspan="2">
+                        <span class="radio-box">
+                            <input type="radio" id="radio-edit_3" name="rateTime" value="1" checked>
+                        <label for="radio-edit_4">简单重复执行</label>
+                        </span>
+                    </td>
+                </tr>
+                <tr class="text-c" >
+                    <td class="first_colum">
+                       <label class="form-label"><span class="c-red">*</span>明细频率设置：</label>
+                    </td>
+                    <td class="middle_colum" id="clo-3">
+                        <div style="height:30px;"><label id="ex_time">执行时间:</label></div>
+                        <div><input type="text" class="input-text"><label>时</label><input type="text" class="input-text"><label>分</label></div>
+                    </td>
+                    <td class="middle_colum" colspan="2">
+                        <div style="height:30px;padding-left: 5px;"><label>执行周期:</label></div>
+                        <span class="radio-box" class="clo" >
+                            <input type="radio" id="radio-edit_5" name="detailRate"value="0">
+                            <label for="radio-edit_5">每日</label>
+                        </span>
+                        <span class="radio-box" class="clo">
+                            <input type="radio" id="radio-edit_6" name="detailRate" value="1" checked>
+                            <label for="radio-edit_6">每周</label>
+                            <select  multiple="multiple"  id="multiple-2" style="width:100px;">
+                                <option>星期日</option>
+                                <option>星期一</option>
+                                <option>星期二</option>
+                                <option>星期三</option>
+                                <option>星期四</option>
+                                <option>星期五</option>
+                                <option>星期六</option>
+                            </select>
+                        </span>
+                        <span class="radio-box" class="clo">
+                            <input type="radio" id="radio-edit_7" name="detailRate" value="1" checked>
+                            <label for="radio-edit_7">每月</label>
+                            <select multiple="multiple"  id="multiple-1" style="width:100px;">
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
+                                <option>6</option>
+                                <option>7</option>
+                                <option>8</option>
+                                <option>9</option>
+                                <option>10</option>
+                                <option>11</option>
+                                <option>12</option>
+                                <option>13</option>
+                                <option>14</option>
+                                <option>15</option>
+                                <option>16</option>
+                                <option>17</option>
+                                <option>18</option>
+                                <option>19</option>
+                                <option>20</option>
+                                <option>21</option>
+                                <option>22</option>
+                                <option>23</option>
+                                <option>24</option>
+                                 <option>25</option>
+                                <option>26</option>
+                                <option>27</option>
+                                <option>28</option>
+                                <option>29</option>
+                                 <option>30</option>
+                                 <option>31</option>
+                            </select>
+                        </span>
+                        <span class="radio-box" class="clo">
+                            <input type="radio" id="radio-edit_8" name="detailRate" value="1" checked>
+                            <label for="radio-edit_8">执行月:</label>
+                             <select  multiple="multiple"  id="multiple">
+                                <option>1月</option>
+                                <option>2月</option>
+                                <option>3月</option>
+                                <option>4月</option>
+                                <option>5月</option>
+                                <option>6月</option>
+                                <option>7月</option>
+                                <option>8月</option>
+                                <option>9月</option>
+                                <option>10月</option>
+                                <option>11月</option>
+                                <option>12月</option>
+                            </select>
+                        </span>
+                        <span class="radio-box" class="clo" >
+                            <input type="radio" id="radio-edit_9" name="detailRate"value="0">
+                            <label for="radio-edit_9">每年</label>
+                        </span>
+                    </td>
+                </tr>
+                <tr class="text-c">
+                    <td class="first_colum">
+                       <label class="form-label">
+                           <span class="c-red">*</span>结束时间：</label>
+                    </td>
+                    <td class="middle_colum">
+                         <span class="radio-box">
+                            <input type="radio" id="radio-edit_10" name="endTime" value="0">
+                            <label for="radio-edit_2">无限期</label>
+                        </span>
+                    </td>
+                    <td class="middle_colum" colspan="2">
+                        <span class="radio-box">
+                            <input type="radio" id="radio-edit_11" name="endTime" value="1" checked>
+                            <label for="radio-edit_11">设定结束时间</label>
+                        </span>
+                        <input type="text" onfocus="WdatePicker()" class="input-text Wdate" style="width:120px;">
+                    </td>
+                </tr>
+                <tr class="text-c">
+                    <td class="first_colum">
+                       <label class="form-label"><span class="c-red">*</span>是否同源：</label>
+                    </td>
+                    <td class="middle_colum">
+                        <span class="radio-box" id="select_iso1">
+                            <input type="radio" id="radio-iso1" name="rate" value="0" checked>
+                            <label for="radio-iso1">不同源</label>
+                        </span>
+                    </td>
+                    <td colspan="2" class="middle_colum">
+                        <span class="radio-box" id="select_iso2">
+                            <input type="radio" id="radio-iso2" name="rate" value="1">
+                            <label for="radio-iso2">同源</label>
+                        </span>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </form>
+                <div class="text-c" style="margin-left: 100px;margin-top: 20px;">
+                     <span class="col-xs-1 col-sm-1 col-xs-offset-1 col-sm-offset-1">
+                       <input id="saveBtn_edit" class="btn btn-primary radius" type="button" value="提交">
+                    </span>
+                     <span class="col-xs-1 col-sm-1 col-xs-offset-1 col-sm-offset-1">
+                       <input id="cancelBtn_edit" class="btn btn-primary radius" type="button" value="取消">
+                    </span>
+                </div>
+
+</article>
+<script type="text/javascript" src="../static/lib/jquery/1.9.1/jquery.min.js"></script>
+<script>
+    jQuery.noConflict();
+</script>
+<script type="text/javascript" src="../static/h-ui/js/H-ui.js"></script>
+<!--请在下方写此页面业务相关的脚本-->
+<script type="text/javascript" src="../static/lib/jquery.validation/1.14.0/jquery.validate.js"></script>
+<script type="text/javascript" src="../static/lib/jquery.validation/1.14.0/validate-methods.js"></script>
+<script type="text/javascript" src="../static/lib/jquery.validation/1.14.0/messages_zh.js"></script>
+<script type="text/javascript" src="../static/js/jsAddress.js"></script>
+<script type="text/javascript" src="../static/js/multiple-select.js"></script>
+<script type="text/javascript">
+
+    jQuery(function () {
+        jQuery('.skin-minimal input').iCheck({
+            checkboxClass: 'icheckbox-blue',
+            radioClass: 'iradio-blue',
+            increaseArea: '20%'
+        });
+
+        jQuery('#multiple').multipleSelect();
+        jQuery('#multiple-1').multipleSelect();
+        jQuery('#multiple-2').multipleSelect();
+
+        $("#select_iso2").click(function(){
+            $("#saveBtn_edit").val("下一步");
+        })
+
+
+        function validform() {
+            return jQuery("#form-url-add").validate({
+                rules: {
+                    name: {
+                        required: true
+                    }
+                }
+            });
+        }
+
+        jQuery("#saveBtn_edit").click(function () {
+            if (validform().form()) {
+                jQuery.ajax({
+                    url: "../data",
+                    type: 'post',
+                    dataType: 'json',
+                    json: "",
+                    data: jQuery("#form-url-add").serialize(),
+                    success: function (res) {
+{#                        parent.reload()#}
+                    }
+                })
+                if($(this).val() =="下一步"){
+                 window.location.href = "/use/mould.html";
+            }
+            }
+              $("#saveBtn_edit").val("提交");
+        });
+    })
+
+
+</script>
+<!--/请在上方写此页面业务相关的脚本-->
+</body>
+</html>

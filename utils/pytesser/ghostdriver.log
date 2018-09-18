@@ -1,0 +1,26 @@
+[INFO  - 2017-05-04T02:17:53.941Z] GhostDriver - Main - running on port 58036
+[INFO  - 2017-05-04T02:17:54.468Z] Session [e1b99af0-306f-11e7-951c-6b656cb67aed] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2017-05-04T02:17:54.469Z] Session [e1b99af0-306f-11e7-951c-6b656cb67aed] - page.customHeaders:  - {}
+[INFO  - 2017-05-04T02:17:54.469Z] Session [e1b99af0-306f-11e7-951c-6b656cb67aed] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-7-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2017-05-04T02:17:54.469Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: e1b99af0-306f-11e7-951c-6b656cb67aed
+[ERROR - 2017-05-04T02:17:54.650Z] Session [e1b99af0-306f-11e7-951c-6b656cb67aed] - page.onError - msg: ReferenceError: Can't find variable: $
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-05-04T02:17:54.650Z] Session [e1b99af0-306f-11e7-951c-6b656cb67aed] - page.onError - stack:
+  global code (http://jq.cnta.gov.cn/javascripts/script.js?1445917018:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-05-04T02:17:55.271Z] Session [e1b99af0-306f-11e7-951c-6b656cb67aed] - page.onError - msg: ReferenceError: Can't find variable: Cufon
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-05-04T02:17:55.271Z] Session [e1b99af0-306f-11e7-951c-6b656cb67aed] - page.onError - stack:
+  global code (http://jq.cnta.gov.cn/javascripts/droid_sans_400-droid_sans_700.font.js?1445916990:23)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-05-04T02:17:55.271Z] Session [e1b99af0-306f-11e7-951c-6b656cb67aed] - page.onError - msg: ReferenceError: Can't find variable: Cufon
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-05-04T02:17:55.272Z] Session [e1b99af0-306f-11e7-951c-6b656cb67aed] - page.onError - stack:
+  global code (http://jq.cnta.gov.cn/javascripts/cuf_run.js?1445917001:1)
+
+  phantomjs://platform/console++.js:263 in error

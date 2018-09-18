@@ -1,0 +1,51 @@
+﻿{% extends "index.html" %}
+{% block querylist %}
+    <div class="dislpayArrow hidden-xs">
+        <a class="pngfix" href="javascript:void(0);" onClick="displaynavbar(this)"></a>
+    </div>
+    <section class="Hui-article-box">
+        <nav class="breadcrumb"><i class="Hui-iconfont">&#xe67f;</i>
+            <a style="text-decoration: none" onclick="window.history.go(-2);">首页</a>
+            <span class="c-gray en">&gt;</span>
+            爬取结果
+            <a class="btn btn-success radius r" style="line-height:1.6em;margin-top:3px"
+               href="javascript:location.replace(location.href);" title="刷新"><i class="Hui-iconfont">&#xe68f;</i></a>
+        </nav>
+        <div class="Hui-article">
+            <article class="cl pd-20">
+                <div class="cl pd-5 bg-1 bk-gray mt-20">
+                    {# <span class="l">爬取结果，暂时取前10条</span>#}
+                    {# <span class="r">共有数据：<strong>["count"]</strong> 条</span>#}
+                    <span class="l">爬取结果，共有数据：<strong id="se_count">["0"]</strong> 条</span>
+                    <span class="r">
+                        <a href="#" id="currentPage"><i class="Hui-iconfont">&#xe644;</i>导出当前页</a>&nbsp;&nbsp;
+                        <a href="#" id="wholePage"><i class="Hui-iconfont">&#xe667;</i> 导出全部</a>
+
+                    </span>
+                </div>
+                <table class="table table-border table-bordered table-bg table-hover table-striped" id="fileListTable">
+                    <thead>
+                    <tr>
+                        <th scope="col" id="fileList">字段列表</th>
+                    </tr>
+                    <tr class="text-c" id="tabTitle"></tr>
+                    </thead>
+                    <tbody id="dataList"></tbody>
+                </table>
+            </article>
+            <div class="text-c pagebutton" style="margin-top: 15px">
+                <div id="Pagination" class="pagination"></div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <script src="/static/lib/jquery/1.9.1/jquery.min.js"></script>
+    <script type="text/javascript" src="/static/lib/pagination/jquery.pagination.js"></script>
+    <script type="text/javascript" src="/static/js/querylist.js"></script>
+
+    <!--请在下方写此页面业务相关的脚本-->
+    <script type="text/javascript"></script>
+    <!--/请在上方写此页面业务相关的脚本-->
+    </body>
+    </html>
+{% endblock %}

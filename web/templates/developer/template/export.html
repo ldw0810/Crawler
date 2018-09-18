@@ -1,0 +1,187 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="renderer" content="webkit|ie-comp|ie-stand">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+<link rel="Bookmark" href="../../favicon.ico" >
+<link rel="Shortcut Icon" href="../../favicon.ico" />
+<!--[if lt IE 9]>
+<script type="text/javascript" src="../../static/lib/html5.js"></script>
+<script type="text/javascript" src="../../static/lib/respond.min.js"></script>
+<![endif]-->
+<link rel="stylesheet" type="text/css" href="../../static/h-ui/css/H-ui.min.css" />
+<link rel="stylesheet" type="text/css" href="../../static/h-ui.admin/css/H-ui.admin.css" />
+<link rel="stylesheet" type="text/css" href="../../static/lib/Hui-iconfont/1.0.8/iconfont.css" />
+<link rel="stylesheet" type="text/css" href="../../static/h-ui.admin/skin/default/skin.css" id="skin" />
+<link rel="stylesheet" type="text/css" href="../../static/h-ui.admin/css/style.css" />
+<!--[if IE 6]>
+<script type="text/javascript" src="http://lib.h-ui.net/DD_belatedPNG_0.0.8a-min.js" ></script>
+<script>DD_belatedPNG.fix('*');</script><![endif]-->
+<!--/meta 作为公共模版分离出去-->
+
+<title>添加地址 - 地址管理 </title>
+<meta name="keywords" content="H-ui.admin v3.0,H-ui网站后台模版,后台模版下载,后台管理系统模版,HTML后台模版下载">
+<meta name="description" content="H-ui.admin v3.0，是一款由国人开发的轻量级扁平化网站后台模板，完全免费开源的网站后台管理系统模版，适合中小型CMS后台系统。">
+</head>
+<body>
+<article class="cl pd-20">
+	<form action="" method="post" class="form form-horizontal" id="form-url-add">
+		<div class="row cl">
+			<label class="form-label col-xs-3 col-sm-3"><span class="c-red">*</span>用户信息：</label>
+			<div class="formControls col-xs-8 col-sm-9">
+				<input type="text" class="input-text" value="" placeholder="" id="description" name="description">
+			</div>
+		</div>
+		<div class="row cl">
+			<label class="form-label col-xs-3 col-sm-3"><span class="c-red">*</span>局点信息：</label>
+			<div class="formControls col-xs-8 col-sm-9">
+				<input type="text" class="input-text" value="" placeholder="" id="field_length" name="field_length">
+			</div>
+		</div>
+		<div class="row cl">
+			<!--<label class="form-label col-xs-3 col-sm-3"><span class="c-red">*</span>局点信息：</label>-->
+			<!--<div class="formControls col-xs-8 col-sm-9">-->
+				<!--<input type="text" class="input-text" value="$data.field_length" placeholder="" id="field_length" name="field_length">-->
+			<!--</div>-->
+		</div>
+		<div class="row cl" style="margin-top: 10px">
+			<label class="form-label col-xs-3 col-sm-3"><span class="c-red">*</span>选择字段：</label>
+			<div class="formControls col-xs-8 col-sm-9">
+				<div class="check-box">
+					<input type="checkbox" id="checkbox-1">
+					<label for="checkbox-1">字段一</label>
+				</div>
+				<div class="check-box">
+					<input type="checkbox" id="checkbox-2">
+					<label for="checkbox-2">字段二</label>
+				</div>
+				<div class="check-box">
+					<input type="checkbox" id="checkbox-3">
+					<label for="checkbox-3">字段三</label>
+				</div>
+				<div class="check-box">
+					<input type="checkbox" id="checkbox-4">
+					<label for="checkbox-4">字段四</label>
+				</div>
+				<div class="check-box">
+					<input type="checkbox" id="checkbox-5">
+					<label for="checkbox-5">字段五</label>
+				</div>
+				<div class="check-box">
+					<input type="checkbox" id="checkbox-6">
+					<label for="checkbox-6">字段六</label>
+				</div>
+				<div class="check-box">
+					<input type="checkbox" id="checkbox-7">
+					<label for="checkbox-7">字段七</label>
+				</div>
+				<div class="check-box">
+					<input type="checkbox" id="checkbox-8">
+					<label for="checkbox-8">字段八</label>
+				</div>
+		    	<!--<div class="check-box">-->
+					<!--<input type="checkbox" id="checkbox-9">-->
+					<!--<label for="checkbox-9">字段九</label>-->
+				<!--</div>-->
+				<!--<div class="check-box">-->
+					<!--<input type="checkbox" id="checkbox-10">-->
+					<!--<label for="checkbox-10">字段十</label>-->
+				<!--</div>-->
+				<!--<div class="check-box">-->
+					<!--<input type="checkbox" id="checkbox-11">-->
+					<!--<label for="checkbox-11">字段十一</label>-->
+				<!--</div>-->
+				<!--<div class="check-box">-->
+					<!--<input type="checkbox" id="checkbox-12">-->
+					<!--<label for="checkbox-12">字段十二</label>-->
+				<!--</div>-->
+			</div>
+		</div>
+		<div class="row cl">
+			<!--<label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>类型：</label>-->
+			<!--<div class="formControls col-xs-8 col-sm-9">-->
+				<!--<input type="text" class="input-text" value="$data.field_type" placeholder="" id="field_type" name="field_type">-->
+			<!--</div>-->
+		</div>
+		<div class="row cl" style="margin-top: 20px;">
+			<div class="col-xs-5 col-sm-9 col-xs-offset-5 col-sm-offset-3">
+				<input id="saveBtn" class="btn btn-primary radius" type="button" value="&nbsp;&nbsp;导出&nbsp;&nbsp;">
+			</div>
+		</div>
+	</form>
+</article>
+<script type="text/javascript" src="/static/lib/jquery/1.9.1/jquery.min.js"></script>
+<script>
+    jQuery.noConflict();
+</script>
+<script type="text/javascript" src="../../static/h-ui/js/H-ui.js"></script>
+<!--请在下方写此页面业务相关的脚本-->
+<script type="text/javascript" src="../../static/lib/jquery.validation/1.14.0/jquery.validate.js"></script>
+<script type="text/javascript" src="../../static/lib/jquery.validation/1.14.0/validate-methods.js"></script>
+<script type="text/javascript" src="../../static/lib/jquery.validation/1.14.0/messages_zh.js"></script>
+<script type="text/javascript" src="../../static/lib/layer/2.4/layer.js"></script>
+<script type="text/javascript" src="../../static/h-ui/js/H-ui.js"></script>
+<script type="text/javascript" src="../../static/h-ui.admin/js/H-ui.admin.page.js"></script>
+<script type="text/javascript">
+var chooseUrlId = null;
+function setSelectInfo(id,name,desc){
+	jQuery("#url_config_info").text(name+"("+desc+")");
+	jQuery("#url_config_id").val(id);
+}
+function list_check(title,url,w,h){
+   var obj =  layer_show(title,url,w,h);
+   console.log(obj);
+   return obj;
+}
+jQuery(function(){
+	jQuery('.skin-minimal input').iCheck({
+		checkboxClass: 'icheckbox-blue',
+		radioClass: 'iradio-blue',
+		increaseArea: '20%'
+	});
+
+	jQuery("#form-url-add").validate({
+		rules:{
+			name:{
+				required:true,
+				minlength:4,
+				maxlength:16
+			},
+			field_en:{
+				required:true,
+				isPwd:true,
+			},
+			field_length:{
+				required:true,
+				isInteger:true
+			}
+		},
+		onkeyup:false,
+		focusCleanup:true,
+		success:"valid",
+		submitHandler:function(form){
+			jQuery(form).ajaxSubmit();
+			var index = parent.layer.getFrameIndex(window.name);
+			parent.jQuery('.btn-refresh').click();
+			parent.layer.close(index);
+		}
+	});
+	jQuery("#saveBtn").click(function () {
+		jQuery.ajax({
+		    url:"/data",
+			type:'post',
+			dataType:'json',
+			data:jQuery("#form-url-add").serialize(),
+			success:function (res) {
+		        parent.reload()
+            }
+		})
+    });
+});
+</script>
+<!--/请在上方写此页面业务相关的脚本-->
+</body>
+</html>

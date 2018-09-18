@@ -1,0 +1,135 @@
+ aside .selected{
+     background: #C0C0C0;
+ }
+ aside .checked{
+     /*background: #C0C0C0;*/
+     color: white;
+     background: #123654;
+     border-left: 7px solid #cd6c22;
+     opacity:0.7;
+ }
+aside  .checked i{
+     color: #cd6c22;
+ }
+aside .checked span{
+     color: #cd6c22;
+     font-weight: bold;
+ }
+ aside #use{
+     width: 100%;
+     height: 210px;
+     text-align: center;
+ }
+ aside .work{
+     width: 100%;
+     text-align: center;
+ }
+aside  .work>li{
+     /*height: 70px;*/
+     margin-top: 30px;
+ }
+ aside .work >li >a{
+      display: block;
+      line-height: 70px;
+      height: 70px;
+      color:#C0C0C0;
+     font-size: 15px;
+ }
+ aside  .work li a i{
+    font-size:18px;
+ }
+ .work .taskType{
+    font-size: 14px;
+    position: relative;
+    top: -10px;
+    left: 20px;
+
+ }
+ .work .taskType>li{
+     height: 30px;
+ }
+  .work .taskType>li>a{
+      display: block;
+      line-height: 30px;
+      height: 30px;
+      color:#C0C0C0;
+  }
+
+  .Hui-aside_use{
+   /*background: url("../images/navBg.png") top center;*/
+      background-size:auto;
+      background: url("../images/navBg2.jpg");
+  }
+  .check{
+      /*background: #4567c6;*/
+      background: #26B;
+      opacity: 0.7;
+      color: #fff;
+      border-radius: 10px;
+  }
+/*user_list页面*/
+ .state {
+     height: 20px;
+     line-height: 30px;
+     margin-top:5px;
+     /*background: yellow;*/
+ }
+.state ul{
+    /*width:30%;*/
+    display: inline-block;
+    height: 20px;
+    line-height: 20px;
+    margin-left: 0px;
+    vertical-align: middle;
+ }
+.state ul li{
+    float:left;
+    height: 20px;
+    line-height: 20px;
+    font-size: 12px;
+    width: 40px;
+    margin-left: 5px;
+    /*background-color: pink;*/
+    text-align: center;
+    cursor: pointer;
+ }
+.methodAndState{
+    width:70px;
+    height:20px;
+    display:inline-block;
+    /*background: pink;*/
+    vertical-align: top;
+    font-weight: bold;
+    font-size: 12px;
+    text-align: right;
+}
+.list_delete{
+    color:#E47786;
+    font-size:20px;
+    /*font-weight:bold;*/
+}
+.list_copy{
+    color:#6699FF;
+    font-size:20px;
+    /*font-weight:bold;*/
+}
+.list_result{
+    color:#52BBB3;
+    font-size:20px;
+    /*font-weight:bold;*/
+}
+.list_data{
+    color:#C0C0D6;
+    font-size:20px;
+    /*font-weight:bold;*/
+}
+.list_eidit{
+    color:#8923f5;
+    font-size:20px;
+    /*font-weight:bold;*/
+}
+.list_detail{
+    color:#cd6c22;
+    font-size:20px;
+    /*font-weight:bold;*/
+}

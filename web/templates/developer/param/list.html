@@ -1,0 +1,158 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="renderer" content="webkit|ie-comp|ie-stand">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+<link rel="Bookmark" href="../../favicon.ico" >
+<link rel="Shortcut Icon" href="../../favicon.ico" />
+<!--[if lt IE 9]>
+<script type="text/javascript" src="../../static/lib/html5.js"></script>
+<script type="text/javascript" src="../../static/lib/respond.min.js"></script>
+<![endif]-->
+<link rel="stylesheet" type="text/css" href="../../static/h-ui/css/H-ui.min.css" />
+<link rel="stylesheet" type="text/css" href="../../static/h-ui.admin/css/H-ui.admin.css" />
+<link rel="stylesheet" type="text/css" href="../../static/lib/Hui-iconfont/1.0.8/iconfont.css" />
+<link rel="stylesheet" type="text/css" href="../../static/h-ui.admin/skin/default/skin.css" id="skin" />
+<link rel="stylesheet" type="text/css" href="../../static/h-ui.admin/css/style.css" />
+    <link rel="stylesheet" type="text/css" href="/static/css/index.css">
+<!--[if IE 6]>
+<script type="text/javascript" src="http://lib.h-ui.net/DD_belatedPNG_0.0.8a-min.js" ></script>
+<script>DD_belatedPNG.fix('*');</script><![endif]-->
+<!--/meta 作为公共模版分离出去-->
+
+<title>添加地址 - 地址管理 </title>
+<meta name="keywords" content="H-ui.admin v3.0,H-ui网站后台模版,后台模版下载,后台管理系统模版,HTML后台模版下载">
+<meta name="description" content="H-ui.admin v3.0，是一款由国人开发的轻量级扁平化网站后台模板，完全免费开源的网站后台管理系统模版，适合中小型CMS后台系统。">
+</head>
+<body>
+<header class="navbar-wrapper">
+    <div class="navbar navbar-fixed-top">
+        <div class="container-fluid cl"><a id="sefonicon" class="logo navbar-logo f-l mr-10 hidden-xs"
+        >sefon</a>
+            <a class="logo navbar-logo-m f-l mr-10 visible-xs">H-ui</a>
+{#            <span class="logo navbar-slogan f-l mr-10 hidden-xs">Demo</span> #}
+            <a aria-hidden="false" class="nav-toggle Hui-iconfont visible-xs" href="javascript:;">&#xe667;</a>
+            <nav id="Hui-userbar" class="nav navbar-nav navbar-userbar hidden-xs">
+                <ul class="cl" style="display: none">
+                    <li id="admin" style="display: none"><img style="width: 18px;height: 18px;margin-right:6px;"
+                                                              src="/static/images/admin.png"></li>
+                    <li id="rent" style="display: none"><img
+                            style="width: 18px;height: 18px;margin-right:6px;margin-top:-2px"
+                            src="/static/images/rent.png"></li>
+                    <li id="user" style="display: none"><img
+                            style="width: 18px;height: 18px;margin-right:6px;margin-top:-2px"
+                            src="/static/images/user.png"></li>
+                    <li id="developer" style="display: none"><img
+                            style="width: 18px;height: 18px;margin-right:6px;margin-top:-2px"
+                            src="/static/images/developer.png"></li>
+                    <li id="power">用户</li>
+                    <li class="dropDown dropDown_hover"><a href="#" class="dropDown_A" id="userPower">user <i
+                            class="Hui-iconfont">&#xe6d5;</i></a>
+                        <ul class="dropDown-menu menu radius box-shadow">
+                            <li><a href="#">个人信息</a></li>
+                        </ul>
+                    </li>
+                    <li id="Hui-msg"><a id="identity" onclick="identity()" href="/messages/developer" title="消息"><span
+                            class="badge badge-danger">1</span><i
+                            class="Hui-iconfont" style="font-size:18px">&#xe68a;</i></a></li>
+                    <li id="Hui-skin" class="dropDown right dropDown_hover"><a href="javascript:;" class="dropDown_A"
+                                                                               title="换肤"><i class="Hui-iconfont"
+                                                                                             style="font-size:18px">
+                        &#xe62a;</i></a>
+                        <ul class="dropDown-menu menu radius box-shadow">
+                            <!--<li><a href="javascript:;" data-val="default" title="默认（黑色）">默认（黑   色）</a></li>-->
+                            <li><a href="javascript:;" data-val="blue" title="蓝色">蓝色</a></li>
+                            <li><a href="javascript:;" data-val="green" title="绿色">绿色</a></li>
+                            <li><a href="javascript:;" data-val="red" title="红色">红色</a></li>
+                            <li><a href="javascript:;" data-val="yellow" title="黄色">黄色</a></li>
+                            <li><a href="javascript:;" data-val="orange" title="绿色">橙色</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</header>
+<aside class="Hui-aside_use Hui-aside">
+    <input runat="server" id="divScrollValue" type="hidden" value=""/>
+    <div id="use">
+        <ul class="work">
+            <li id="menu-user5" class="checked">
+                <a style="text-decoration: none" onclick="window.history.go(-1);" title="返回" name="">
+                    <i class="Hui-iconfont">&#xe6d4;</i>
+                    <span>返回</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+</aside>
+    <div class="dislpayArrow hidden-xs">
+        <a class="pngfix" href="javascript:void(0);" onClick="displaynavbar(this)"></a>
+    </div>
+    <section class="Hui-article-box">
+        <nav class="breadcrumb"><i class="Hui-iconfont">&#xe67f;</i>
+            <a style="text-decoration: none" href="/use/list.html?username=dGVzdA==&password=MTIzNDU2&0">首页</a>
+            <span class="c-gray en">&gt;</span>
+            <a style="text-decoration: none" href="/developer/param/list.html?3">参数管理</a>
+            <!--<span class="c-gray en">&gt;</span>-->
+            <!--参数列表-->
+            <a class="btn btn-success radius r" style="line-height:1.6em;margin-top:3px"
+               href="javascript:location.replace(location.href);" title="刷新"><i class="Hui-iconfont">&#xe68f;</i></a>
+        </nav>
+        <div class="Hui-article">
+            <article class="cl pd-20">
+                <div class="cl pd-5 bg-1 bk-gray mt-20">
+				<span class="l">
+				<a href="javascript:;" onclick="datadel()" class="btn btn-danger radius"><i class="Hui-iconfont">&#xe6e2;</i> 批量删除</a>
+				</span>
+                </div>
+                <table class="table table-border table-bordered table-bg table-hover">
+                    <thead>
+                    <tr>
+                        <th scope="col" colspan="10">参数列表</th>
+                    </tr>
+                    <tr class="text-c">
+                        <th width="25"><input type="checkbox" id="wholeCheckBox_title" value="wholeCheckBox"></th>
+                        <th width="150">参数中文名称</th>
+                        <th width="150">参数名称</th>
+                        <th width="150">参数值</th>
+                        <th>参数表达式</th>
+                        <th width="100">状态</th>
+                        <th width="250">操作</th>
+                    </tr>
+                    </thead>
+                    <tbody id="paramBody">
+                        <!--<tr class="text-c">
+                        <td><input type="checkbox" name="wholeCheckBox" value="1"></td>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>1</td>
+                        <td>
+                            <a href="/developer/param/paramEdit.html" class='ml-5' title='编辑参数'
+                               style='text-decoration:none' data-toggle='tooltip' data-placement='top'>
+                                <i class='Hui-iconfont list_detail'>&#xe720;</i></a>
+                        </td>
+                    </tr>-->
+                    </tbody>
+                </table>
+            </article>
+            <div class="text-c pagebutton" style="margin-top: 15px">
+                <div id="Pagination" class="pagination"></div>
+            </div>
+        </div>
+    </section>
+</body>
+    <script type="text/javascript" src="/static/lib/jquery/1.9.1/jquery.min.js"></script>
+    <script type="text/javascript" src="../../static/lib/pagination/jquery.pagination.js"></script>
+    <script type="text/javascript" src="/static/lib/layer/2.4/layer.js"></script>
+    <script type="text/javascript" src="/static/js/param_list.js"></script>
+    <script type="text/javascript" src="/static/js/ajaxFunction.js"></script>
+    <!--请在下方写此页面业务相关的脚本-->
+    <script type="text/javascript">
+    </script>
+    <!--/请在上方写此页面业务相关的脚本-->

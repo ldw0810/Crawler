@@ -1,0 +1,196 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="renderer" content="webkit|ie-comp|ie-stand">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+<link rel="Bookmark" href="../../favicon.ico" >
+<link rel="Shortcut Icon" href="../../favicon.ico" />
+<!--[if lt IE 9]>
+<script type="text/javascript" src="../../static/lib/html5.js"></script>
+<script type="text/javascript" src="../../static/lib/respond.min.js"></script>
+<![endif]-->
+<link rel="stylesheet" type="text/css" href="../../static/h-ui/css/H-ui.min.css" />
+<link rel="stylesheet" type="text/css" href="../../static/h-ui.admin/css/H-ui.admin.css" />
+<link rel="stylesheet" type="text/css" href="../../static/lib/Hui-iconfont/1.0.8/iconfont.css" />
+<link rel="stylesheet" type="text/css" href="../../static/h-ui.admin/skin/default/skin.css" id="skin" />
+<link rel="stylesheet" type="text/css" href="../../static/h-ui.admin/css/style.css" />
+    <link rel="stylesheet" type="text/css" href="/static/css/index.css">
+<!--[if IE 6]>
+<script type="text/javascript" src="http://lib.h-ui.net/DD_belatedPNG_0.0.8a-min.js" ></script>
+<script>DD_belatedPNG.fix('*');</script><![endif]-->
+<!--/meta 作为公共模版分离出去-->
+
+<title>添加地址 - 地址管理 </title>
+<meta name="keywords" content="H-ui.admin v3.0,H-ui网站后台模版,后台模版下载,后台管理系统模版,HTML后台模版下载">
+<meta name="description" content="H-ui.admin v3.0，是一款由国人开发的轻量级扁平化网站后台模板，完全免费开源的网站后台管理系统模版，适合中小型CMS后台系统。">
+</head>
+<body>
+<header class="navbar-wrapper">
+    <div class="navbar navbar-fixed-top">
+        <div class="container-fluid cl"><a id="sefonicon" class="logo navbar-logo f-l mr-10 hidden-xs"
+        >sefon</a>
+            <a class="logo navbar-logo-m f-l mr-10 visible-xs">H-ui</a>
+{#            <span class="logo navbar-slogan f-l mr-10 hidden-xs">Demo</span> #}
+            <a aria-hidden="false" class="nav-toggle Hui-iconfont visible-xs" href="javascript:;">&#xe667;</a>
+            <nav id="Hui-userbar" class="nav navbar-nav navbar-userbar hidden-xs">
+                <ul class="cl" style="display: none">
+                    <li id="admin" style="display: none"><img style="width: 18px;height: 18px;margin-right:6px;"
+                                                              src="/static/images/admin.png"></li>
+                    <li id="rent" style="display: none"><img
+                            style="width: 18px;height: 18px;margin-right:6px;margin-top:-2px"
+                            src="/static/images/rent.png"></li>
+                    <li id="user" style="display: none"><img
+                            style="width: 18px;height: 18px;margin-right:6px;margin-top:-2px"
+                            src="/static/images/user.png"></li>
+                    <li id="developer" style="display: none"><img
+                            style="width: 18px;height: 18px;margin-right:6px;margin-top:-2px"
+                            src="/static/images/developer.png"></li>
+                    <li id="power">用户</li>
+                    <li class="dropDown dropDown_hover"><a href="#" class="dropDown_A" id="userPower">user <i
+                            class="Hui-iconfont">&#xe6d5;</i></a>
+                        <ul class="dropDown-menu menu radius box-shadow">
+                            <li><a href="#">个人信息</a></li>
+                        </ul>
+                    </li>
+                    <li id="Hui-msg"><a id="identity" onclick="identity()" href="/messages/developer" title="消息"><span
+                            class="badge badge-danger">1</span><i
+                            class="Hui-iconfont" style="font-size:18px">&#xe68a;</i></a></li>
+                    <li id="Hui-skin" class="dropDown right dropDown_hover"><a href="javascript:;" class="dropDown_A"
+                                                                               title="换肤"><i class="Hui-iconfont"
+                                                                                             style="font-size:18px">
+                        &#xe62a;</i></a>
+                        <ul class="dropDown-menu menu radius box-shadow">
+                            <!--<li><a href="javascript:;" data-val="default" title="默认（黑色）">默认（黑色）</a></li>-->
+                            <li><a href="javascript:;" data-val="blue" title="蓝色">蓝色</a></li>
+                            <li><a href="javascript:;" data-val="green" title="绿色">绿色</a></li>
+                            <li><a href="javascript:;" data-val="red" title="红色">红色</a></li>
+                            <li><a href="javascript:;" data-val="yellow" title="黄色">黄色</a></li>
+                            <li><a href="javascript:;" data-val="orange" title="绿色">橙色</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</header>
+<aside class="Hui-aside_use Hui-aside">
+    <input runat="server" id="divScrollValue" type="hidden" value=""/>
+    <div id="use">
+        <ul class="work">
+            <li id="menu-user5" class="checked">
+                <a style="text-decoration: none" onclick="window.history.go(-1);" title="返回" name="">
+                    <i class="Hui-iconfont">&#xe6d4;</i>
+                    <span>返回</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+</aside>
+<article class="cl pd-20">
+	<form action="" method="post" class="form form-horizontal" id="form-url-add">
+        <div class="row cl">
+			<label class="form-label col-xs-3 col-sm-3">选择模板：</label>
+			<div class="formControls col-xs-8 col-sm-9"> <span class="select-box" style="width:150px;">
+				<select class="select" name="jobTemplateId" size="1" id="jobTemplateId">
+
+				</select>
+				</span>
+            </div>
+		</div>
+		<div class="row cl">
+			<label class="form-label col-xs-3 col-sm-3">字段类型：</label>
+			<div class="formControls col-xs-8 col-sm-9"> <span class="select-box" style="width:150px;">
+				<select class="select" name="dataType" size="1" id="dataType">
+					<option value="varchar">varchar</option>
+					<option value="integer">integer</option>
+				</select>
+				</span> </div>
+		</div>
+        <div class="row cl">
+			<label class="form-label col-xs-3 col-sm-3"><span class="c-red">*</span>字段长度：</label>
+			<div class="formControls col-xs-4 col-sm-3">
+				<input type="text" class="input-text" value="" placeholder="" id="dataLength" name="dataLength">
+			</div>
+		</div>
+		<div class="row cl">
+			<label class="form-label col-xs-3 col-sm-3"><span class="c-red">*</span>字段表达式：</label>
+			<div class="formControls col-xs-4 col-sm-3">
+				<input type="text" class="input-text" value="" placeholder="" id="fieldValue" name="fieldValue">
+			</div>
+		</div>
+		<div class="row cl">
+			<label class="form-label col-xs-3 col-sm-3"><span class="c-red">*</span>字段英文名称：</label>
+			<div class="formControls col-xs-4 col-sm-3">
+				<input type="text" class="input-text" value="" placeholder="" id="fieldNameEn" name="fieldNameEn">
+			</div>
+		</div>
+        <div class="row cl">
+			<label class="form-label col-xs-3 col-sm-3"><span class="c-red">*</span>字段中文名称：</label>
+			<div class="formControls col-xs-4 col-sm-3">
+				<input type="text" class="input-text" value="" placeholder="" id="fieldNameCn" name="fieldNameCn">
+			</div>
+		</div>
+		<div class="row cl">
+			<label class="form-label col-xs-3 col-sm-3">字段函数：</label>
+			<div class="formControls col-xs-4 col-sm-3">
+				<input type="text" class="input-text" value="" placeholder="" id="func" name="func">
+			</div>
+		</div>
+		<div class="row cl">
+			<label class="form-label col-xs-3 col-sm-3">字段正则：</label>
+			<div class="formControls col-xs-4 col-sm-3">
+				<input type="text" class="input-text" value="" placeholder="" id="regExp" name="regExp">
+			</div>
+		</div>
+        <div class="row cl">
+			<label class="form-label col-xs-3 col-sm-3">字符分割表达式：</label>
+			<div class="formControls col-xs-4 col-sm-3">
+				<input type="text" class="input-text" value="" placeholder="" id="split" name="split">
+			</div>
+		</div>
+		<!--<div class="row cl">
+			<label class="form-label col-xs-3 col-sm-3"><span class="c-red">*</span>描述详情：</label>
+			<div class="formControls col-xs-4 col-sm-3">
+                <input type="text" class="input-text" value="" placeholder="" id="" name="">
+			</div>
+		</div>-->
+{#		<div class="row cl">#}
+{#			<label class="form-label col-xs-3 col-sm-3">所属地址：</label>#}
+{#			<div class="formControls col-xs-8 col-sm-9" >#}
+{#				<!--<input type="hidden" name="url_config_id" id="url_config_id">-->#}
+{#				<input type="text" class="input-text" onclick="parent.admin_edit('地址选择','/developer/field/singlelist.html','1000','400')" value="" placeholder=""  name="url_config_id" id="url_config_id">#}
+{#				<span id="url_config_info"></span>#}
+{#			</div>#}
+{#		</div>#}
+		<div class="row cl" style="margin-left: 120px;">
+            <span class="col-xs-1 col-sm-1 col-xs-offset-3 col-sm-offset-3">
+                <input class="btn btn-primary radius" type="button" id="saveBtn" value="&nbsp;&nbsp;提交&nbsp;&nbsp;">
+            </span>
+            <span class="col-xs-1 col-sm-1">
+                <input class="btn  radius" id="cancel_field" type="button" value="&nbsp;&nbsp;取消&nbsp;&nbsp;">
+            </span>
+        </div>
+	</form>
+</article>
+<script type="text/javascript" src="../../static/lib/jquery/1.9.1/jquery.min.js"></script>
+<script>
+    jQuery.noConflict();
+</script>
+<script type="text/javascript" src="../../static/h-ui/js/H-ui.js"></script>
+<!--请在下方写此页面业务相关的脚本-->
+<script type="text/javascript" src="../../static/lib/jquery.validation/1.14.0/jquery.validate.js"></script>
+<script type="text/javascript" src="../../static/lib/jquery.validation/1.14.0/validate-methods.js"></script>
+<script type="text/javascript" src="../../static/lib/jquery.validation/1.14.0/messages_zh.js"></script>
+<script type="text/javascript" src="../../static/lib/layer/2.4/layer.js"></script>
+<script type="text/javascript" src="../../static/h-ui/js/H-ui.js"></script>
+<script type="text/javascript" src="/static/js/developer_field.js"></script>
+<script type="text/javascript" src="/static/js/ajaxFunction.js"></script>
+<script type="text/javascript" src="../../static/h-ui.admin/js/H-ui.admin.page.js"></script>
+<script type="text/javascript">
+</script>
+<!--/请在上方写此页面业务相关的脚本-->
+</body>
+</html>

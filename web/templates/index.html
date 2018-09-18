@@ -1,0 +1,186 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="renderer" content="webkit|ie-comp|ie-stand">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport"
+          content="width=device-width,initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"/>
+    <meta http-equiv="Cache-Control" content="no-siteapp"/>
+    <link rel="Bookmark" href="/favicon.ico">
+    <link rel="Shortcut Icon" href="/favicon.ico"/>
+    <!--[if lt IE 9]>
+    <script type="text/javascript" src="/static/lib/html5.js"></script>
+    <script type="text/javascript" src="/static/lib/respond.min.js"></script>
+    <![endif]-->
+    <link rel="stylesheet" type="text/css" href="/static/h-ui/css/H-ui.min.css"/>
+    <link rel="stylesheet" type="text/css" href="/static/h-ui.admin/css/H-ui.admin.css"/>
+    <link rel="stylesheet" type="text/css" href="/static/lib/Hui-iconfont/1.0.8/iconfont.css"/>
+    <link rel="stylesheet" type="text/css" href="/static/h-ui.admin/skin/blue/skin.css" id="skin"/>
+    <link rel="stylesheet" type="text/css" href="/static/h-ui.admin/css/style.css"/>
+    <link rel="stylesheet" type="text/css" href="/static/lib/pagination/pagination.css"/>
+    {#    <link rel="stylesheet" type="text/css" href="/static/css/occupy.css">#}
+    <link rel="stylesheet" type="text/css" href="/static/css/index.css">
+    <link rel="stylesheet" type="text/css" href="/static/css/plandetails.css">
+    <link rel="stylesheet" type="text/css" href="/static/css/querylist.css">
+    <link rel="stylesheet" type="text/css" href="/static/css/highcharts.css">
+    <link rel="stylesheet" type="text/css" href="/static/css/collection.css">
+    <script type="text/javascript" src="/static/js/utils/echarts.js"></script>
+    <script type="text/javascript" src="/static/js/ajaxFunction.js"></script>
+    <!--[if IE 6]>
+    <script type="text/javascript" src="http://lib.h-ui.net/DD_belatedPNG_0.0.8a-min.js"></script>
+    <script>DD_belatedPNG.fix('*');</script>
+    <![endif]-->
+    <!--/meta 作为公共模版分离出去-->
+
+    <title>爬虫管理系统</title>
+    <meta name="keywords" content="H-ui.admin v3.0,H-ui网站后台模版,后台模版下载,后台管理系统模版,HTML后台模版下载">
+    <meta name="description" content="H-ui.admin v3.0，是一款由国人开发的轻量级扁平化网站后台模板，完全免费开源的网站后台管理系统模版，适合中小型CMS后台系统。">
+</head>
+<body>
+<!--_header 作为公共模版分离出去-->
+<header class="navbar-wrapper">
+    <div class="navbar navbar-fixed-top">
+        <div class="container-fluid cl"><a id="sefonicon" class="logo navbar-logo f-l mr-10 hidden-xs"
+        >sefon</a>
+            <a class="logo navbar-logo-m f-l mr-10 visible-xs">H-ui</a>
+            <a aria-hidden="false" class="nav-toggle Hui-iconfont visible-xs" href="javascript:;">&#xe667;</a>
+        </div>
+    </div>
+</header>
+<!--/_header 作为公共模版分离出去-->
+
+<!--_menu 作为公共模版分离出去-->
+<aside class="Hui-aside Hui-aside_use">
+    <input runat="server" id="divScrollValue" type="hidden" value=""/>
+    <div id="left-nav">
+        <ul class="work">
+            <li id="">
+                <a style="text-decoration: none" title="采集监控" name="useManage6" href="/use/collection.html">
+                    <i class="Hui-iconfont">&#xe70c;</i>
+                    <span>采集监控</span>
+                </a>
+            </li>
+            <li id="menu-user5">
+                <a style="text-decoration: none"  title="任务管理" name="useManage0" id="task"
+                   onclick="showTypeIn()">
+                    <i class="Hui-iconfont">&#xe70c;</i>
+                    <span style="font-size: 15px">任务管理</span>
+                    {#                    <i class="Hui-iconfont" style="position: relative;top: 4px;">&#xe6d5;</i>#}
+                </a>
+                    <ul class="taskType">
+                        <li><a style="text-decoration: none" name="taskType1" href="/use/list.html?username=dGVzdA==&password=MTIzNDU2&0">定向任务</a></li>
+                        <li><a style="text-decoration: none" name="taskType2" href="/use/customTask.html?3">自定义任务</a></li>
+                    </ul>
+            </li>
+            <li id="menu-developer1" class="use_work">
+                <a style="text-decoration: none;" href="/developer/template/list.html?2" title="模板管理" name="developerOne">
+                    <i class="Hui-iconfont">&#xe6f1;</i>
+                    <span>模板管理</span>
+                </a>
+            </li>
+
+              <li id="menu-dbSource" class="use_work">
+                <a style="text-decoration: none;" href="/developer/template/listDB.html" title="数据源管理" name="">
+                    <i class="Hui-iconfont">&#xe6f1;</i>
+                    <span>数据源管理</span>
+                </a>
+            </li>
+
+            {#                     <li id="menu-developer2" class="use_work">#}
+            {#                        <a style="text-decoration: none;margin-left: 40px;" href="javascript:void(0)" title="字段管理" name="developerTwo">#}
+            {#                            <i class="Hui-iconfont">&#xe6f1;</i>#}
+            {#                            <span>字段管理</span>#}
+            {#                        </a>#}
+            {#                    </li>#}
+            {#                    <li id="menu-developer3" class="use_work">#}
+            {#                        <a style="text-decoration: none;margin-left: 40px; " href="javascript:void(0)" title="参数管理" name="developerThree">#}
+            {#                            <i class="Hui-iconfont">&#xe6f1;</i>#}
+            {#                            <span>参数管理</span>#}
+            {#                        </a>#}
+            {#                    </li>#}
+
+            {#                </dl>#}
+
+        </ul>
+    </div>
+    <div id="right-Container">
+        {#        <div style="display: none">#}
+        {#            <a href=""></a>#}
+        {#        </div>#}
+    </div>
+</aside>
+<div class="dislpayArrow hidden-xs"><a class="pngfix" href="javascript:void(0);" onClick="displaynavbar(this)"></a>
+</div>
+
+<script src="/static/lib/jquery/1.9.1/jquery.min.js"></script>
+<!--/_menu 作为公共模版分离出去-->
+<!--_footer 作为公共模版分离出去-->
+
+
+<!--developer模版开始-->
+{% block developer_dbSource %}{% endblock %}
+{% block developer_template %}{% endblock %}
+{% block developer_url %}{% endblock %}
+{% block developer_field %}{% endblock %}
+{% block developer_param %}{% endblock %}
+{% block developer_work %}{% endblock %}
+{% block developer_massage %}{% endblock %}
+<!--developer模版结束-->
+
+<!--use模版开始-->
+{% block use_list %}{% endblock %}
+{% block use_user_list %}{% endblock %}
+{% block use_user_param %}{% endblock %}
+{% block use_user_custom %}{% endblock %}
+{% block plandetails %}{% endblock %}
+{% block querylist %}{% endblock %}
+{% block logList %}{% endblock %}
+{% block collection %}{% endblock %}
+<!--use模版结束-->
+
+<script>
+    jQuery.noConflict();
+
+</script>
+<script type="text/javascript" src="/static/lib/layer/2.4/layer.js"></script>
+<script type="text/javascript" src="/static/h-ui/js/H-ui.js"></script>
+<script type="text/javascript" src="/static/h-ui.admin/js/H-ui.admin.page.js"></script>
+
+<!--/_footer /作为公共模版分离出去-->
+
+<!--请在下方写此页面业务相关的脚本-->
+<script type="text/javascript" src="/static/lib/My97DatePicker/4.8/WdatePicker.js"></script>
+<script type="text/javascript" src="/static/lib/datatables/1.10.0/jquery.dataTables.min.js"></script>
+<script type="text/javascript" src="/static/lib/laypage/1.2/laypage.js"></script>
+<script type="text/javascript">
+         function showTypeIn(){
+              if($(".taskType").is(':visible')){
+               $(".taskType").hide();
+            }else{
+                 $(".taskType").show();
+            }
+        }
+
+    var count = localStorage["message"];
+    $("#count").html(count);
+    var t = 0;
+{#    $("aside").addClass("");#}
+    function indexAjax(url, type, dataType, param, callback) {
+        $.ajax({
+            url: url,
+            type: type,
+            dataType: dataType,
+            contentType: "application/json,charset=utf8",
+            data: param,
+            success: function (resp) {
+                window.location = "/developer/message/list.html?4";
+            }
+        })
+    }
+    function showOrNot() {
+    }
+</script>
+<!--/请在上方写此页面业务相关的脚本-->
+</body>
+</html>

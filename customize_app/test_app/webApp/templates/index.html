@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="/static/index.css">
+    <script>
+        var doc=null;
+        function clear(){
+            if(!doc){
+                doc=document.getElementById("info-content");
+            }
+            doc.innerHTML="";
+        }
+        function showInfo(text){
+            if(!doc){
+                doc=document.getElementById("info-content");
+            }
+            doc.innerHTML+=text;
+        }
+        var dataStor=null;
+        function setData(data){
+            dataStor=data;
+        }
+        function appendParam(key,value){
+            var param=document.createElement("input"),
+                form=document.getElementById("param_form");
+            param.type="hidden";
+            param.name=key;
+            param.value=value;
+            form.appendChild(param)
+        }
+        function sendUrl(id){
+            var jobTemplateId=document.getElementById("jobTemplateId");
+            jobTemplateId.value=id;
+            var  form=document.getElementById("param_form");
+            form.submit()
+        }
+        //子节点信息
+        function appendChildJobTemplate(jobTemplateList){
+            if(!jobTemplateList){
+                return
+            }
+            var template="<a href='javascript:void' onclick=\"sendUrl('{id}')\"><span>url</span><span>name</span><span>roobPath</span></a>",html=""
+            if(Object.prototype.toString.call(jobTemplateList)=="[object Array]"){
+                for(var i=0;i<jobTemplateList.length;i++){
+                    var jobTemplate=jobTemplateList[i];
+                    html+=template.replace(/url/g,jobTemplate.url)
+                                .replace(/name/g,jobTemplate.name)
+                                .replace(/roobPath/g,jobTemplate.rootPath)
+                                .replace(/\{id\}/g,jobTemplate.id)
+                }
+            }else{
+                 html=template.replace(/url/g,jobTemplateList.url)
+                                .replace(/name/g,jobTemplateList.name)
+                                .replace(/roobPath/g,jobTemplateList.rootPath)
+                                .replace(/\{id\}/g,jobTemplateList.id)
+            }
+            var templateDiv=document.getElementById("child_job_template");
+            templateDiv.innerHTML=html;
+        }
+    </script>
+</head>
+<body>
+    <style type="text/css">
+        input{
+            width:50%;
+            height: 50px;
+            display: inline-block;
+        }
+    </style>
+    <form action="/testApp/index" method="get" id="param_form">
+        地址：<input type="text" name="url" value="{{originUrl}}"><br/>
+        模板id:<input type="text" id="jobTemplateId" name="jobTemplateId" value="{{jobTemplateId}}">
+        <input type="submit" value="提交">
+    </form>
+    <div id="child_job_template">
+
+    </div>
+<!--<svg class="ui-see-hover" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" version="1.1">-->
+
+<!--<line x1="0" y1="0" x2="300" y2="300" style="stroke:rgb(99,99,99);stroke-width:2"/>-->
+
+<!--</svg>-->
+    <iframe src="{{url}}" height="800" width="1280"></iframe>
+    <div id="info-content" >
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,1474 @@
+2017-08-30 14:23:17,937 _internal.py[line:87] INFO  * Running on http://0.0.0.0:5001/ (Press CTRL+C to quit)
+2017-08-30 14:23:25,030 _internal.py[line:87] INFO  * Running on http://0.0.0.0:5001/ (Press CTRL+C to quit)
+2017-08-30 14:33:59,701 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:33:59] "GET /use/list.html?username=dGVzdA==&password=MTIzNDU2 HTTP/1.1" 200 -
+2017-08-30 14:34:00,369 TaskApp.py[line:781] ERROR ******request http://localhost:5001/static/h-ui/css/H-ui.min.css failure(ErrorCode:304)--reason:<Response streamed [304 NOT MODIFIED]>
+2017-08-30 14:34:00,371 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:34:00] "GET /static/h-ui/css/H-ui.min.css HTTP/1.1" 304 -
+2017-08-30 14:34:00,381 TaskApp.py[line:781] ERROR ******request http://localhost:5001/static/h-ui.admin/css/H-ui.admin.css failure(ErrorCode:304)--reason:<Response streamed [304 NOT MODIFIED]>
+2017-08-30 14:34:00,384 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:34:00] "GET /static/h-ui.admin/css/H-ui.admin.css HTTP/1.1" 304 -
+2017-08-30 14:34:00,392 TaskApp.py[line:781] ERROR ******request http://localhost:5001/static/lib/Hui-iconfont/1.0.8/iconfont.css failure(ErrorCode:304)--reason:<Response streamed [304 NOT MODIFIED]>
+2017-08-30 14:34:00,395 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:34:00] "GET /static/lib/Hui-iconfont/1.0.8/iconfont.css HTTP/1.1" 304 -
+2017-08-30 14:34:00,404 TaskApp.py[line:781] ERROR ******request http://localhost:5001/static/h-ui.admin/skin/blue/skin.css failure(ErrorCode:304)--reason:<Response streamed [304 NOT MODIFIED]>
+2017-08-30 14:34:00,404 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:34:00] "GET /static/h-ui.admin/skin/blue/skin.css HTTP/1.1" 304 -
+2017-08-30 14:34:00,411 TaskApp.py[line:781] ERROR ******request http://localhost:5001/static/h-ui.admin/css/style.css failure(ErrorCode:304)--reason:<Response streamed [304 NOT MODIFIED]>
+2017-08-30 14:34:00,413 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:34:00] "GET /static/h-ui.admin/css/style.css HTTP/1.1" 304 -
+2017-08-30 14:34:00,418 TaskApp.py[line:781] ERROR ******request http://localhost:5001/static/lib/pagination/pagination.css failure(ErrorCode:304)--reason:<Response streamed [304 NOT MODIFIED]>
+2017-08-30 14:34:00,421 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:34:00] "GET /static/lib/pagination/pagination.css HTTP/1.1" 304 -
+2017-08-30 14:34:00,683 TaskApp.py[line:781] ERROR ******request http://localhost:5001/static/css/index.css failure(ErrorCode:304)--reason:<Response streamed [304 NOT MODIFIED]>
+2017-08-30 14:34:00,684 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:34:00] "GET /static/css/index.css HTTP/1.1" 304 -
+2017-08-30 14:34:00,697 TaskApp.py[line:781] ERROR ******request http://localhost:5001/static/css/plandetails.css failure(ErrorCode:304)--reason:<Response streamed [304 NOT MODIFIED]>
+2017-08-30 14:34:00,700 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:34:00] "GET /static/css/plandetails.css HTTP/1.1" 304 -
+2017-08-30 14:34:00,709 TaskApp.py[line:781] ERROR ******request http://localhost:5001/static/css/querylist.css failure(ErrorCode:304)--reason:<Response streamed [304 NOT MODIFIED]>
+2017-08-30 14:34:00,711 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:34:00] "GET /static/css/querylist.css HTTP/1.1" 304 -
+2017-08-30 14:34:00,723 TaskApp.py[line:781] ERROR ******request http://localhost:5001/static/css/highcharts.css failure(ErrorCode:304)--reason:<Response streamed [304 NOT MODIFIED]>
+2017-08-30 14:34:00,726 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:34:00] "GET /static/css/highcharts.css HTTP/1.1" 304 -
+2017-08-30 14:34:00,736 TaskApp.py[line:781] ERROR ******request http://localhost:5001/static/css/collection.css failure(ErrorCode:304)--reason:<Response streamed [304 NOT MODIFIED]>
+2017-08-30 14:34:00,737 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:34:00] "GET /static/css/collection.css HTTP/1.1" 304 -
+2017-08-30 14:34:00,744 TaskApp.py[line:781] ERROR ******request http://localhost:5001/static/js/utils/echarts.js failure(ErrorCode:304)--reason:<Response streamed [304 NOT MODIFIED]>
+2017-08-30 14:34:00,747 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:34:00] "GET /static/js/utils/echarts.js HTTP/1.1" 304 -
+2017-08-30 14:34:00,996 TaskApp.py[line:781] ERROR ******request http://localhost:5001/static/js/ajaxFunction.js failure(ErrorCode:304)--reason:<Response streamed [304 NOT MODIFIED]>
+2017-08-30 14:34:00,999 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:34:00] "GET /static/js/ajaxFunction.js HTTP/1.1" 304 -
+2017-08-30 14:34:01,015 TaskApp.py[line:781] ERROR ******request http://localhost:5001/static/lib/jquery/1.9.1/jquery.min.js failure(ErrorCode:304)--reason:<Response streamed [304 NOT MODIFIED]>
+2017-08-30 14:34:01,016 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:34:01] "GET /static/lib/jquery/1.9.1/jquery.min.js HTTP/1.1" 304 -
+2017-08-30 14:34:01,028 TaskApp.py[line:781] ERROR ******request http://localhost:5001/static/lib/pagination/jquery.pagination.js failure(ErrorCode:304)--reason:<Response streamed [304 NOT MODIFIED]>
+2017-08-30 14:34:01,029 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:34:01] "GET /static/lib/pagination/jquery.pagination.js HTTP/1.1" 304 -
+2017-08-30 14:34:01,039 TaskApp.py[line:781] ERROR ******request http://localhost:5001/static/js/use_list.js failure(ErrorCode:304)--reason:<Response streamed [304 NOT MODIFIED]>
+2017-08-30 14:34:01,039 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:34:01] "GET /static/js/use_list.js HTTP/1.1" 304 -
+2017-08-30 14:34:01,049 TaskApp.py[line:781] ERROR ******request http://localhost:5001/static/lib/layer/2.4/layer.js failure(ErrorCode:304)--reason:<Response streamed [304 NOT MODIFIED]>
+2017-08-30 14:34:01,051 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:34:01] "GET /static/lib/layer/2.4/layer.js HTTP/1.1" 304 -
+2017-08-30 14:34:01,059 TaskApp.py[line:781] ERROR ******request http://localhost:5001/static/h-ui/js/H-ui.js failure(ErrorCode:304)--reason:<Response streamed [304 NOT MODIFIED]>
+2017-08-30 14:34:01,062 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:34:01] "GET /static/h-ui/js/H-ui.js HTTP/1.1" 304 -
+2017-08-30 14:34:01,704 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:34:01] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:34:01,710 TaskApp.py[line:781] ERROR ******request http://localhost:5001/static/lib/Hui-iconfont/1.0.8/iconfont.woff failure(ErrorCode:304)--reason:<Response streamed [304 NOT MODIFIED]>
+2017-08-30 14:34:01,713 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:34:01] "GET /static/lib/Hui-iconfont/1.0.8/iconfont.woff HTTP/1.1" 304 -
+2017-08-30 14:34:01,720 TaskApp.py[line:781] ERROR ******request http://localhost:5001/static/h-ui.admin/js/H-ui.admin.page.js failure(ErrorCode:304)--reason:<Response streamed [304 NOT MODIFIED]>
+2017-08-30 14:34:01,721 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:34:01] "GET /static/h-ui.admin/js/H-ui.admin.page.js HTTP/1.1" 304 -
+2017-08-30 14:34:01,727 TaskApp.py[line:781] ERROR ******request http://localhost:5001/static/lib/My97DatePicker/4.8/WdatePicker.js failure(ErrorCode:304)--reason:<Response streamed [304 NOT MODIFIED]>
+2017-08-30 14:34:01,730 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:34:01] "GET /static/lib/My97DatePicker/4.8/WdatePicker.js HTTP/1.1" 304 -
+2017-08-30 14:34:01,736 TaskApp.py[line:781] ERROR ******request http://localhost:5001/static/lib/datatables/1.10.0/jquery.dataTables.min.js failure(ErrorCode:304)--reason:<Response streamed [304 NOT MODIFIED]>
+2017-08-30 14:34:01,737 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:34:01] "GET /static/lib/datatables/1.10.0/jquery.dataTables.min.js HTTP/1.1" 304 -
+2017-08-30 14:34:01,746 TaskApp.py[line:781] ERROR ******request http://localhost:5001/static/lib/laypage/1.2/laypage.js failure(ErrorCode:304)--reason:<Response streamed [304 NOT MODIFIED]>
+2017-08-30 14:34:01,749 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:34:01] "GET /static/lib/laypage/1.2/laypage.js HTTP/1.1" 304 -
+2017-08-30 14:34:01,756 TaskApp.py[line:781] ERROR ******request http://localhost:5001/static/h-ui.admin/skin/blue/icon_arrow.png failure(ErrorCode:304)--reason:<Response streamed [304 NOT MODIFIED]>
+2017-08-30 14:34:01,759 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:34:01] "GET /static/h-ui.admin/skin/blue/icon_arrow.png HTTP/1.1" 304 -
+2017-08-30 14:34:02,022 TaskApp.py[line:781] ERROR ******request http://localhost:5001/static/lib/layer/2.4/skin/layer.css failure(ErrorCode:304)--reason:<Response streamed [304 NOT MODIFIED]>
+2017-08-30 14:34:02,023 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:34:02] "GET /static/lib/layer/2.4/skin/layer.css HTTP/1.1" 304 -
+2017-08-30 14:34:02,040 TaskApp.py[line:781] ERROR ******request http://localhost:5001/static/lib/My97DatePicker/4.8/skin/WdatePicker.css failure(ErrorCode:304)--reason:<Response streamed [304 NOT MODIFIED]>
+2017-08-30 14:34:02,042 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:34:02] "GET /static/lib/My97DatePicker/4.8/skin/WdatePicker.css HTTP/1.1" 304 -
+2017-08-30 14:34:02,107 TaskApp.py[line:781] ERROR ******request http://localhost:5001/static/h-ui.admin/skin/default/skin.css failure(ErrorCode:304)--reason:<Response streamed [304 NOT MODIFIED]>
+2017-08-30 14:34:02,108 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:34:02] "GET /static/h-ui.admin/skin/default/skin.css HTTP/1.1" 304 -
+2017-08-30 14:34:02,177 TaskApp.py[line:781] ERROR ******request http://localhost:5001/static/images/navBg2.jpg failure(ErrorCode:304)--reason:<Response streamed [304 NOT MODIFIED]>
+2017-08-30 14:34:02,178 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:34:02] "GET /static/images/navBg2.jpg HTTP/1.1" 304 -
+2017-08-30 14:34:02,427 TaskApp.py[line:781] ERROR ******request http://localhost:5001/static/h-ui.admin/skin/default/icon_arrow.png failure(ErrorCode:304)--reason:<Response streamed [304 NOT MODIFIED]>
+2017-08-30 14:34:02,428 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:34:02] "GET /static/h-ui.admin/skin/default/icon_arrow.png HTTP/1.1" 304 -
+2017-08-30 14:34:02,747 TaskApp.py[line:781] ERROR ******request http://localhost:5001/favicon.ico failure(ErrorCode:404)--reason:<Response streamed [404 NOT FOUND]>
+2017-08-30 14:34:02,750 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:34:02] "GET /favicon.ico HTTP/1.1" 404 -
+2017-08-30 14:34:07,061 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:34:07] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:34:12,349 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:34:12] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:34:17,038 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:34:17] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:34:22,344 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:34:22] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:34:27,051 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:34:27] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:34:32,341 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:34:32] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:34:37,036 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:34:37] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:34:42,351 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:34:42] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:34:42,677 connection.py[line:599] INFO Connecting to 172.21.14.46:2181
+2017-08-30 14:34:42,693 client.py[line:465] INFO Zookeeper connection established, state: CONNECTED
+2017-08-30 14:34:42,694 spiderZookeeperClient.py[line:39] INFO zookeeper connect status:CONNECTED
+2017-08-30 14:34:43,538 middleware.py[line:53] INFO Enabled extensions:
+['scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.corestats.CoreStats']
+2017-08-30 14:34:43,539 spiders.py[line:68] INFO Reading start URLs from redis key 'mainSpider:startId' (batch size: 16, encoding: utf-8
+2017-08-30 14:34:43,621 middlewares.py[line:43] INFO *****************ProxyMiddleware init******************
+2017-08-30 14:34:44,466 middleware.py[line:53] INFO Enabled downloader middlewares:
+['engine.useragent.RotateUserAgentMiddleware',
+ 'engine.middlewares.ProxyMiddleware',
+ 'engine.middlewares.CookieMiddleware',
+ 'engine.middlewares.PhontomJsMiddleware',
+ 'engine.middlewares.PostMiddleware',
+ 'engine.middlewares.ChromeMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2017-08-30 14:34:44,476 middleware.py[line:53] INFO Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2017-08-30 14:34:45,049 pipelines_template.py[line:30] INFO *********DataBaseSavePipeline init****************************
+2017-08-30 14:34:45,052 middleware.py[line:53] INFO Enabled item pipelines:
+['engine.pipelines_template.DataBaseSavePipeline']
+2017-08-30 14:34:45,052 engine.py[line:256] INFO Spider opened
+2017-08-30 14:34:45,072 logstats.py[line:48] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2017-08-30 14:34:47,076 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:34:47] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:34:47,089 engine.py[line:133] ERROR Error while obtaining start requests
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\scrapy\core\engine.py", line 127, in _next_request
+    request = next(slot.start_requests)
+  File "C:/Users/31508/Desktop/work/Python/Crawler\engine\spiders\RedisCallbackSpider.py", line 42, in next_requests
+    redis_key = fetch_one(self.redis_key)
+  File "C:\Python27\lib\site-packages\redis\client.py", line 1223, in lpop
+    return self.execute_command('LPOP', name)
+  File "C:\Python27\lib\site-packages\redis\client.py", line 578, in execute_command
+    connection.send_command(*args)
+  File "C:\Python27\lib\site-packages\redis\connection.py", line 563, in send_command
+    self.send_packed_command(self.pack_command(*args))
+  File "C:\Python27\lib\site-packages\redis\connection.py", line 538, in send_packed_command
+    self.connect()
+  File "C:\Python27\lib\site-packages\redis\connection.py", line 442, in connect
+    raise ConnectionError(self._error_message(e))
+ConnectionError: Error 10061 connecting to 127.0.0.1:6379. .
+2017-08-30 14:34:49,107 signal.py[line:40] ERROR Error caught on signal handler: <bound method ?.spider_idle of <TemplateRedisSpider 'templateSpider' at 0x7369f60>>
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\scrapy\utils\signal.py", line 30, in send_catch_log
+    *arguments, **named)
+  File "C:\Python27\lib\site-packages\pydispatch\robustapply.py", line 55, in robustApply
+    return receiver(*arguments, **named)
+  File "C:\Python27\lib\site-packages\scrapy_redis\spiders.py", line 121, in spider_idle
+    self.schedule_next_requests()
+  File "C:\Python27\lib\site-packages\scrapy_redis\spiders.py", line 115, in schedule_next_requests
+    for req in self.next_requests():
+  File "C:/Users/31508/Desktop/work/Python/Crawler\engine\spiders\RedisCallbackSpider.py", line 42, in next_requests
+    redis_key = fetch_one(self.redis_key)
+  File "C:\Python27\lib\site-packages\redis\client.py", line 1223, in lpop
+    return self.execute_command('LPOP', name)
+  File "C:\Python27\lib\site-packages\redis\client.py", line 578, in execute_command
+    connection.send_command(*args)
+  File "C:\Python27\lib\site-packages\redis\connection.py", line 563, in send_command
+    self.send_packed_command(self.pack_command(*args))
+  File "C:\Python27\lib\site-packages\redis\connection.py", line 538, in send_packed_command
+    self.connect()
+  File "C:\Python27\lib\site-packages\redis\connection.py", line 442, in connect
+    raise ConnectionError(self._error_message(e))
+ConnectionError: Error 10061 connecting to 127.0.0.1:6379. .
+2017-08-30 14:34:49,111 engine.py[line:295] INFO Closing spider (finished)
+2017-08-30 14:34:49,115 statscollectors.py[line:47] INFO Dumping Scrapy stats:
+{'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2017, 8, 30, 6, 34, 49, 114000),
+ 'log_count/ERROR': 2,
+ 'log_count/INFO': 10,
+ 'start_time': datetime.datetime(2017, 8, 30, 6, 34, 45, 75000)}
+2017-08-30 14:34:49,117 engine.py[line:326] INFO Spider closed (finished)
+2017-08-30 14:34:53,219 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:34:53] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:34:57,901 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:34:57] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:35:02,352 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:35:02] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:35:04,207 TaskApp.py[line:781] ERROR ******request http://localhost:5001/static/lib/layer/2.4/skin/default/icon.png failure(ErrorCode:304)--reason:<Response streamed [304 NOT MODIFIED]>
+2017-08-30 14:35:04,210 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:35:04] "GET /static/lib/layer/2.4/skin/default/icon.png HTTP/1.1" 304 -
+2017-08-30 14:35:05,407 CrawlerService.py[line:271] INFO ------startCrawlerByTaskJobId-------5defec6a-8d30-11e7-bef1-000c299438c6
+2017-08-30 14:35:05,572 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:35:05] "POST /startCralwer HTTP/1.1" 200 -
+2017-08-30 14:35:05,641 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:35:05] "GET /use/list.html?username=dGVzdA==&password=MTIzNDU2 HTTP/1.1" 200 -
+2017-08-30 14:35:06,377 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:35:06] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:35:12,039 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:35:12] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:35:16,726 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:35:16] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:35:22,036 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:35:22] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:35:26,710 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:35:26] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:35:32,013 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:35:32] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:35:36,716 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:35:36] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:35:42,036 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:35:42] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:35:49,759 connection.py[line:599] INFO Connecting to 172.21.14.46:2181
+2017-08-30 14:35:49,767 client.py[line:465] INFO Zookeeper connection established, state: CONNECTED
+2017-08-30 14:35:49,769 spiderZookeeperClient.py[line:39] INFO zookeeper connect status:CONNECTED
+2017-08-30 14:35:50,720 middleware.py[line:53] INFO Enabled extensions:
+['scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.corestats.CoreStats']
+2017-08-30 14:35:50,723 spiders.py[line:68] INFO Reading start URLs from redis key 'mainSpider:startId' (batch size: 16, encoding: utf-8
+2017-08-30 14:35:50,838 middlewares.py[line:43] INFO *****************ProxyMiddleware init******************
+2017-08-30 14:35:51,973 middleware.py[line:53] INFO Enabled downloader middlewares:
+['engine.useragent.RotateUserAgentMiddleware',
+ 'engine.middlewares.ProxyMiddleware',
+ 'engine.middlewares.CookieMiddleware',
+ 'engine.middlewares.PhontomJsMiddleware',
+ 'engine.middlewares.PostMiddleware',
+ 'engine.middlewares.ChromeMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2017-08-30 14:35:51,986 middleware.py[line:53] INFO Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2017-08-30 14:35:52,673 pipelines_template.py[line:30] INFO *********DataBaseSavePipeline init****************************
+2017-08-30 14:35:52,674 middleware.py[line:53] INFO Enabled item pipelines:
+['engine.pipelines_template.DataBaseSavePipeline']
+2017-08-30 14:35:52,676 engine.py[line:256] INFO Spider opened
+2017-08-30 14:35:52,691 logstats.py[line:48] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2017-08-30 14:35:52,759 _internal.py[line:87] INFO  * Running on http://0.0.0.0:5001/ (Press CTRL+C to quit)
+2017-08-30 14:35:53,319 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:35:53] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:35:55,582 _internal.py[line:87] INFO  * Running on http://0.0.0.0:5001/ (Press CTRL+C to quit)
+2017-08-30 14:35:57,280 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:35:57] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:36:01,805 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:36:01] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:36:03,513 CrawlerService.py[line:271] INFO ------startCrawlerByTaskJobId-------5defec6a-8d30-11e7-bef1-000c299438c6
+2017-08-30 14:36:03,714 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:36:03] "POST /startCralwer HTTP/1.1" 200 -
+2017-08-30 14:36:03,783 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:36:03] "GET /use/list.html?username=dGVzdA==&password=MTIzNDU2 HTTP/1.1" 200 -
+2017-08-30 14:36:04,921 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:36:04] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:36:10,342 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:36:10] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:36:15,640 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:36:15] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:36:20,358 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:36:20] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:36:25,641 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:36:25] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:36:30,345 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:36:30] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:36:35,651 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:36:35] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:36:40,342 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:36:40] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:36:45,638 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:36:45] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:36:50,335 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:36:50] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:36:52,693 logstats.py[line:48] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2017-08-30 14:36:55,642 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:36:55] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:37:00,335 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:37:00] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:37:05,658 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:37:05] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:37:09,535 connection.py[line:599] INFO Connecting to 172.21.14.47:2181
+2017-08-30 14:37:09,546 client.py[line:465] INFO Zookeeper connection established, state: CONNECTED
+2017-08-30 14:37:09,548 spiderZookeeperClient.py[line:39] INFO zookeeper connect status:CONNECTED
+2017-08-30 14:37:10,345 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:37:10] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:37:10,390 middleware.py[line:53] INFO Enabled extensions:
+['scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.corestats.CoreStats']
+2017-08-30 14:37:10,391 spiders.py[line:68] INFO Reading start URLs from redis key 'mainSpider:startId' (batch size: 16, encoding: utf-8
+2017-08-30 14:37:10,456 middlewares.py[line:43] INFO *****************ProxyMiddleware init******************
+2017-08-30 14:37:11,292 middleware.py[line:53] INFO Enabled downloader middlewares:
+['engine.useragent.RotateUserAgentMiddleware',
+ 'engine.middlewares.ProxyMiddleware',
+ 'engine.middlewares.CookieMiddleware',
+ 'engine.middlewares.PhontomJsMiddleware',
+ 'engine.middlewares.PostMiddleware',
+ 'engine.middlewares.ChromeMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2017-08-30 14:37:11,302 middleware.py[line:53] INFO Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2017-08-30 14:37:11,871 pipelines_template.py[line:30] INFO *********DataBaseSavePipeline init****************************
+2017-08-30 14:37:11,875 middleware.py[line:53] INFO Enabled item pipelines:
+['engine.pipelines_template.DataBaseSavePipeline']
+2017-08-30 14:37:11,877 engine.py[line:256] INFO Spider opened
+2017-08-30 14:37:11,895 logstats.py[line:48] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2017-08-30 14:37:15,644 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:37:15] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:37:16,730 CrawlerService.py[line:271] INFO ------startCrawlerByTaskJobId-------5defec6a-8d30-11e7-bef1-000c299438c6
+2017-08-30 14:37:16,923 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:37:16] "POST /startCralwer HTTP/1.1" 200 -
+2017-08-30 14:37:17,243 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:37:17] "GET /use/list.html?username=dGVzdA==&password=MTIzNDU2 HTTP/1.1" 200 -
+2017-08-30 14:37:17,987 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:37:17] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:37:23,710 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:37:23] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:37:28,414 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:37:28] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:37:33,707 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:37:33] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:37:38,417 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:37:38] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:37:43,713 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:37:43] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:37:48,430 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:37:48] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:37:53,716 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:37:53] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:37:58,411 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:37:58] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:38:03,710 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:38:03] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:38:08,421 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:38:08] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:38:11,895 logstats.py[line:48] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2017-08-30 14:38:13,709 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:38:13] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:38:18,418 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:38:18] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:38:23,713 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:38:23] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:38:28,421 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:38:28] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:38:33,710 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:38:33] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:38:38,411 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:38:38] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:38:43,721 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:38:43] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:38:48,459 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:38:48] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:38:53,710 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:38:53] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:38:58,418 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:38:58] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:39:03,707 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:39:03] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:39:08,433 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:39:08] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:39:11,897 logstats.py[line:48] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2017-08-30 14:39:13,706 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:39:13] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:39:18,480 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:39:18] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:39:23,710 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:39:23] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:39:28,414 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:39:28] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:39:33,742 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:39:33] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:39:38,400 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:39:38] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:39:43,734 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:39:43] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:39:48,414 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:39:48] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:39:53,713 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:39:53] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:39:58,417 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:39:58] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:40:03,742 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:40:03] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:40:08,417 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:40:08] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:40:11,897 logstats.py[line:48] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2017-08-30 14:40:13,716 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:40:13] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:40:18,430 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:40:18] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:40:23,713 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:40:23] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:40:28,415 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:40:28] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:40:33,710 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:40:33] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:40:38,427 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:40:38] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:40:43,711 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:40:43] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:40:48,407 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:40:48] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:40:53,709 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:40:53] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:40:58,423 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:40:58] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:41:03,710 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:41:03] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:41:08,430 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:41:08] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:41:11,895 logstats.py[line:48] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2017-08-30 14:41:13,711 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:41:13] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:41:18,424 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:41:18] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:41:23,713 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:41:23] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:41:28,430 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:41:28] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:41:33,707 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:41:33] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:41:38,420 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:41:38] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:41:43,717 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:41:43] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:41:48,415 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:41:48] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:41:53,710 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:41:53] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:41:58,426 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:41:58] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:42:03,713 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:42:03] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:42:08,441 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:42:08] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:42:11,895 logstats.py[line:48] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2017-08-30 14:42:13,707 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:42:13] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:42:18,433 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:42:18] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:42:23,709 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:42:23] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:42:28,424 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:42:28] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:42:33,707 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:42:33] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:42:38,410 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:42:38] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:42:43,716 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:42:43] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:42:48,428 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:42:48] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:42:53,717 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:42:53] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:42:58,424 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:42:58] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:43:03,723 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:43:03] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:43:08,426 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:43:08] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:43:11,895 logstats.py[line:48] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2017-08-30 14:43:13,706 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:43:13] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:43:18,421 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:43:18] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:43:23,707 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:43:23] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:43:28,433 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:43:28] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:43:33,720 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:43:33] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:43:38,423 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:43:38] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:43:43,713 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:43:43] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:43:48,428 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:43:48] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:43:53,707 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:43:53] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:43:58,423 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:43:58] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:44:03,710 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:44:03] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:44:08,421 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:44:08] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:44:11,895 logstats.py[line:48] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2017-08-30 14:44:13,706 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:44:13] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:44:18,426 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:44:18] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:44:23,716 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:44:23] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:44:28,401 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:44:28] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:44:33,713 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:44:33] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:44:38,427 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:44:38] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:44:43,726 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:44:43] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:44:48,483 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:44:48] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:44:53,711 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:44:53] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:44:58,410 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:44:58] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:45:03,710 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:45:03] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:45:08,434 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:45:08] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:45:11,895 logstats.py[line:48] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2017-08-30 14:45:13,720 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:45:13] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:45:18,447 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:45:18] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:45:23,714 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:45:23] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:45:28,451 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:45:28] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:45:33,721 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:45:33] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:45:38,430 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:45:38] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:45:43,724 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:45:43] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:45:48,415 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:45:48] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:45:53,713 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:45:53] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:45:58,461 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:45:58] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:46:03,707 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:46:03] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:46:08,443 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:46:08] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:46:11,895 logstats.py[line:48] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2017-08-30 14:46:13,713 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:46:13] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:46:18,401 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:46:18] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:46:23,709 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:46:23] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:46:28,407 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:46:28] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:46:33,710 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:46:33] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:46:38,414 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:46:38] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:46:43,713 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:46:43] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:46:48,421 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:46:48] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:46:53,723 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:46:53] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:46:58,414 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:46:58] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:47:03,713 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:47:03] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:47:08,437 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:47:08] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:47:11,895 logstats.py[line:48] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2017-08-30 14:47:13,711 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:47:13] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:47:18,431 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:47:18] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:47:23,720 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:47:23] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:47:28,424 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:47:28] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:47:33,717 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:47:33] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:47:38,430 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:47:38] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:47:43,717 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:47:43] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:47:48,421 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:47:48] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:47:53,724 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:47:53] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:47:58,431 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:47:58] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:48:03,711 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:48:03] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:48:08,426 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:48:08] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:48:13,716 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:48:13] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:48:18,424 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:48:18] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:48:19,783 logstats.py[line:48] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2017-08-30 14:48:23,716 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:48:23] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:48:28,418 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:48:28] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:48:33,709 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:48:33] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:48:38,413 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:48:38] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:48:43,723 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:48:43] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:48:48,424 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:48:48] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:48:53,707 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:48:53] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:48:58,487 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:48:58] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:49:03,750 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:49:03] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:49:08,426 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:49:08] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:49:11,897 logstats.py[line:48] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2017-08-30 14:49:13,720 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:49:13] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:49:18,427 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:49:18] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:49:23,710 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:49:23] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:49:28,404 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:49:28] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:49:33,730 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:49:33] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:49:38,434 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:49:38] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:49:43,723 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:49:43] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:49:48,401 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:49:48] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:49:53,709 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:49:53] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:49:58,398 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:49:58] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:50:03,740 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:50:03] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:50:08,423 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:50:08] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:50:11,895 logstats.py[line:48] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2017-08-30 14:50:13,724 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:50:13] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:50:18,403 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:50:18] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:50:23,713 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:50:23] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:50:28,404 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:50:28] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:50:33,714 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:50:33] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:50:38,398 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:50:38] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:50:43,713 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:50:43] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:50:48,417 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:50:48] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:50:53,727 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:50:53] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:50:58,434 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:50:58] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:51:03,733 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:51:03] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:51:08,414 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:51:08] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:51:11,897 logstats.py[line:48] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2017-08-30 14:51:13,724 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:51:13] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:51:15,286 CrawlerService.py[line:271] INFO ------startCrawlerByTaskJobId-------5defec6a-8d30-11e7-bef1-000c299438c6
+2017-08-30 14:52:11,895 logstats.py[line:48] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2017-08-30 14:53:11,895 logstats.py[line:48] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2017-08-30 14:54:11,895 logstats.py[line:48] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2017-08-30 14:54:12,078 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:54:12] "POST /startCralwer HTTP/1.1" 200 -
+2017-08-30 14:54:12,808 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:54:12] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:54:12,822 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:54:12] "GET /use/list.html?username=dGVzdA==&password=MTIzNDU2 HTTP/1.1" 200 -
+2017-08-30 14:54:13,631 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:54:13] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:54:19,365 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:54:19] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:54:24,078 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:54:24] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:54:29,364 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:54:29] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:54:34,055 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:54:34] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:54:39,358 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:54:39] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:54:44,062 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:54:44] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:54:49,365 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:54:49] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:54:54,055 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:54:54] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:54:59,362 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:54:59] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:55:04,063 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:55:04] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:55:09,382 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:55:09] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:55:11,897 logstats.py[line:48] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2017-08-30 14:55:14,059 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:55:14] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:55:19,365 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:55:19] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:55:24,059 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:55:24] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:55:29,358 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:55:29] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:55:34,058 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:55:34] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:55:39,362 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:55:39] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:55:44,076 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:55:44] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:55:49,368 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:55:49] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:55:54,058 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:55:54] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:55:59,361 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:55:59] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:56:04,061 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:56:04] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:56:09,368 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:56:09] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:56:11,895 logstats.py[line:48] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2017-08-30 14:56:14,068 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:56:14] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:56:19,367 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:56:19] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:56:25,016 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:56:25] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:56:30,302 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:56:30] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:56:35,052 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:56:35] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:56:40,348 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:56:40] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:56:59,767 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:56:59] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:57:04,068 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:57:04] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:57:05,717 CrawlerService.py[line:271] INFO ------startCrawlerByTaskJobId-------5defec6a-8d30-11e7-bef1-000c299438c6
+2017-08-30 14:57:05,917 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:57:05] "POST /startCralwer HTTP/1.1" 200 -
+2017-08-30 14:57:05,937 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:57:05] "GET /use/list.html?username=dGVzdA==&password=MTIzNDU2 HTTP/1.1" 200 -
+2017-08-30 14:57:06,993 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:57:06] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:57:11,895 logstats.py[line:48] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2017-08-30 14:57:12,428 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:57:12] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:57:17,763 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:57:17] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:57:22,440 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:57:22] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:57:27,723 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:57:27] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:57:32,421 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:57:32] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:57:37,714 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:57:37] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:57:42,417 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:57:42] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:57:47,723 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:57:47] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:57:52,418 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:57:52] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:57:57,716 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:57:57] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:58:02,423 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:58:02] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:58:07,720 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:58:07] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:58:11,897 logstats.py[line:48] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2017-08-30 14:58:12,417 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:58:12] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:58:17,717 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:58:17] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:58:22,421 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:58:22] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:58:27,730 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:58:27] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:58:32,424 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:58:32] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:58:37,720 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:58:37] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:58:42,424 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:58:42] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:58:47,723 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:58:47] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:58:52,424 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:58:52] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:58:57,719 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:58:57] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:59:02,424 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:59:02] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:59:07,713 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:59:07] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:59:11,895 logstats.py[line:48] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2017-08-30 14:59:12,423 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:59:12] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:59:17,727 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:59:17] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:59:22,423 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:59:22] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:59:27,719 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:59:27] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:59:32,420 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:59:32] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:59:37,727 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:59:37] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:59:42,421 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:59:42] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:59:47,717 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:59:47] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:59:52,447 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:59:52] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 14:59:57,717 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 14:59:57] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:00:02,427 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:00:02] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:00:07,713 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:00:07] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:00:11,897 logstats.py[line:48] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2017-08-30 15:00:12,426 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:00:12] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:00:17,723 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:00:17] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:00:22,424 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:00:22] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:00:27,716 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:00:27] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:00:32,421 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:00:32] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:00:37,717 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:00:37] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:00:42,407 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:00:42] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:00:47,726 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:00:47] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:00:52,414 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:00:52] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:00:57,716 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:00:57] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:01:02,424 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:01:02] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:01:07,723 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:01:07] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:01:11,895 logstats.py[line:48] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2017-08-30 15:01:12,415 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:01:12] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:01:17,714 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:01:17] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:01:22,427 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:01:22] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:01:27,716 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:01:27] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:01:32,436 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:01:32] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:01:37,724 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:01:37] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:01:42,424 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:01:42] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:01:47,721 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:01:47] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:01:52,431 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:01:52] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:01:57,720 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:01:57] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:02:02,430 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:02:02] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:02:07,721 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:02:07] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:02:11,895 logstats.py[line:48] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2017-08-30 15:02:12,421 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:02:12] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:02:17,724 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:02:17] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:02:22,997 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:02:22] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:02:28,299 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:02:28] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:03:11,897 logstats.py[line:48] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2017-08-30 15:03:12,313 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:03:12] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:04:11,895 logstats.py[line:48] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2017-08-30 15:04:13,290 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:04:13] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:05:11,895 logstats.py[line:48] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2017-08-30 15:05:14,293 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:05:14] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:06:11,895 logstats.py[line:48] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2017-08-30 15:06:15,328 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:06:15] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:07:11,897 logstats.py[line:48] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2017-08-30 15:07:16,332 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:07:16] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:08:11,895 logstats.py[line:48] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2017-08-30 15:08:17,298 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:08:17] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:09:11,895 logstats.py[line:48] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2017-08-30 15:09:18,309 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:09:18] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:10:11,897 logstats.py[line:48] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2017-08-30 15:10:19,290 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:10:19] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:11:11,895 logstats.py[line:48] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2017-08-30 15:11:20,292 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:11:20] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:12:11,895 logstats.py[line:48] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2017-08-30 15:12:21,318 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:12:21] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:13:11,897 logstats.py[line:48] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2017-08-30 15:13:22,301 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:13:22] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:14:11,895 logstats.py[line:48] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2017-08-30 15:14:23,296 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:14:23] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:15:11,895 logstats.py[line:48] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2017-08-30 15:15:24,292 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:15:24] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:16:11,897 logstats.py[line:48] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2017-08-30 15:16:25,303 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:16:25] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:17:11,895 logstats.py[line:48] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2017-08-30 15:17:26,316 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:17:26] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:18:11,895 logstats.py[line:48] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2017-08-30 15:18:16,151 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:18:16] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:18:17,436 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:18:17] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:18:20,367 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:18:20] "GET /use/list.html?username=dGVzdA==&password=MTIzNDU2 HTTP/1.1" 200 -
+2017-08-30 15:18:21,145 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:18:21] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:18:32,740 CrawlerService.py[line:271] INFO ------startCrawlerByTaskJobId-------4262be2a-8d51-11e7-99c5-000c299438c6
+2017-08-30 15:19:11,897 logstats.py[line:48] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2017-08-30 15:19:27,411 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:19:27] "POST /startCralwer HTTP/1.1" 200 -
+2017-08-30 15:19:43,654 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:19:43] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:19:46,273 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:19:46] "GET /use/list.html?username=dGVzdA==&password=MTIzNDU2 HTTP/1.1" 200 -
+2017-08-30 15:19:46,687 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:19:46] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:19:47,532 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:19:47] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:19:53,015 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:19:53] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:19:58,263 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:19:58] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:20:02,953 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:20:02] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:20:08,263 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:20:08] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:20:11,895 logstats.py[line:48] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2017-08-30 15:20:12,953 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:20:12] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:20:18,246 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:20:18] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:20:22,941 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:20:22] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:20:28,263 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:20:28] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:20:32,947 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:20:32] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:20:38,256 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:20:38] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:20:42,951 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:20:42] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:20:48,250 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:20:48] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:20:52,951 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:20:52] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:20:58,252 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:20:58] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:21:02,944 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:21:02] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:21:08,246 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:21:08] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:21:12,953 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:21:12] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:21:18,250 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:21:18] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:21:22,947 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:21:22] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:21:28,250 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:21:28] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:21:32,950 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:21:32] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:21:38,246 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:21:38] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:21:42,950 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:21:42] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:21:48,250 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:21:48] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:21:52,944 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:21:52] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:21:58,259 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:21:58] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:22:02,953 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:22:02] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:22:08,257 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:22:08] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:22:12,950 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:22:12] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:22:18,247 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:22:18] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:22:22,944 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:22:22] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:22:28,246 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:22:28] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:22:32,944 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:22:32] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:22:38,246 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:22:38] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:22:41,836 logstats.py[line:48] INFO Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2017-08-30 15:22:42,947 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:22:42] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:22:48,250 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:22:48] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:22:52,993 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:22:52] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:22:58,247 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:22:58] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:23:07,479 CrawlerService.py[line:271] INFO ------startCrawlerByTaskJobId-------4262be2a-8d51-11e7-99c5-000c299438c6
+2017-08-30 15:23:52,861 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:23:52] "POST /startCralwer HTTP/1.1" 200 -
+2017-08-30 15:23:53,575 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:23:53] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:23:53,585 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:23:53] "GET /use/list.html?username=dGVzdA==&password=MTIzNDU2 HTTP/1.1" 200 -
+2017-08-30 15:23:54,086 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:23:54] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:23:59,802 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:23:59] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:24:04,500 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:24:04] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:24:09,813 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:24:09] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:24:14,500 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:24:14] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:24:19,825 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:24:19] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:24:24,497 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:24:24] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:24:29,849 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:24:29] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:24:34,500 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:24:34] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:24:39,818 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:24:39] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:24:44,500 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:24:44] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:24:49,808 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:24:49] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:24:54,517 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:24:54] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:24:59,808 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:24:59] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:25:04,500 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:25:04] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:25:09,815 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:25:09] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:25:14,494 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:25:14] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:25:19,803 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:25:19] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:25:24,512 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:25:24] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:25:29,821 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:25:29] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:25:34,489 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:25:34] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:25:39,805 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:25:39] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:25:44,496 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:25:44] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:25:49,812 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:25:49] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:25:54,502 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:25:54] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:25:59,809 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:25:59] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:26:04,503 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:26:04] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:26:09,805 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:26:09] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:26:14,500 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:26:14] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:26:19,809 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:26:19] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:26:24,500 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:26:24] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:26:29,809 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:26:29] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:26:34,505 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:26:34] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:26:39,812 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:26:39] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:26:44,502 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:26:44] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:26:49,805 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:26:49] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:26:54,519 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:26:54] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:26:59,806 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:26:59] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:27:04,500 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:27:04] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:27:09,805 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:27:09] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:27:14,506 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:27:14] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:27:19,806 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:27:19] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:27:24,515 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:27:24] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:27:29,812 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:27:29] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:27:34,497 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:27:34] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:27:39,819 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:27:39] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:27:44,496 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:27:44] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:27:49,805 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:27:49] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:27:54,503 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:27:54] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:27:59,811 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:27:59] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:28:04,513 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:28:04] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:28:09,808 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:28:09] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:28:14,503 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:28:14] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:28:19,818 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:28:19] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:28:24,502 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:28:24] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:28:29,806 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:28:29] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:28:34,502 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:28:34] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:28:39,803 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:28:39] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:28:44,503 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:28:44] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:28:49,808 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:28:49] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:28:54,523 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:28:54] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:28:59,802 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:28:59] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:29:04,505 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:29:04] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:29:09,813 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:29:09] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:29:14,503 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:29:14] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:29:19,813 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:29:19] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:29:24,509 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:29:24] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:29:29,806 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:29:29] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:29:34,506 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:29:34] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:29:39,811 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:29:39] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:29:44,502 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:29:44] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:29:49,815 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:29:49] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:29:54,509 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:29:54] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:29:59,812 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:29:59] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:30:04,506 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:30:04] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:30:09,825 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:30:09] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:30:14,500 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:30:14] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:30:19,809 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:30:19] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:30:24,503 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:30:24] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:30:29,811 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:30:29] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:30:34,510 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:30:34] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:30:39,816 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:30:39] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:30:44,499 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:30:44] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:30:49,808 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:30:49] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:30:54,500 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:30:54] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:30:59,805 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:30:59] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:31:04,503 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:31:04] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:31:09,805 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:31:09] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:31:14,505 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:31:14] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:31:19,812 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:31:19] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:31:24,509 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:31:24] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:31:29,813 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:31:29] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:31:34,503 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:31:34] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:31:39,808 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:31:39] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:31:44,503 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:31:44] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:31:49,809 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:31:49] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:31:54,506 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:31:54] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:31:59,809 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:31:59] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:32:04,509 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:32:04] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:32:09,811 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:32:09] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:32:14,507 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:32:14] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:32:19,805 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:32:19] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:32:24,519 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:32:24] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:32:29,838 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:32:29] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:32:34,509 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:32:34] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:32:39,802 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:32:39] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:32:44,563 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:32:44] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:32:49,811 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:32:49] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:32:54,506 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:32:54] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:32:59,805 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:32:59] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:33:04,509 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:33:04] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:33:09,815 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:33:09] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:33:14,503 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:33:14] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:33:19,812 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:33:19] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:33:24,507 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:33:24] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:33:29,812 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:33:29] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:33:34,505 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:33:34] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:33:39,819 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:33:39] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:33:44,515 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:33:44] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:33:49,812 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:33:49] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:33:54,509 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:33:54] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:33:59,809 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:33:59] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:34:04,503 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:34:04] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:34:09,811 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:34:09] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:34:14,509 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:34:14] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:34:19,816 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:34:19] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:34:24,507 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:34:24] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:34:29,806 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:34:29] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:34:34,506 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:34:34] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:34:39,812 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:34:39] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:34:44,503 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:34:44] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:34:49,806 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:34:49] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:34:54,506 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:34:54] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:34:59,815 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:34:59] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:35:04,509 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:35:04] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:35:09,813 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:35:09] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:35:14,505 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:35:14] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:35:19,806 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:35:19] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:35:24,503 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:35:24] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:35:29,808 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:35:29] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:35:34,509 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:35:34] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:35:39,819 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:35:39] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:35:44,509 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:35:44] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:35:49,812 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:35:49] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:35:54,506 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:35:54] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:35:59,809 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:35:59] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:36:04,502 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:36:04] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:36:09,813 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:36:09] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:36:14,505 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:36:14] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:36:19,829 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:36:19] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:36:24,576 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:36:24] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:36:29,812 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:36:29] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:36:34,507 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:36:34] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:36:39,812 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:36:39] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:36:44,510 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:36:44] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:36:49,819 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:36:49] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:36:54,509 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:36:54] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:36:59,816 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:36:59] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:37:04,506 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:37:04] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:37:09,811 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:37:09] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:37:14,510 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:37:14] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:37:19,812 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:37:19] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:37:24,582 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:37:24] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:37:29,808 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:37:29] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:37:34,506 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:37:34] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:37:39,813 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:37:39] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:37:44,510 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:37:44] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:37:49,815 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:37:49] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:37:54,519 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:37:54] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:37:59,821 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:37:59] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:38:04,502 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:38:04] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:38:09,808 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:38:09] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:38:14,499 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:38:14] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:38:19,799 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:38:19] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:38:24,505 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:38:24] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:38:29,812 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:38:29] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:38:34,505 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:38:34] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:38:39,808 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:38:39] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:38:44,515 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:38:44] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:38:49,813 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:38:49] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:38:54,512 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:38:54] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:38:59,805 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:38:59] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:39:04,499 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:39:04] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:39:09,812 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:39:09] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:39:14,512 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:39:14] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:39:19,811 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:39:19] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:39:24,512 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:39:24] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:39:29,809 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:39:29] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:39:34,513 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:39:34] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:39:39,808 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:39:39] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:39:44,506 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:39:44] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:39:49,816 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:39:49] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:39:54,502 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:39:54] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:39:59,811 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:39:59] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:40:04,500 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:40:04] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:40:09,812 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:40:09] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:40:14,509 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:40:14] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:40:19,812 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:40:19] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:40:24,509 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:40:24] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:40:29,822 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:40:29] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:40:34,505 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:40:34] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:40:39,815 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:40:39] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:40:44,503 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:40:44] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:40:49,805 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:40:49] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:40:54,510 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:40:54] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:40:59,813 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:40:59] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:41:04,523 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:41:04] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:41:09,818 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:41:09] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:41:14,515 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:41:14] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:41:19,812 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:41:19] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:41:24,520 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:41:24] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:41:29,821 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:41:29] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:41:34,506 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:41:34] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:41:39,811 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:41:39] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:41:44,506 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:41:44] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:41:49,822 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:41:49] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:41:54,509 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:41:54] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:41:59,811 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:41:59] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:42:04,520 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:42:04] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:42:09,803 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:42:09] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:42:14,499 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:42:14] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:42:19,812 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:42:19] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:42:24,533 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:42:24] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:42:29,809 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:42:29] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:42:34,520 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:42:34] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:42:39,819 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:42:39] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:42:44,506 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:42:44] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:42:49,801 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:42:49] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:42:54,510 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:42:54] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:42:59,815 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:42:59] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:43:04,490 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:43:04] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:43:09,809 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:43:09] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:43:14,505 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:43:14] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:43:19,821 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:43:19] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:43:24,509 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:43:24] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:43:29,805 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:43:29] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:43:34,517 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:43:34] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:43:39,812 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:43:39] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:43:44,509 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:43:44] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:43:49,812 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:43:49] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:43:54,516 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:43:54] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:43:59,809 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:43:59] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:44:04,525 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:44:04] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:44:09,812 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:44:09] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:44:14,519 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:44:14] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:44:19,802 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:44:19] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:44:24,519 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:44:24] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:44:29,811 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:44:29] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:44:34,506 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:44:34] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:44:39,812 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:44:39] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:44:44,502 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:44:44] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:44:49,806 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:44:49] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:44:54,520 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:44:54] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:44:59,811 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:44:59] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:45:04,528 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:45:04] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:45:09,803 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:45:09] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:45:14,509 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:45:14] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:45:19,812 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:45:19] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:45:24,509 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:45:24] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:45:29,805 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:45:29] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:45:34,519 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:45:34] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:45:39,815 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:45:39] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:45:44,516 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:45:44] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:45:49,809 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:45:49] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:45:54,509 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:45:54] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:45:59,805 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:45:59] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:46:04,500 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:46:04] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:46:09,808 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:46:09] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:46:14,512 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:46:14] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:46:19,806 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:46:19] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:46:24,506 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:46:24] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:46:29,805 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:46:29] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:46:34,523 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:46:34] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:46:39,805 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:46:39] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:46:44,500 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:46:44] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:46:49,806 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:46:49] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:46:54,509 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:46:54] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:46:59,809 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:46:59] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:47:04,506 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:47:04] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:47:09,802 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:47:09] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:47:14,596 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:47:14] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:47:19,808 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:47:19] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:47:24,500 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:47:24] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:47:29,801 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:47:29] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:47:34,512 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:47:34] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:47:39,811 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:47:39] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:47:44,515 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:47:44] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:47:49,802 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:47:49] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:47:54,519 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:47:54] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:47:59,816 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:47:59] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:48:04,506 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:48:04] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:48:09,801 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:48:09] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:48:14,503 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:48:14] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:48:19,811 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:48:19] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:48:24,500 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:48:24] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:48:29,798 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:48:29] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:48:34,526 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:48:34] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:48:39,808 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:48:39] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:48:44,512 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:48:44] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:48:49,803 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:48:49] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:48:54,502 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:48:54] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:48:59,875 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:48:59] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:49:04,576 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:49:04] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:49:09,901 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:49:09] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:49:14,525 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:49:14] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:49:19,811 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:49:19] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:49:24,503 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:49:24] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:49:29,816 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:49:29] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:49:34,496 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:49:34] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:49:39,855 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:49:39] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:49:44,532 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:49:44] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:49:49,825 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:49:49] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:49:54,510 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:49:54] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:49:59,805 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:49:59] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:50:04,502 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:50:04] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:50:09,796 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:50:09] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:50:14,505 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:50:14] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:50:19,816 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:50:19] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:50:24,523 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:50:24] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:50:29,799 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:50:29] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:50:34,525 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:50:34] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:50:39,811 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:50:39] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:50:44,496 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:50:44] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:50:49,803 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:50:49] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:50:54,505 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:50:54] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:50:59,806 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:50:59] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:51:04,500 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:51:04] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:51:09,803 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:51:09] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:51:14,509 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:51:14] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:51:19,816 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:51:19] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:51:24,513 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:51:24] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:51:29,801 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:51:29] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:51:34,509 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:51:34] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:51:39,809 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:51:39] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:51:44,506 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:51:44] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:51:49,803 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:51:49] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:51:54,510 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:51:54] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:51:59,802 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:51:59] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:52:04,505 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:52:04] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:52:09,865 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:52:09] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:52:14,505 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:52:14] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:52:19,811 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:52:19] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:52:24,506 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:52:24] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:52:29,798 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:52:29] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:52:34,512 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:52:34] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:52:39,805 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:52:39] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:52:44,506 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:52:44] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:52:49,808 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:52:49] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:52:54,523 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:52:54] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:52:59,802 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:52:59] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:53:04,502 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:53:04] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:53:09,799 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:53:09] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:53:14,509 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:53:14] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:53:19,809 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:53:19] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:53:24,503 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:53:24] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:53:29,803 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:53:29] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:53:34,519 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:53:34] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:53:39,809 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:53:39] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:53:44,507 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:53:44] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:53:49,799 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:53:49] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:53:54,505 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:53:54] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:53:59,812 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:53:59] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:54:04,503 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:54:04] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:54:09,798 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:54:09] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:54:14,520 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:54:14] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:54:19,803 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:54:19] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:54:24,503 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:54:24] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:54:29,801 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:54:29] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:54:34,500 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:54:34] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:54:39,822 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:54:39] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:54:44,505 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:54:44] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:54:49,799 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:54:49] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:54:54,507 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:54:54] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:54:59,811 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:54:59] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:55:04,503 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:55:04] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:55:09,801 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:55:09] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:55:14,503 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:55:14] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:55:19,806 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:55:19] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:55:24,506 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:55:24] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:55:29,805 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:55:29] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:55:34,509 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:55:34] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:55:39,795 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:55:39] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:55:44,502 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:55:44] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:55:49,812 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:55:49] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:55:54,509 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:55:54] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:55:59,802 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:55:59] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:56:04,509 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:56:04] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:56:09,812 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:56:09] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:56:14,499 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:56:14] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:56:19,799 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:56:19] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:56:24,519 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:56:24] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:56:29,805 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:56:29] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:56:34,513 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:56:34] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:56:39,802 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:56:39] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:56:44,517 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:56:44] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:56:49,809 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:56:49] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:56:54,494 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:56:54] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:56:59,805 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:56:59] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:57:04,525 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:57:04] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:57:09,811 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:57:09] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:57:14,509 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:57:14] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:57:19,805 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:57:19] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:57:24,510 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:57:24] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:57:29,802 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:57:29] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:57:34,503 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:57:34] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:57:39,799 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:57:39] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:57:44,509 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:57:44] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:57:49,805 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:57:49] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:57:54,499 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:57:54] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:57:59,803 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:57:59] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:58:04,502 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:58:04] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:58:09,813 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:58:09] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:58:14,502 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:58:14] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:58:19,802 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:58:19] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:58:24,509 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:58:24] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:58:29,812 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:58:29] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:58:34,502 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:58:34] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:58:39,805 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:58:39] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:58:44,503 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:58:44] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:58:49,813 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:58:49] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:58:54,509 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:58:54] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:58:59,802 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:58:59] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:59:04,507 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:59:04] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:59:09,808 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:59:09] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:59:14,503 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:59:14] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:59:19,802 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:59:19] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:59:24,513 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:59:24] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:59:29,809 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:59:29] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:59:34,505 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:59:34] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:59:39,803 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:59:39] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:59:44,507 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:59:44] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:59:49,812 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:59:49] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:59:54,503 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:59:54] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 15:59:59,802 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 15:59:59] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:00:04,538 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:00:04] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:00:09,815 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:00:09] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:00:14,490 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:00:14] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:00:19,798 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:00:19] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:00:24,503 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:00:24] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:00:29,806 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:00:29] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:00:34,499 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:00:34] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:00:39,806 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:00:39] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:00:44,502 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:00:44] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:00:49,808 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:00:49] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:00:54,500 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:00:54] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:00:59,816 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:00:59] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:01:04,507 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:01:04] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:01:09,844 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:01:09] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:01:14,500 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:01:14] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:01:19,822 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:01:19] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:01:24,512 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:01:24] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:01:29,812 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:01:29] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:01:34,522 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:01:34] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:01:39,815 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:01:39] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:01:44,503 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:01:44] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:01:49,805 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:01:49] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:01:54,502 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:01:54] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:01:59,809 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:01:59] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:02:04,513 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:02:04] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:02:09,834 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:02:09] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:02:14,505 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:02:14] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:02:19,815 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:02:19] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:02:24,500 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:02:24] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:02:29,812 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:02:29] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:02:34,512 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:02:34] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:02:39,798 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:02:39] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:02:44,499 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:02:44] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:02:49,805 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:02:49] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:02:54,500 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:02:54] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:02:59,812 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:02:59] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:03:04,497 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:03:04] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:03:09,813 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:03:09] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:03:14,497 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:03:14] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:03:19,808 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:03:19] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:03:24,503 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:03:24] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:03:29,812 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:03:29] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:03:34,509 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:03:34] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:03:39,842 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:03:39] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:03:44,509 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:03:44] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:03:49,816 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:03:49] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:03:54,526 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:03:54] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:03:59,812 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:03:59] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:04:04,516 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:04:04] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:04:09,806 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:04:09] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:04:14,510 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:04:14] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:04:19,811 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:04:19] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:04:24,532 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:04:24] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:04:29,801 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:04:29] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:04:34,506 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:04:34] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:04:39,801 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:04:39] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:04:44,522 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:04:44] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:04:49,802 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:04:49] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:04:54,515 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:04:54] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:04:59,809 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:04:59] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:05:04,493 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:05:04] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:05:09,789 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:05:09] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:05:14,509 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:05:14] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:05:19,799 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:05:19] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:05:24,506 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:05:24] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:05:29,803 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:05:29] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:05:34,523 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:05:34] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:05:39,805 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:05:39] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:05:44,515 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:05:44] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:05:49,815 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:05:49] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:05:54,528 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:05:54] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:05:59,805 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:05:59] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:06:04,520 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:06:04] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:06:09,805 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:06:09] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:06:14,509 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:06:14] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:06:19,805 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:06:19] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:06:24,563 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:06:24] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:06:29,802 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:06:29] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:06:34,512 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:06:34] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:06:39,816 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:06:39] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:06:44,499 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:06:44] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:06:49,805 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:06:49] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:06:54,523 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:06:54] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:06:59,809 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:06:59] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:07:04,516 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:07:04] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:07:09,801 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:07:09] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:07:14,513 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:07:14] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:07:19,805 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:07:19] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:07:24,535 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:07:24] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:07:29,815 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:07:29] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:07:34,499 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:07:34] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:07:39,802 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:07:39] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:07:44,523 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:07:44] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:07:49,809 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:07:49] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:07:54,559 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:07:54] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:07:59,803 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:07:59] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:08:04,528 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:08:04] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:08:09,802 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:08:09] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:08:14,526 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:08:14] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:08:19,808 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:08:19] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:08:24,516 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:08:24] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:08:29,809 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:08:29] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:08:34,519 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:08:34] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:08:39,815 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:08:39] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:08:44,500 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:08:44] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:08:49,811 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:08:49] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:08:54,528 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:08:54] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:08:59,802 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:08:59] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:09:04,526 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:09:04] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:09:09,799 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:09:09] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:09:14,505 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:09:14] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:09:19,808 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:09:19] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:09:24,503 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:09:24] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:09:29,813 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:09:29] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:09:34,507 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:09:34] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:09:39,802 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:09:39] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:09:44,512 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:09:44] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:09:49,805 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:09:49] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:09:54,519 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:09:54] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:09:59,805 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:09:59] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:10:04,499 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:10:04] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:10:09,811 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:10:09] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:10:14,506 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:10:14] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:10:19,801 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:10:19] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:10:24,503 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:10:24] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:10:29,812 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:10:29] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:10:34,520 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:10:34] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:10:39,815 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:10:39] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:10:44,513 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:10:44] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:10:49,805 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:10:49] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:10:54,520 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:10:54] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:10:59,811 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:10:59] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:11:04,523 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:11:04] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:11:09,805 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:11:09] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:11:14,538 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:11:14] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:11:19,802 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:11:19] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:11:24,517 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:11:24] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:11:29,806 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:11:29] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:11:34,496 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:11:34] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:11:39,878 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:11:39] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:11:44,509 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:11:44] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:11:49,805 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:11:49] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:11:54,486 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:11:54] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:11:59,798 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:11:59] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:12:04,509 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:12:04] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:12:09,799 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:12:09] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:12:14,510 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:12:14] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:12:19,788 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:12:19] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:12:24,532 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:12:24] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:12:29,789 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:12:29] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:12:34,523 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:12:34] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:12:39,801 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:12:39] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:12:44,512 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:12:44] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:12:49,799 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:12:49] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:12:54,532 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:12:54] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:12:59,801 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:12:59] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:13:04,540 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:13:04] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:13:09,803 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:13:09] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:13:14,520 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:13:14] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:13:19,806 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:13:19] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:13:24,523 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:13:24] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:13:29,809 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:13:29] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:13:34,519 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:13:34] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:13:39,812 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:13:39] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:13:44,516 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:13:44] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:13:49,813 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:13:49] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:13:54,523 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:13:54] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:13:59,808 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:13:59] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:14:04,515 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:14:04] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:14:09,815 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:14:09] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:14:14,519 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:14:14] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:14:19,803 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:14:19] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:14:24,515 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:14:24] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:14:29,809 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:14:29] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:14:34,529 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:14:34] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:14:39,799 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:14:39] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:14:44,519 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:14:44] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:14:49,809 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:14:49] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:14:54,520 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:14:54] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:15:00,413 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:15:00] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:15:04,516 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:15:04] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:15:09,819 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:15:09] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:15:14,519 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:15:14] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:15:19,819 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:15:19] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:15:24,502 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:15:24] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:15:29,809 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:15:29] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:15:34,522 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:15:34] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:15:39,805 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:15:39] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:15:44,506 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:15:44] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:15:49,819 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:15:49] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:15:54,509 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:15:54] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:15:59,801 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:15:59] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:16:04,502 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:16:04] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:16:09,792 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:16:09] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:16:14,506 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:16:14] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:16:19,793 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:16:19] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:16:24,497 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:16:24] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:16:29,799 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:16:29] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:16:34,513 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:16:34] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:16:39,812 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:16:39] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:16:44,503 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:16:44] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:16:49,802 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:16:49] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:16:54,502 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:16:54] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:16:59,805 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:16:59] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:17:04,506 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:17:04] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:17:09,806 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:17:09] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:17:14,509 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:17:14] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:17:19,802 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:17:19] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:17:24,506 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:17:24] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:17:29,812 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:17:29] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:17:34,506 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:17:34] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:17:39,799 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:17:39] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:17:44,509 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:17:44] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:17:49,795 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:17:49] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:17:54,509 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:17:54] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:17:59,802 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:17:59] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:18:04,503 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:18:04] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:18:09,799 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:18:09] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:18:14,507 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:18:14] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:18:19,805 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:18:19] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:18:24,500 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:18:24] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:18:29,795 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:18:29] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:18:34,493 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:18:34] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:18:39,798 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:18:39] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:18:44,519 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:18:44] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:18:49,789 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:18:49] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:18:54,509 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:18:54] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:18:59,802 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:18:59] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:19:04,533 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:19:04] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:19:09,808 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:19:09] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:19:14,520 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:19:14] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:19:19,809 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:19:19] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:19:24,496 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:19:24] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:19:29,813 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:19:29] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:19:34,516 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:19:34] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:19:39,796 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:19:39] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:19:44,503 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:19:44] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:19:49,835 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:19:49] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:19:54,507 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:19:54] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:19:59,812 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:19:59] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:20:04,512 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:20:04] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:20:09,822 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:20:09] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:20:14,523 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:20:14] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:20:19,821 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:20:19] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:20:24,509 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:20:24] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:20:29,812 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:20:29] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:20:34,529 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:20:34] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:20:39,802 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:20:39] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:20:44,526 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:20:44] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:20:49,803 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:20:49] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:20:54,512 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:20:54] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:20:59,823 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:20:59] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:21:04,539 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:21:04] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:21:09,809 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:21:09] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:21:14,523 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:21:14] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:21:19,806 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:21:19] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:21:24,519 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:21:24] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:21:29,818 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:21:29] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:21:34,516 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:21:34] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:21:39,802 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:21:39] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:21:44,516 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:21:44] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:21:49,825 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:21:49] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:21:54,526 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:21:54] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:21:59,802 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:21:59] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:22:04,519 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:22:04] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:22:09,829 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:22:09] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:22:14,509 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:22:14] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:22:19,842 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:22:19] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:22:25,012 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:22:25] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:22:30,299 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:22:30] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:23:31,296 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:23:31] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:24:32,292 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:24:32] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:25:33,319 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:25:33] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:26:34,301 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:26:34] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:27:35,315 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:27:35] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:28:36,311 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:28:36] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:29:37,299 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:29:37] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:30:38,318 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:30:38] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:31:39,298 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:31:39] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:32:40,305 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:32:40] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:33:41,292 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:33:41] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:34:42,305 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:34:42] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:35:43,325 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:35:43] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:36:44,381 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:36:44] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:37:45,302 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:37:45] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:38:46,280 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:38:46] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:39:47,309 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:39:47] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:40:48,336 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:40:48] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:41:49,301 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:41:49] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:42:50,298 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:42:50] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:43:51,309 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:43:51] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:44:52,285 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:44:52] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:45:53,319 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:45:53] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:46:54,298 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:46:54] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:47:55,326 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:47:55] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:48:56,298 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:48:56] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:49:57,282 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:49:57] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:50:58,321 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:50:58] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:51:59,288 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:51:59] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:53:00,319 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:53:00] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:54:01,359 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:54:01] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:55:02,303 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:55:02] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:56:03,282 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:56:03] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:57:04,309 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:57:04] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:58:05,305 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:58:05] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 16:59:06,289 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 16:59:06] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 17:00:07,296 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 17:00:07] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 17:01:08,341 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 17:01:08] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 17:02:09,319 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 17:02:09] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 17:03:10,309 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 17:03:10] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 17:04:11,312 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 17:04:11] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 17:05:12,303 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 17:05:12] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 17:06:13,313 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 17:06:13] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 17:07:14,309 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 17:07:14] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 17:08:05,878 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 17:08:05] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 17:08:10,003 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 17:08:10] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 17:08:15,325 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 17:08:15] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 17:09:16,305 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 17:09:16] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 17:10:17,295 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 17:10:17] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 17:11:18,309 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 17:11:18] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 17:12:19,295 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 17:12:19] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 17:13:20,306 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 17:13:20] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 17:14:21,312 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 17:14:21] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 17:15:22,303 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 17:15:22] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 17:16:23,295 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 17:16:23] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 17:17:24,296 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 17:17:24] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 17:18:25,295 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 17:18:25] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 17:19:26,293 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 17:19:26] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 17:20:27,299 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 17:20:27] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 17:21:28,303 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 17:21:28] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 17:21:48,982 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 17:21:48] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 17:21:49,520 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 17:21:49] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 17:21:55,329 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 17:21:55] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 17:22:00,049 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 17:22:00] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 17:23:01,315 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 17:23:01] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 17:24:02,296 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 17:24:02] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 17:25:03,303 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 17:25:03] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 17:26:04,312 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 17:26:04] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 17:27:05,384 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 17:27:05] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 17:28:06,332 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 17:28:06] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 17:29:07,309 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 17:29:07] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 17:30:08,325 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 17:30:08] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 17:31:09,305 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 17:31:09] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 17:32:10,299 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 17:32:10] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 17:33:11,326 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 17:33:11] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 17:34:12,299 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 17:34:12] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 17:35:13,299 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 17:35:13] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 17:36:14,302 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 17:36:14] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 17:37:15,335 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 17:37:15] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 17:38:16,309 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 17:38:16] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 17:39:17,326 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 17:39:17] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 17:40:18,315 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 17:40:18] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 17:40:57,627 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 17:40:57] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 17:40:59,994 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 17:40:59] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 17:41:05,371 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 17:41:05] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 17:42:06,312 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 17:42:06] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 17:43:07,296 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 17:43:07] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 17:44:08,302 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 17:44:08] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 17:45:09,299 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 17:45:09] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 17:46:10,315 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 17:46:10] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 17:47:11,299 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 17:47:11] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 17:48:12,290 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 17:48:12] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 17:49:13,315 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 17:49:13] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 17:50:14,292 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 17:50:14] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 17:51:15,295 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 17:51:15] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 17:52:16,289 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 17:52:16] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 17:53:17,293 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 17:53:17] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 17:54:18,345 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 17:54:18] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 17:55:19,296 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 17:55:19] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 17:56:20,295 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 17:56:20] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 17:57:21,323 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 17:57:21] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 17:58:22,319 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 17:58:22] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 17:59:23,301 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 17:59:23] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 18:00:24,292 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 18:00:24] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 18:01:25,301 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 18:01:25] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 18:02:26,312 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 18:02:26] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 18:03:27,311 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 18:03:27] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 18:04:28,306 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 18:04:28] "POST /getTaskList HTTP/1.1" 200 -
+2017-08-30 18:05:29,298 _internal.py[line:87] INFO 127.0.0.1 - - [30/Aug/2017 18:05:29] "POST /getTaskList HTTP/1.1" 200 -

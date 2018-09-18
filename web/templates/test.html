@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>test</title>
+    <script src="/static/lib/jquery/1.9.1/jquery.min.js"></script>
+    <script>
+        $.ajax({
+            url:"/login",
+            type:"POST",
+            dataType:"JSON",
+            contentType:"application/json,charset=utf8",
+            data:JSON.stringify({"loginname":"admin","password":"admin"}),
+            success:function(resp){
+                console.log(resp)
+            }
+        })
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>

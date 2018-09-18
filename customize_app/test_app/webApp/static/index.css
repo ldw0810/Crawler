@@ -1,0 +1,8 @@
+iframe{
+    float:left;
+}
+#info-content{
+    float:left;
+    text-align: left;
+    width: 400px;
+}
